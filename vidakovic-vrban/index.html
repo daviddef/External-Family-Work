@@ -95,6 +95,30 @@ ul.plain li:last-child{border-bottom:none}
 footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;background:var(--panel)}
 .foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
 .foot.dim{color:var(--ink-3);margin-top:10px}
+.tree{margin-top:1.6rem;overflow-x:auto;padding-bottom:4px}
+.tree .gen{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;position:relative;padding-top:22px}
+.tree .gen:first-child{padding-top:0}
+.tree .gen:not(:first-child)::before{content:"";position:absolute;top:0;left:50%;width:1px;height:22px;
+  background:var(--rule-strong)}
+.tree .genlab{width:100%;text-align:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.tree .node{background:var(--panel);border:1.5px solid var(--rule-strong);border-radius:4px;
+  padding:12px 16px;font-family:var(--sans);text-align:center;min-width:168px;max-width:230px;flex:0 1 auto}
+.tree .node .name{font-family:var(--serif);font-size:16.5px;color:var(--ink);display:block;line-height:1.25}
+.tree .node .meta{color:var(--ink-3);font-size:11px;line-height:1.5;margin-top:4px;display:block}
+.tree .node.confirmed{border-color:var(--accent);background:var(--accent-wash)}
+.tree .node.confirmed .name{color:var(--accent)}
+.tree .node.candidate{border-style:dashed;border-color:var(--rule-strong)}
+.tree .node.candidate .name{color:var(--ink-2)}
+.tree .pair{display:flex;align-items:center;gap:8px}
+.tree .pair .x{font-family:var(--serif);font-style:italic;color:var(--ink-3);font-size:14px}
+.tree .legend{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:24px;
+  font-family:var(--sans);font-size:11.5px;color:var(--ink-3)}
+.tree .legend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;
+  vertical-align:-1.5px;border:1.5px solid var(--accent);background:var(--accent-wash)}
+.tree .legend .sw.cand{border-style:dashed;border-color:var(--rule-strong);background:var(--panel)}
+@media (max-width:640px){.tree .node{min-width:130px;font-size:14px;padding:10px 12px}
+  .tree .node .name{font-size:15px}}
 </style>
 </head>
 <body>
@@ -176,6 +200,57 @@ footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;backgrou
     </section>
 
     <section class="blk">
+      <h2>The spine — what's confirmed, what's candidate</h2>
+      <p class="lede">Kept up to date as research continues. Solid, filled boxes are confirmed —
+      from the grave card or Robertina's own message. Dashed boxes are candidates found in Sveti
+      Rok's own records: same surnames, same village, plausible generation, but not yet linked to
+      this family by a document that names the connection.</p>
+      <div class="tree">
+        <div class="gen">
+          <div class="genlab">Candidates — one or two generations before Ante</div>
+          <div class="node candidate"><span class="name">Grgo &amp; Pavica Vidaković</span>
+            <span class="meta">parents of Tomo Vidaković, m. Sv Rok<br>marriage bk p.46 #11</span></div>
+          <div class="node candidate"><span class="name">Tomo Vidaković &amp; Marta Budak</span>
+            <span class="meta">m. Sveti Rok, Tomo b. c.1868<br>children incl. Nick, Joseph, Luka, Mary</span></div>
+          <div class="node candidate"><span class="name">Mile Vrban &amp; Kata Krpan</span>
+            <span class="meta">Sv Rok 282<br>parents of infant Jure (d.1903), Dane (d.1924)</span></div>
+          <div class="node candidate"><span class="name">Luka Vrban &amp; Manda</span>
+            <span class="meta">Sv Rok <strong>284</strong> · 1874–1941<br>same house as Franjo Vrban</span></div>
+          <div class="node candidate"><span class="name">Mate Vrban &amp; Marija</span>
+            <span class="meta">Sv Rok 191 · d.1885, age 48<br>earlier / separate branch</span></div>
+        </div>
+        <div class="gen">
+          <div class="genlab">Ante &amp; Franjka's parents — named by Robertina, not yet dated</div>
+          <div class="node confirmed"><span class="name">Jakov Vidaković "Sošina"</span>
+            <span class="meta">kuća 326 · m. Marija Miletić<br>not yet located in a register</span></div>
+          <div class="node confirmed"><span class="name">Franjo Vrban</span>
+            <span class="meta">kuća 284<br>possible son of Luka Vrban, at left</span></div>
+          <div class="node candidate"><span class="name">Marko Vrban</span>
+            <span class="meta">Sv Rok 284 · fl.1939–41<br>possible brother of Franjo</span></div>
+        </div>
+        <div class="gen">
+          <div class="genlab">Confirmed core — the grave card</div>
+          <div class="pair">
+            <div class="node confirmed"><span class="name">Ante Vidaković</span>
+              <span class="meta">"Sošina" · 1910–1991<br>kuća 326</span></div>
+            <span class="x">×</span>
+            <div class="node confirmed"><span class="name">Franjka Vrban</span>
+              <span class="meta">1913–2003<br>kuća 284</span></div>
+          </div>
+        </div>
+        <div class="gen">
+          <div class="genlab">Candidate children — same village, right years, unconfirmed</div>
+          <div class="node candidate"><span class="name">Ivan Vidaković</span>
+            <span class="meta">1931–2008 · Sveti Rok Cemetery<br>born the plausible year after a marriage</span></div>
+        </div>
+        <div class="legend">
+          <span><span class="sw"></span>Confirmed — grave card or Robertina's message</span>
+          <span><span class="sw cand"></span>Candidate — same name &amp; village, not yet linked</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="blk">
       <h2>What the parish-register lead actually offers</h2>
       <p class="lede">A reply to Robertina's post pointed at the Sveti Rok marriage registers and
       an image of the Zagreb archive's holdings:</p>
@@ -203,39 +278,116 @@ footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;backgrou
           for preservation.</td></tr>
       </table>
       <div class="notclaimed" style="margin-top:1.3rem">
-        <span class="lab">What this session could not do</span>
-        This page was put together without a working FamilySearch or Findmypast login and without
-        network access to archive.org from this environment — so the specific marriage entry for
-        Ante Vidaković and Franjka Vrban has <strong>not</strong> been located or read yet, and
-        nothing above should be taken as a transcription. What is here is the lead as it was
-        handed over, plus the family facts the grave card itself confirms. Someone with an active
-        FamilySearch or Findmypast session, or a visit to the Lovinac parish office or the Zagreb
-        archive, is the way to actually pull the record.
+        <span class="lab">What a follow-up session did and didn't find</span>
+        A later session with live access to FamilySearch, archive.org, and Find a Grave went
+        looking for the marriage entry itself. FamilySearch has <strong>no</strong> indexed
+        records, catalog entries, or browsable images for Sveti Rok or Lovinac parish at all —
+        that platform is a dead end for this specific parish. The archive.org scan named below
+        does exist and is readable; roughly 20 of its 270 pages (spanning 1928 and 1933–1940, the
+        plausible marriage-age window for Ante and Franjka) were reviewed page by page, and the
+        marriage entry for Ante Vidaković × Franjka Vrban was <strong>not</strong> among them —
+        a real but incomplete result, since most of the register is still unchecked. What that
+        session did turn up, on Find a Grave, is below: actual burial records from Sveti Rok
+        Cemetery itself, transcribed from the parish birth/marriage/death books held at the civil
+        registry office in Gračac.
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>Family records found in Sveti Rok — same surnames, not yet confirmed as this family</h2>
+      <p class="lede">Sveti Rok Cemetery is real and documented (296 memorials on Find a Grave),
+      and it does hold Vidaković and Vrban burials — distinct from the Slavonski Brod grave above.
+      None of the people below has been confirmed as Ante, Franjka, Jakov, or Marija specifically,
+      but they are the same surnames, in the same village, in the right generations, and every one
+      is kept here in case a name, house number, or date connects on closer review.</p>
+
+      <p style="margin-top:1.3rem"><strong>Vrban — house 284 cluster</strong>, the exact house
+      number Robertina gave for Franjo Vrban:</p>
+      <table class="kv">
+        <tr><th>Luka Vrban</th><td><strong>29 Apr 1874 – 15 Sep 1941</strong>, widower, wife
+          <strong>Manda Vrban</strong>, residence <strong>Sv Rok 284</strong>. Old enough to be
+          Franjo Vrban's father. <span class="lab" style="display:inline">Sv Rok Parish Death
+          Book, p.169 #22</span></td></tr>
+        <tr><th>Marija Vrban</th><td>infant, <strong>4 Dec 1939 – 31 Jul 1941</strong>, parents
+          <strong>Marko Vrban</strong> &amp; a mother whose name the transcription couldn't fully
+          read ("_na Bevic..."), residence <strong>Sv Rok 284</strong> — same house as Luka, same
+          death-book page. Marko is plausibly a son of Luka's, which would make him a possible
+          brother of Franjo. <span class="lab" style="display:inline">Death Book, p.169 #12</span></td></tr>
+      </table>
+      <p style="margin-top:1.3rem"><strong>Vrban — house 282 cluster</strong>, next door to 284:</p>
+      <table class="kv">
+        <tr><th>Jure Vrban</th><td>infant, 15 days old, died <strong>14 Oct 1903</strong>, parents
+          <strong>Mile Vrban</strong> &amp; <strong>Kata Krpan</strong>, residence <strong>Sv Rok
+          282</strong> (recorded with an older house number, "143", alongside it).
+          <span class="lab" style="display:inline">Death Book, p.30 #53</span></td></tr>
+        <tr><th>Dane Vrban</th><td>died <strong>20 Aug 1924</strong>, age 30 (so born c.1894),
+          wife <strong>Dragica, née Vlašić</strong>, residence <strong>Sv Rok 282</strong> —
+          plausibly a son of Mile Vrban and Kata Krpan above.
+          <span class="lab" style="display:inline">Death Book, p.112 #34</span></td></tr>
+      </table>
+      <p style="margin-top:1.3rem"><strong>Vrban — earlier, house 191:</strong></p>
+      <table class="kv">
+        <tr><th>Mate Vrban</th><td>died <strong>10 Mar 1885</strong>, age 48 (so born c.1837), of
+          tuberculosis, wife <strong>Marija Vrban</strong>, residence <strong>Sv Rok 191</strong> —
+          an older or separate branch; the house number doesn't match 282 or 284.
+          <span class="lab" style="display:inline">Death Book, p.52 #20</span></td></tr>
+      </table>
+
+      <p style="margin-top:1.6rem"><strong>Vidaković</strong> — a separate household, one
+      generation above where Jakov Vidaković would sit:</p>
+      <table class="kv">
+        <tr><th>Tomo Vidaković<br>&amp; Marta Budak Vidaković</th><td>married in Sveti Rok, Tomo
+          age 29, Marta age 20 (so Tomo b. c.1868). Tomo's parents: <strong>Grgo &amp; Pavica
+          Vidaković</strong>. Marta's parents: <strong>Grgo &amp; Franjica Budak</strong>.
+          Witnesses: <strong>Mate Šulentić</strong> and <strong>Ante Vidaković</strong> — a
+          different, older Ante than Robertina's grandfather, who wasn't born until 1910.
+          <span class="lab" style="display:inline">Sv Rok Parish Marriage Book, p.46 #11</span>
+          <br><br>Their recorded children: Katherine "Kata" Vidaković Jurjevich (1888–1981),
+          <strong>Nick Vidaković</strong> (1892–1932, emigrated to Caledonia, Wisconsin, USA),
+          Joseph "Vidak" Vidaković (1894–1953), Mary "Marija" Vidaković Krpan (1897–1940), and
+          Luka Vidaković (1897–1948). None is named Jakov, but this is clearly the same
+          Vidaković lineage in the same village a generation or two before Ante.</td></tr>
+        <tr><th>Ivan Vidaković</th><td><strong>1931–2008</strong>, buried Sveti Rok Cemetery; no
+          further detail transcribed yet. Born the year after Ante and Franjka would likely have
+          married — worth checking as a possible son.</td></tr>
+        <tr><th>Manda Ivezić Vidaković</th><td><strong>26 Sep 1910 – 25 Jul 1937</strong>, born
+          the same year as Ante, married to <strong>Grga Vidaković</strong>, residence
+          <strong>Lipac 317</strong> (a neighbouring hamlet, not house 326). A different person
+          from Franjka — kept here only because the birth year matches Ante's exactly.
+          <span class="lab" style="display:inline">Death Book, p.155 #22</span></td></tr>
+      </table>
+
+      <div class="note" style="margin-top:1.4rem">
+        None of this proves a link to Ante, Franjka, Jakov, or Marija Miletić. It's recorded here
+        in full — names, dates, house numbers, and the exact page/entry citation for each — so
+        that anyone continuing this research (or Robertina herself) can check it against what they
+        already know, rather than starting over. The house-284 coincidence with Luka and Marko
+        Vrban is the single most promising thread.
       </div>
     </section>
 
     <section class="blk">
       <h2>Where to look next</h2>
       <ul class="plain">
-        <li><strong>FamilySearch</strong> — search the Sveti Rok (sometimes catalogued under
-        Lovinac) Catholic parish collection for marriages, 1878–1940, for Vidaković and Vrban.
-        Post-1930 images are reported blurry, so cross-checking against baptismal entries for any
-        children (which would name both parents) can help confirm a marriage date even where the
-        marriage entry itself is hard to read.</li>
-        <li><strong>archive.org — "Sveti Rok marriages 1878–1940"</strong> — the digitised set
-        named in the reply above; worth paging through directly rather than relying on any index,
-        since these older Croatian registers are frequently unindexed or mis-indexed.</li>
+        <li><strong>The Find a Grave transcriptions above</strong> — the contributor (listed as
+        "BN" / "MC - 1") appears to be working directly from the Sv Rok parish birth, marriage,
+        and death books held at the <strong>civil registry office in Gračac</strong> (Kneza
+        Branimira 1, 23440 Gračac, Croatia), which is more complete and far more legible than the
+        archive.org scan. Contacting that office directly, or the Find a Grave contributor, is
+        likely the fastest route to the actual Ante × Franjka marriage entry and to Jakov ×
+        Marija's.</li>
+        <li><strong>archive.org — "Sveti Rok marriages 1878–1940"</strong>
+        (archive.org/details/sveti-rok-marriages-1878-1940) — confirmed readable. About 20 pages
+        (1928, 1933–1940) have been checked by eye; roughly 250 have not. OCR text search on this
+        item is useless — the handwriting doesn't transcribe — so it has to be read page by page.</li>
         <li><strong>Hrvatski državni arhiv (Zagreb)</strong> — holds microfilmed church and civil
-        registers for this area; a written enquiry naming Sveti Rok, houses 326 and 284, and the
-        approximate decades (Jakov's generation likely born 1870s–1890s, Ante 1910, Franjka 1913)
-        would let an archivist point to the right signature/volume.</li>
+        registers for this area; a written enquiry naming Sveti Rok, houses 326, 282, and 284, and
+        the approximate decades would let an archivist point to the right signature/volume.</li>
         <li><strong>The Lovinac parish office</strong>, which holds the registers this parish
-        keeps in current use, and is often the fastest route to a photograph of a specific entry
-        if the volume and approximate year are already known.</li>
+        keeps in current use.</li>
         <li><strong>Locally, in Sveti Rok itself</strong> — someone who knows the village can say
-        directly whether house 326 and house 284 still stand or are remembered, and whether there
-        is a Vidaković or Vrban plot in the Sveti Rok cemetery, separate from the Slavonski Brod
-        grave this page documents.</li>
+        directly whether house 326, 282, and 284 still stand or are remembered, and can confirm
+        whether Luka and Marko Vrban connect to Franjo.</li>
       </ul>
     </section>
 
