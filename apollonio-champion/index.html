@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Apollonio &amp; Champion — Rovigno, Istria</title>
+<meta name="description" content="The Apollonio family of Rovigno, Istria, who emigrated to Brownsville, Texas and became Champion — the 'Campione' nickname found in the Rovinj parish census, and the trail to the two annotations still missing." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+<style>
+:root{
+  --ground:#EDEBE5; --panel:#F7F6F2; --panel-2:#E3E1D9;
+  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#7C8A91;
+  --rule:#D3D0C7; --rule-strong:#B6B2A6;
+  --accent:#2E6E7A; --accent-2:#3F8B98; --accent-wash:#DFEDEE;
+  --ochre:#9A6B18; --terra:#A8442B;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --maxw:1080px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#6BC4D2; --accent-2:#8FD5E0; --accent-wash:#152B2E;
+  --ochre:#D2A24A; --terra:#D97A5F;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--serif);
+  font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3{text-wrap:balance;margin:0;font-weight:500;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.lab{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3)}
+.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
+.lede{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink-2);
+  max-width:76ch;margin-top:4px}
+header.site{border-bottom:1px solid var(--rule-strong);background:var(--panel)}
+.sitein{padding:16px 0}
+.brand{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--ink);text-decoration:none}
+.brand em{font-style:italic;font-weight:400;color:var(--accent)}
+main{padding:0 0 90px}
+.pagehead{padding:56px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:38px}
+.pagehead h1{font-size:clamp(32px,5.6vw,54px);line-height:1.06;margin-top:14px}
+.lead{margin-top:20px;font-size:17.5px;max-width:72ch}
+section.blk{padding:40px 0;border-bottom:1px solid var(--rule)}
+section.blk:last-child{border-bottom:0}
+section.blk h2{font-size:clamp(23px,3vw,32px)}
+section.blk > .dek{margin-top:10px}
+section.blk > p + p,section.blk > p + .note,section.blk > .note + p,
+section.blk > p + table,section.blk > p + blockquote,section.blk > p + .grid,
+section.blk > .note + .note{margin-top:1.15rem}
+.grid{display:grid;gap:14px}
+.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:700px){.grid.three{grid-template-columns:1fr 1fr;gap:8px}}
+@media (max-width:460px){.grid.three{grid-template-columns:1fr}}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:18px 18px 20px}
+.stat .n{font-family:var(--serif);font-size:34px;line-height:1.1;font-weight:500;color:var(--terra)}
+.stat .l{font-family:var(--sans);font-size:12.5px;line-height:1.45;color:var(--ink-2);margin-top:10px}
+.note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
+  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
+.notclaimed{border-left:3px solid var(--terra);background:var(--panel);padding:14px 18px;margin:18px 0}
+.notclaimed .lab{color:var(--terra);display:block;margin-bottom:6px}
+.pending{border-left:3px solid var(--accent);background:var(--panel);padding:14px 18px;margin:18px 0}
+.pending .lab{color:var(--accent);display:block;margin-bottom:6px}
+table.kv{width:100%;border-collapse:collapse;margin-top:6px}
+table.kv th{width:11.5rem;text-align:left;vertical-align:top;font-family:var(--sans);
+  font-size:12.5px;font-weight:600;color:var(--ink-2);padding:10px 16px 10px 0;border-top:1px solid var(--rule)}
+table.kv td{vertical-align:top;padding:10px 0;border-top:1px solid var(--rule);font-size:16.5px;line-height:1.55}
+table.kv tr:first-child th,table.kv tr:first-child td{border-top:none}
+@media (max-width:640px){
+  table.kv th{width:auto;display:block;padding-bottom:0;border-top:none}
+  table.kv td{display:block;padding-top:2px}
+  table.kv tr{display:block;border-top:1px solid var(--rule);padding:8px 0}
+  table.kv tr:first-child{border-top:none}
+}
+blockquote{margin:18px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--ochre);
+  color:var(--ink-2);font-style:italic;font-family:var(--sans);font-size:15px;line-height:1.6}
+blockquote cite{display:block;margin-top:8px;font-style:normal;font-size:12.5px;color:var(--ink-3)}
+figure.doc{margin:1.2rem 0 0}
+figure.doc img{width:100%;max-width:520px;height:auto;display:block;border:1px solid var(--rule);
+  border-radius:3px;background:var(--panel)}
+figure.doc figcaption{font-family:var(--sans);font-size:12px;line-height:1.5;color:var(--ink-3);
+  margin-top:10px;max-width:60ch}
+ul.plain{list-style:none;padding:0;margin:12px 0 0;font-size:16px}
+ul.plain li{padding:8px 0;line-height:1.5;border-bottom:1px solid var(--rule)}
+ul.plain li:last-child{border-bottom:none}
+.btn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;font-weight:600;
+  text-decoration:none;border-radius:3px;padding:11px 16px;background:var(--accent);color:#FBF8F1;
+  border:1px solid var(--accent)}
+.btn:hover{background:var(--accent-2);border-color:var(--accent-2)}
+footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;background:var(--panel)}
+.foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
+.foot.dim{color:var(--ink-3);margin-top:10px}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap sitein">
+    <a class="brand" href="#top">The Apollonio <em>&amp; Champion</em> Page</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="pagehead">
+      <div class="lab">Rovigno d'Istria (Rovinj), Istria — then Austrian Littoral, now Croatia · emigrated to Texas</div>
+      <h1>Apollonio, later Champion — and the trail of "Campione"</h1>
+      <p class="dek lead">A page started in answer to a call for help in a genealogy group: a family
+      born in Rovigno in the 1820s, who emigrated to Brownsville, Texas and anglicized
+      <strong>Apollonio</strong> to <strong>Champion</strong> — carrying a family nickname,
+      <strong>Campione</strong>, now found exactly where the original post said it would be, in a
+      Rovinj parish census record.</p>
+    </div>
+
+    <section class="blk">
+      <div class="grid three">
+        <div class="stat"><div class="n">5 brothers</div><div class="l">Apollonio sons who became Champion in South Texas, 1840s–50s</div></div>
+        <div class="stat"><div class="n">House 833</div><div class="l">the Rovigno parish record where "Campione" has now been found, in hand</div></div>
+        <div class="stat"><div class="n">2 more</div><div class="l">annotations the 1994 Radossi letter says exist, not yet located</div></div>
+      </div>
+      <p class="lede" style="margin-top:1.4rem"><strong>The family sheet itself is now identified</strong> —
+      it's a page from Rovinj parish's <em>Status Animarum</em> ("stanje duša," a household-by-household
+      census kept by the church) for house no. 833, headed by Giorgio Apollonio and his widow Maria
+      Bronzin, certified as a true copy by the State Archive in Pazin. The "Campione" annotation the
+      original post asked about is right where it should be, in the Annotazioni column next to
+      Giorgio's death entry.</p>
+      <div class="pending">
+        <span class="lab">Still open</span>
+        The family history book (<em>Campion(e) History</em>, by Raul Guerra) describes this exact
+        annotation plus two more: one on Simon Apollonio's own entry (Giorgio's son, Simone's
+        grandson), and one on Pietro Apollonio's entry via his widow Gaspera Segalla. Only the
+        Giorgio/Maria Bronzin one has been found so far — see "Where to look next," below, for the
+        concrete lead on where the other two almost certainly are.
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>The original request</h2>
+      <p class="lede">Posted to a genealogy group, asking for help locating one of the documents
+      referenced in a family history book:</p>
+      <blockquote>"Hi! I was wondering if anyone could help me with this search! Our ancestors were
+        born in Rovigno Istria in the 1820s, and emigrated to Texas. In Istria, their last name was
+        Apollonio but when they came to the states, they changed it to Champion. Supposedly they had
+        a nickname of Campione. The family sheet references Campione in the upper right, see the
+        photo. There is a family history book which vaguely states other places that the nickname
+        Campione can be found, but I can't find the documents! Please see the typed images for info.
+        Can anyone help me look for one of the documents mentioned that state the name Campione in
+        the annotation? Or point me in the right direction? Thank you all so much!"
+        <cite>— original post, as written</cite>
+      </blockquote>
+    </section>
+
+    <section class="blk">
+      <h2>The book: <em>Campion(e) History</em>, by Raul Guerra</h2>
+      <p class="lede">The typed pages from the family history book, page 128, explain exactly where
+      the name comes from and how it became a surname:</p>
+      <blockquote>"The South Texas surname CHAMPION was used by five brothers in America. The change
+        from APOLLONIO to CHAMPION is as follows. In a letter to A. Champion dated 1994, the director
+        of the Center of Historical Research in Rovigno, G. Radossi, sent information on the
+        APOLLONIO family that he had in his archives. It included photo copies of the book entries
+        pertaining to the APOLLONIO. In those documents it showed the Maria BRONZIN family, the widow
+        of Giorgio APOLLONIO, who died on 02 Feb 1858, the son of the late Simone [APOLLONIO]. Note:
+        the name APOLLONIO was also spelled APPOLONIO. On the margin of this document was noted
+        "Campion". The same notation "Campion" was also in the margin of Simon APOLLONIO, the son of
+        Giorgio and grandson of Simon. The next entry was for Gaspera Segalla the widow of Pietro
+        APOLLONIO the son of Simon. Again the name "Campion" was attached to Pietro's record."
+        <cite>— Raul Guerra, <em>Campion(e) History</em>, p. 128</cite>
+      </blockquote>
+      <p style="margin-top:1.2rem">And on where the nickname itself came from:</p>
+      <blockquote>"Pietro APOLLONIO and Giorgio APOLLONIO were brothers, Giorgio being older by two
+        years. In his letter, Mr Radossi stated that one of the CHAMPION ancestors had the nickname
+        "Campion(e)" and therefore the brothers used that name in America. The name would be
+        annotated as APOLLONIO ditto CAMPION(E). It appears that Simone had this nickname attached to
+        his surname but it is not known where it originated and for what reason. It appears that an
+        ancestor was a "champion" of something, what and when is unknown. […] After several
+        generations of using the "ditto" or "dit" name the family could drop the surname and utilize
+        the "ditto" or "dit" name exclusively and that name would then became the surname. This is
+        what happened to the APOLLONIO ditto CAMPION(E) family when they moved to America."
+        <cite>— Raul Guerra, <em>Campion(e) History</em>, p. 128</cite>
+      </blockquote>
+      <figure class="doc">
+        <img src="images/campione-history-book-p128.jpg" alt="Page 128 of the family history book, Campion(e) History by Raul Guerra" />
+        <figcaption>Page 128 of the family history book, as supplied.</figcaption>
+      </figure>
+      <div class="notclaimed" style="margin-top:1.3rem">
+        <span class="lab">So three annotations exist, by the book's own account</span>
+        One on Giorgio Apollonio's own entry (found — see below). One on <strong>Simon
+        Apollonio</strong>, Giorgio's son and Simone's grandson. One on <strong>Pietro
+        Apollonio</strong>'s entry, Giorgio's brother, reached via his widow <strong>Gaspera
+        Segalla</strong>. The book doesn't say these three are on the same physical page — and the one
+        that's been found isn't a single page, it's a parish census book organized by house number, so
+        the other two are very likely a few pages away in the same set of volumes, under different
+        house numbers.
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>Found: the document itself — house 833, Rovinj Status Animarum</h2>
+      <p class="lede">This is a <em>Stato delle Anime</em> / <em>Status Animarum</em> page — a
+      household census the parish kept, updated over years as children were born, married, emigrated,
+      or died — for house no. 833 in Rovigno, certified by the Državni arhiv u Pazinu (State Archive
+      in Pazin) as a true copy of the original.</p>
+      <figure class="doc">
+        <img src="images/status-animarum-house-833.jpg" alt="Status Animarum register page for house 833, Rovigno, headed by Giorgio Apollonio and Maria Bronzin" />
+        <figcaption>House 833, Rovigno — Giorgio Apollonio and Maria Bronzin's household, with their
+        six sons. Certified by the State Archive in Pazin.</figcaption>
+      </figure>
+      <table class="kv" style="margin-top:1.4rem">
+        <tr><th>Household head</th><td><strong>Apollonio Giorgio</strong>, q. [fu, "the late"]
+          <strong>Simone</strong> — born Rovigno, died <strong>2 Feb 1858</strong>.</td></tr>
+        <tr><th>Wife</th><td><strong>Bronzin Maria</strong>, q. Sebastiano, q. Giovanni — listed as
+          his widow.</td></tr>
+        <tr><th>Sons listed</th><td>Simone · Sebastiano Alberto · Pietro · Andrea (celibe, "unmarried"
+          — residence given as Lima) · Nicolò · Giuseppe. Residence ("Dimora") for several of the sons
+          is given as <strong>Brownsville</strong> — Texas, right in the record itself.</td></tr>
+        <tr><th>Annotazioni</th><td>Two notes in the margin: a date (<strong>~1 Aug 1858</strong>) with
+          <strong>"Campione"</strong> written directly beneath it, against Giorgio's death entry — the
+          exact annotation the original post was looking for — and a second note further down reading
+          <strong>"Vedova con [6] figli"</strong> ("widow, with 6 children").</td></tr>
+      </table>
+      <figure class="doc">
+        <img src="images/status-animarum-house-833-annotazioni-zoom.jpg" alt="Close-up of the Annotazioni column, showing the word Campione written beneath a date, and a note reading Vedova con 6 figli" />
+        <figcaption>Close-up of the Annotazioni column: "Campione" beneath the date, and "Vedova con
+        [6] figli" below.</figcaption>
+      </figure>
+    </section>
+
+    <section class="blk">
+      <h2>The family tree — Apollonio detto Campione</h2>
+      <p class="lede">From a typed "APOLLONIO detto CAMPIONE / CHAMPION CHART," matching and extending
+      the Status Animarum entry above:</p>
+      <table class="kv">
+        <tr><th>Simon Appollonio</th><td>b. Rovigno <strong>14 Apr 1749</strong>, m. Rovigno
+          <strong>2 Sep 1779</strong> to <strong>Domenica Nider</strong> (b. Rovigno 4 Jun
+          1746).</td></tr>
+        <tr><th>&nbsp;&nbsp;↳ Zorzi (Giorgio) Apollonio</th><td>their son, b. Rovigno
+          <strong>6 Jun 1782</strong>, m. Rovigno <strong>12 Apr 1812</strong> to <strong>Maria
+          Bronzin</strong> (b. Rovigno 18 May 1785, daughter of Bastian/Sebastiano Bronzin, b. 1755,
+          and Zuanna Cossovel). This is the Giorgio of house 833, above — died 2 Feb 1858.</td></tr>
+        <tr><th>&nbsp;&nbsp;&nbsp;&nbsp;↳ their children</th><td>
+          <strong>Simon Apollonio</strong> (b. 8 Aug 1814) — stayed in Rovigno, kept the surname
+          Apollonio. <em>His own Status Animarum entry is one of the two still-missing "Campione"
+          annotations.</em><br>
+          <strong>Sebastiano → Albert Champion</strong> (b. 9 May 1816) — emigrated *<br>
+          <strong>Pietro → Peter Champion</strong> (b. 15 Nov 1818) — emigrated *<br>
+          <strong>Domenica Appolonio</strong> (b. 14 Dec 1820) — stayed, the only daughter<br>
+          <strong>Andrea → Andrew Champion</strong> (b. 2 Aug 1822) — emigrated *<br>
+          <strong>Nicolaus → Nicholas Champion</strong> (b. 10 May 1825) — emigrated *<br>
+          <strong>Giuseppe → Joseph Champion</strong> (b. 8 Nov 1828) — emigrated *
+          </td></tr>
+      </table>
+      <figure class="doc">
+        <img src="images/apollonio-detto-campione-chart.jpg" alt="Typed APOLLONIO detto CAMPIONE / CHAMPION CHART showing Simon Apollonio, Giorgio Apollonio and Maria Bronzin, and their seven children" />
+        <figcaption>The typed "Apollonio detto Campione / Champion Chart," as supplied.</figcaption>
+      </figure>
+      <p class="note" style="margin-top:1.3rem">* Albert, Peter, Andrew, Nicholas, and Joseph are the
+      "five brothers" the family history book opens with. The book's second "Campione" annotation, on
+      Pietro Apollonio son of Simon (Giorgio's brother, via his widow Gaspera Segalla), belongs to a
+      different, earlier branch — Simon (b. 1749)'s son Pietro, not to be confused with Giorgio's own
+      son Pietro/Peter Champion above.</p>
+    </section>
+
+    <section class="blk">
+      <h2>Where to look next</h2>
+      <p class="lede">FamilySearch's microfilmed Rovinj parish collection (<em>Matična knjiga,
+      1553–1913</em>) only covers births, marriages, and deaths (Rođeni / Vjenčani / Umrli) — it does
+      not include Status Animarum books, so this document was never going to turn up in an ordinary
+      FamilySearch search. But the State Archive in Pazin's own register database
+      (<a target="_blank" rel="noopener" href="https://www.dapa.hr/registers-of-births-marriages-and-deaths/">dapa.hr</a>)
+      lists the Status Animarum ("stanje duša") holdings for Rovinj/Rovigno directly:</p>
+      <table class="kv">
+        <tr><th>Rovinj/Rovigno stanje duša</th><td>Ten volumes, all held at <strong>ŽU Rovinj</strong>
+          (the Rovinj parish office) and all marked as digitized and viewable in DAPA's reading room:
+          <strong>1861–1866</strong>, two undated "XIX. st." (19th century) volumes, two more spanning
+          "XIX–XX. st.," then 1905–1920, 1908–1923, 1914–1923, 1923, 1923–1942, and 1928.</td></tr>
+        <tr><th>Best candidate</th><td>House 833's own annotation is dated close to Giorgio's 1858
+          death, which is earlier than the 1861–1866 volume's stated range — Status Animarum books
+          were running ledgers kept open for years, so the same physical volume very plausibly starts
+          earlier than its catalogued end-date range suggests. The two 19th-century volumes marked
+          only "XIX. st." are worth checking first alongside 1861–1866.</td></tr>
+        <tr><th>How to actually see them</th><td>These are marked "digitalno (u čitaonici)" — digitized,
+          but viewable only in DAPA's own reading room in Pazin, not online. The practical path is a
+          direct research request to Državni arhiv u Pazinu (contact via
+          <a target="_blank" rel="noopener" href="https://www.dapa.hr/">dapa.hr</a>) asking specifically
+          for the Status Animarum entries of <strong>Simon Apollonio</strong> (son of Giorgio, grandson
+          of Simone) and of <strong>Pietro Apollonio</strong> (son of Simone, via widow Gaspera
+          Segalla) in the Rovinj "stanje duša" volumes — the same request that, if it can reference the
+          1994 Radossi letter and house 833 as a known match, gives the archive a very specific thing
+          to look for rather than a blind search.</td></tr>
+      </table>
+    </section>
+
+    <section class="blk">
+      <h2>Next steps</h2>
+      <ol style="margin:0;padding-left:1.3rem;font-family:var(--sans);font-size:15.5px;
+        line-height:1.75;color:var(--ink-2)">
+        <li><strong>Request the Simon Apollonio and Pietro Apollonio/Gaspera Segalla entries</strong>
+        from DAPA's Rovinj Status Animarum volumes — the concrete next step, above.</li>
+        <li><strong>Look for a surviving copy of the 1994 Radossi letter itself</strong> (to A.
+        Champion) — it may already describe exactly which house numbers or volumes those two other
+        entries came from, which would skip the archive request entirely.</li>
+        <li><strong>Confirm Simon Apollonio's (b. 1814) line</strong> in Rovigno civil records — he
+        stayed, so his descendants (if any survive locally) may hold more of the original documents
+        Radossi worked from.</li>
+        <li><strong>Trace the five brothers on the Texas side</strong> — passenger manifests, Cameron
+        County (Brownsville) records, and naturalization records for Albert, Peter, Andrew, Nicholas,
+        and Joseph Champion, now that Brownsville is confirmed as their destination directly from the
+        parish record itself.</li>
+      </ol>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p class="foot">A page put together as a favour, following a call for help posted to a
+    genealogy group. Corrections, images, and family memory are all welcome — anything found can go
+    straight onto this page.</p>
+  </div>
+</footer>
+</body>
+</html>
