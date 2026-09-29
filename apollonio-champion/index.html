@@ -97,6 +97,30 @@ ul.plain li:last-child{border-bottom:none}
 footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;background:var(--panel)}
 .foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
 .foot.dim{color:var(--ink-3);margin-top:10px}
+.tree{margin-top:1.6rem;overflow-x:auto;padding-bottom:4px}
+.tree .gen{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;position:relative;padding-top:22px}
+.tree .gen:first-child{padding-top:0}
+.tree .gen:not(:first-child)::before{content:"";position:absolute;top:0;left:50%;width:1px;height:22px;
+  background:var(--rule-strong)}
+.tree .genlab{width:100%;text-align:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.tree .node{background:var(--panel);border:1.5px solid var(--rule-strong);border-radius:4px;
+  padding:12px 16px;font-family:var(--sans);text-align:center;min-width:168px;max-width:230px;flex:0 1 auto}
+.tree .node .name{font-family:var(--serif);font-size:16.5px;color:var(--ink);display:block;line-height:1.25}
+.tree .node .meta{color:var(--ink-3);font-size:11px;line-height:1.5;margin-top:4px;display:block}
+.tree .node.confirmed{border-color:var(--accent);background:var(--accent-wash)}
+.tree .node.confirmed .name{color:var(--accent)}
+.tree .node.candidate{border-style:dashed;border-color:var(--rule-strong)}
+.tree .node.candidate .name{color:var(--ink-2)}
+.tree .pair{display:flex;align-items:center;gap:8px}
+.tree .pair .x{font-family:var(--serif);font-style:italic;color:var(--ink-3);font-size:14px}
+.tree .legend{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:24px;
+  font-family:var(--sans);font-size:11.5px;color:var(--ink-3)}
+.tree .legend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;
+  vertical-align:-1.5px;border:1.5px solid var(--accent);background:var(--accent-wash)}
+.tree .legend .sw.cand{border-style:dashed;border-color:var(--rule-strong);background:var(--panel)}
+@media (max-width:640px){.tree .node{min-width:130px;font-size:14px;padding:10px 12px}
+  .tree .node .name{font-size:15px}}
 </style>
 </head>
 <body>
@@ -235,26 +259,56 @@ footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;backgrou
       <h2>The family tree — Apollonio detto Campione</h2>
       <p class="lede">From a typed "APOLLONIO detto CAMPIONE / CHAMPION CHART," matching and extending
       the Status Animarum entry above:</p>
-      <table class="kv">
-        <tr><th>Simon Appollonio</th><td>b. Rovigno <strong>14 Apr 1749</strong>, m. Rovigno
-          <strong>2 Sep 1779</strong> to <strong>Domenica Nider</strong> (b. Rovigno 4 Jun
-          1746).</td></tr>
-        <tr><th>&nbsp;&nbsp;↳ Zorzi (Giorgio) Apollonio</th><td>their son, b. Rovigno
-          <strong>6 Jun 1782</strong>, m. Rovigno <strong>12 Apr 1812</strong> to <strong>Maria
-          Bronzin</strong> (b. Rovigno 18 May 1785, daughter of Bastian/Sebastiano Bronzin, b. 1755,
-          and Zuanna Cossovel). This is the Giorgio of house 833, above — died 2 Feb 1858.</td></tr>
-        <tr><th>&nbsp;&nbsp;&nbsp;&nbsp;↳ their children</th><td>
-          <strong>Simon Apollonio</strong> (b. 8 Aug 1814) — stayed in Rovigno, kept the surname
-          Apollonio. <em>His own Status Animarum entry is one of the two still-missing "Campione"
-          annotations.</em><br>
-          <strong>Sebastiano → Albert Champion</strong> (b. 9 May 1816) — emigrated *<br>
-          <strong>Pietro → Peter Champion</strong> (b. 15 Nov 1818) — emigrated *<br>
-          <strong>Domenica Appolonio</strong> (b. 14 Dec 1820) — stayed, the only daughter<br>
-          <strong>Andrea → Andrew Champion</strong> (b. 2 Aug 1822) — emigrated *<br>
-          <strong>Nicolaus → Nicholas Champion</strong> (b. 10 May 1825) — emigrated *<br>
-          <strong>Giuseppe → Joseph Champion</strong> (b. 8 Nov 1828) — emigrated *
-          </td></tr>
-      </table>
+      <div class="tree">
+        <div class="gen">
+          <div class="genlab">The earliest "detto Campione" named in the chart</div>
+          <div class="pair">
+            <div class="node confirmed"><span class="name">Simon Appollonio</span>
+              <span class="meta">b. Rovigno 14 Apr 1749<br>m. Rovigno 2 Sep 1779</span></div>
+            <span class="x">×</span>
+            <div class="node confirmed"><span class="name">Domenica Nider</span>
+              <span class="meta">b. Rovigno 4 Jun 1746</span></div>
+          </div>
+        </div>
+        <div class="gen">
+          <div class="genlab">Their two sons — both named "Campione" in Radossi's 1994 letter</div>
+          <div class="pair">
+            <div class="node confirmed"><span class="name">Zorzi (Giorgio) Apollonio</span>
+              <span class="meta">b. 6 Jun 1782 · d. 2 Feb 1858<br>house 833 · "Campione" found</span></div>
+            <span class="x">×</span>
+            <div class="node confirmed"><span class="name">Maria Bronzin</span>
+              <span class="meta">b. 18 May 1785<br>dau. of Bastian Bronzin &amp; Zuanna Cossovel</span></div>
+          </div>
+          <div class="pair">
+            <div class="node candidate"><span class="name">Pietro Apollonio</span>
+              <span class="meta">Giorgio's brother, 2 yrs younger<br>"Campione" entry — still missing</span></div>
+            <span class="x">×</span>
+            <div class="node candidate"><span class="name">Gaspera Segalla</span>
+              <span class="meta">his widow, named in the 1994 letter<br>her own entry not yet found</span></div>
+          </div>
+        </div>
+        <div class="gen">
+          <div class="genlab">Giorgio &amp; Maria's seven children — five emigrated, per the chart's own "*"</div>
+          <div class="node candidate"><span class="name">Simon Apollonio</span>
+            <span class="meta">b. 8 Aug 1814 · stayed in Rovigno<br>his own "Campione" entry still missing</span></div>
+          <div class="node confirmed"><span class="name">Albert Champion</span>
+            <span class="meta">b. 9 May 1816 · né Sebastiano<br>Brownsville, TX · w. Estefana Solis</span></div>
+          <div class="node confirmed"><span class="name">Peter Champion</span>
+            <span class="meta">b. 15 Nov 1818 · né Pietro<br>Cameron Co., TX · w. Felicita</span></div>
+          <div class="node candidate"><span class="name">Domenica Appolonio</span>
+            <span class="meta">b. 14 Dec 1820 · the only daughter<br>stayed in Rovigno</span></div>
+          <div class="node candidate"><span class="name">Andrew Champion</span>
+            <span class="meta">b. 2 Aug 1822 · né Andrea<br>register says "Lima" — no Texas record</span></div>
+          <div class="node confirmed"><span class="name">Nicholas Champion</span>
+            <span class="meta">b. 10 May 1825 · né Nicolaus<br>Cameron Co., TX · w. Teresa</span></div>
+          <div class="node confirmed"><span class="name">Joseph Champion</span>
+            <span class="meta">b. 8 Nov 1828 · né Giuseppe<br>Cameron Co., TX · w. Marcela</span></div>
+        </div>
+        <div class="legend">
+          <span><span class="sw"></span>Confirmed — matched to a census, passenger record, or certified archive copy</span>
+          <span><span class="sw cand"></span>Candidate — named in the family chart/book, not yet independently confirmed</span>
+        </div>
+      </div>
       <figure class="doc">
         <img src="images/apollonio-detto-campione-chart.jpg" alt="Typed APOLLONIO detto CAMPIONE / CHAMPION CHART showing Simon Apollonio, Giorgio Apollonio and Maria Bronzin, and their seven children" />
         <figcaption>The typed "Apollonio detto Campione / Champion Chart," as supplied.</figcaption>
