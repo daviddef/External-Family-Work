@@ -101,9 +101,9 @@
  },
  {
   "id": "anno-unread-hits",
-  "task": "Read the remaining ANNO hits: Wiener Zeitung 24 Jul 1892 and 28 Jan 1862 (Sambugnak); Welt-Blatt 12 Apr 1900; Die Zeit 19 Feb 1915; Tagespost Graz 7 Aug and 18 Sep 1915; Narod 1889/1891; Correspondenz-Blatt 1909/1910",
+  "task": "Read the remaining ANNO hits: Narod 1889/1891; Correspondenz-Blatt 1909/1910; Wiener Zeitung 28 Jan 1862; Gazzetta di Zara 1841-42",
   "status": "not-started",
-  "detail": "ANNO search lists open in the built-in browser but article pages need a Cloudflare check; works in Claude in Chrome. Read via data.onb.ac.at/ANNO/<aid><yyyymmdd>, the hit page is the red-bordered thumbnail. Hits already read: Die Zeit 29 Dec 1914 (Thomas, Marienbad), Wiener Zeitung 30 Sep 1898 (Antonio q. Domenico), NFP 29 Jul 1892 (Anton Sambugnak DDSG Semlin, Takovo order), Agramer Zeitung 6 Apr 1900 (Capt. Anton Sambugnak, Mathyas Kiraly, Pancevo).",
+  "detail": "Read so far (17 Oct 2026): NFP 29 Jul 1892; Wiener Zeitung 24 Jul 1892; Agramer Zeitung 6 Apr 1900; Welt-Blatt 12 Apr 1900; Tagespost 7 Aug 1915 (A. Sambunjak, Schiffskapitaen, Semlin, spa list); and set aside: Die Zeit 29 Dec 1914, 19 Feb 1915; Tagespost 18 Sep 1915; Wiener Zeitung 30 Sep 1898. ANNO article pages need a Cloudflare check; works in Claude in Chrome. Tip: use zoom=100 in the URL so the hit is legible.",
   "updated": "2026-10-17"
  },
  {

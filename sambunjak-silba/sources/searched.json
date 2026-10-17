@@ -130,5 +130,30 @@
    "sambunjak",
    "anno"
   ]
+ },
+ {
+  "src": "ANNO — Tagespost Graz 7 Aug 1915 p.15, spa list Warasdin-Toeplitz: A. Sambunjak, Schiffskapitaen, m. Gem., Semlin",
+  "url": "https://anno.onb.ac.at/cgi-content/anno?aid=gpt&datum=19150807&seite=15",
+  "pages": "1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "ddsg",
+   "anno"
+  ]
+ },
+ {
+  "src": "ANNO — Wiener Zeitung 24 Jul 1892 p.1; Welt-Blatt 12 Apr 1900 p.17; Die Zeit 19 Feb 1915; Tagespost 18 Sep 1915 (other men)",
+  "url": "https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=18920724&seite=1",
+  "pages": "1 each",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "anno"
+  ]
  }
 ]
