@@ -252,5 +252,21 @@
       "ellis-island"
     ],
     "note": "Opened and zoomed. The sheet is right; the line headed 'Spudic' (line 25, age 24) was located, but the relative and destination columns could not be reliably aligned to that line at the viewer's resolution; the legible relative entries nearby belong to other passengers. A destination of 'Mt. Olive' appears on a nearby line only. Needs a reader at full size."
+  },
+  {
+    "src": "FamilySearch — Croatia, Church Books, Leskovac-Barilovićki births 1832-1857: image 78 (right page, June 1846) and image 81 (left page, Nov 1846), read at zoom",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HT-F",
+    "waypoint": "9R2M-YW1",
+    "pages": "78, 80, 81 (sampled; other pages not read)",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch"
+    ],
+    "note": "Births are tabular Latin, one image = a two-page spread of ~6 entries a page; 1846 runs through images 77-81 (image 78 = June 1846, image 80 = Sept-Nov, image 81 = Nov-Dec). FOUND: (1) image 78, right page, entry no. 21: 1846, 4 June, Leskovac, 'Dorothea, filia legitima Catholica'; father Josephus Polovich ex Novaki, mother Barbara nata Jurcevich (spelling read, partly uncertain), priest Ladislaus Jagodich. Matches the Family Tree's Dorotea Polović b.4 Jun 1846, parents Josip Polović and Barbara Jurčević. (2) image 81, left page: 1846, mid-November (day reads 15 or 16), 'Vitus, filius legitimus Catholicus'; father Joannes [middle word unclear] Spudich ex Leskovac N° 16 (house number read as 16), mother Anna nata Maglich; godparents Thomas ... ex Szello. Matches the Family Tree's Vid Spudić b.15 Nov 1846, parents Ivan Spudić and Ana Maglić. Same page has a Michael Spudich of Leskovac N° 16 and wife Catharina (a child 'Helena')."
   }
 ]
