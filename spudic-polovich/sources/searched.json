@@ -311,5 +311,20 @@
       "familysearch-tree"
     ],
     "note": "First records of each person attributed to FamilySearch (12 Mar 2012); edited by the contributor shown as 'Debra Papa' from 24 Mar 2012; the 1867 marriage and parent relationships were added 7 May 2012 under the 'FamilySearch' attribution (REFERENCE). Notes dated 27 Aug 2013: Vid 'Leskovac #16'; Dorotea 'Novaki #13'; Josip Polović 'Josip was 22 when he married Barbara Jurcevic. Lived at Novaki #13'; Ivan 'Ivan = Joannes Bapt.= John; Leskovac #6; Leskovac #16'. Two match the register readings (house 16; age 22). Sources attached: Vid 0, Dorotea 0, Josip 0, Ivan 1. Vid and Dorotea have no children attached."
+  },
+  {
+    "src": "FamilySearch record search (Spudic, residence Leskovac) and MyHeritage record search (Spudic, residence Leskovac) retried for emigrant siblings; HDA microfilm index retried with the parish box",
+    "url": "https://www.arhiv.hr/Pretraga-mati%C4%8Dnih-knjiga",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "leskovac",
+      "hda",
+      "familysearch",
+      "myheritage"
+    ],
+    "note": "FamilySearch record search still returns 'Something Went Wrong' for every query. MyHeritage returned a blank page (probably a bot check again). The HDA microfilm index's parish box stayed on 'Loading...' and showed the unfiltered list (typing did not filter it), so no query was run; this widget cannot be used reliably from the browser pane. Nothing was concluded. The only route to the HDA's microfilm holdings is an e-mail to info@arhiv.hr naming the parish, register type and years (the HDA page says to include the place, type, period, roll and topographic number)."
   }
 ]
