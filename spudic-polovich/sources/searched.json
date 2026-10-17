@@ -281,5 +281,21 @@
       "myheritage"
     ],
     "note": "First attempt was blocked by a CAPTCHA; retried after the requester cleared it (17 Oct 2026). Results page: 536,313 hits for Dorotea Polovic b.1846 ±3 Croatia, first page of 20 read, with most values scrambled (free-tier display). The only 1846 hit is the FamilySearch Family Tree entry 'Dorotea Spudić (born Polović)' already read; no MyHeritage family tree is shown for her. The Curlovic and Borovac - Duga Resa trees were not opened. A hit page this size is weak evidence either way."
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki marriages 1832-1857, book II: images 462-465 (cover, first marriage page of 1832, start of 1833)",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899F-9XKK",
+    "waypoint": "9R2M-YW1",
+    "pages": "462-465 (sampled 440, 449, 475)",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch"
+    ],
+    "note": "Structure: births book(s) run to at least image 449 (a births ledger dated 1855); image 462 is the cover of book II, 1832-1857 (marriages, tabular Latin, ~6 entries a page, columns for groom, bride, witnesses); image 464 is the first marriage page (left page blank, right page 6 entries for 1832); image 465 begins 1833; image 475 is 1840. 1832 entries as read: 17 Mar, 2 May, 8 Aug(?), 23 Sept, 26 Sept (Thomas Gojak, widower, with Barbara, widow of Georgius Polovich Milich(?)). The abbreviation read '7bris' = September. NO entry for Josip Polović and Barbara Jurčević and none in Nov 1832, so the Family Tree's marriage date 26 Nov 1832 for them is unsupported (the marriage may be another year; 1833-35 not read). The earlier note that marriages run c.images 450-510 is wrong by about 12 images: use 463-515."
   }
 ]

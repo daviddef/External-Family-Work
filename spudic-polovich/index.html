@@ -137,6 +137,30 @@ footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;backgrou
   .tree .node .name{font-size:15px}}
 svg.map{width:100%;height:auto;display:block;margin-top:14px;border:1px solid var(--rule);border-radius:3px;background:var(--panel)}
 svg.map text{font-family:var(--sans);fill:var(--ink-2)}
+
+/* tentative family tree */
+.ftree{display:grid;gap:12px;margin-top:20px;font-family:var(--sans)}
+.ftree .row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.ftree .fam{border:1px solid var(--rule-strong);background:var(--panel);border-radius:4px;padding:14px 16px}
+.ftree .fam .lab{display:block;margin-bottom:8px}
+.ftree .p{border:1px solid var(--rule-strong);border-radius:3px;background:var(--panel-2);padding:7px 11px;margin-top:7px;font-size:14px;line-height:1.5;color:var(--ink)}
+.ftree .p small{display:block;font-size:12.5px;color:var(--ink-2)}
+.ftree .p.read{border-left:4px solid var(--accent);background:var(--accent-wash)}
+.ftree .p.tree{border:1px dashed var(--ochre)}
+.ftree .p.unk{border:1px dashed var(--terra);color:var(--terra);background:transparent}
+.ftree .kids{margin-top:10px;font-size:13px;line-height:1.55;color:var(--ink-2)}
+.ftree .join{text-align:center;font-size:13.5px;color:var(--ink-3);padding:2px 0}
+.ftree .join.maybe{color:var(--ochre);font-weight:600}
+.ftree .join:before{content:"\2193  "}
+.ftree .sibs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:4px}
+.ftree .sibs .p{margin-top:0;text-align:center}
+.treekey{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-family:var(--sans);font-size:13px;color:var(--ink-2)}
+.treekey span{display:inline-flex;align-items:center;gap:7px}
+.treekey i{display:inline-block;width:26px;height:14px;border-radius:2px;border:1px solid var(--rule-strong);background:var(--panel-2)}
+.treekey i.read{border-left:4px solid var(--accent);background:var(--accent-wash)}
+.treekey i.tree{border:1px dashed var(--ochre)}
+.treekey i.unk{border:1px dashed var(--terra);background:transparent}
+@media (max-width:700px){.ftree .row{grid-template-columns:1fr}.ftree .sibs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
 <body>
@@ -356,6 +380,61 @@ svg.map text{font-family:var(--sans);fill:var(--ink-2)}
       </svg>
     </section>
 
+    <section class="blk" id="maybe-tree">
+      <h2>A tentative family tree: a “maybe”</h2>
+      <p class="dek">Drawn on 17 October from FamilySearch’s Family Tree and checked, where it could be, against the parish baptism register. It shows the best candidate line, not a proven one. Everyone in it died long ago.</p>
+      <div class="treekey" aria-label="Key">
+        <span><i class="read"></i>Read in a document or register image</span>
+        <span><i class="tree"></i>Tree entry only, no source</span>
+        <span><i class="unk"></i>Not known</span>
+      </div>
+
+      <div class="ftree">
+        <div class="row">
+          <div class="fam">
+            <span class="lab">Vid’s parents</span>
+            <div class="p tree">Ivan Spudić, b. 1801<small>Tree entry only. The 1846 baptism names “Joannes Spudich of Leskovac”, house number read as 16.</small></div>
+            <div class="p tree">Ana Maglić, 1806–1852<small>The 1846 baptism names “Anna née Maglich”. Married about 1829 (tree only).</small></div>
+            <p class="kids">Children in the tree: Petar (1830), Katarina (1831–40), Ana (1832–57), Margareta (1834–35), Barbara (1836–48), Suzana (1839–41), Katarina (1840–42), Jelena (b. 1842), Katarina (b. 1844), and Vid.</p>
+          </div>
+          <div class="fam">
+            <span class="lab">Dorotea’s parents</span>
+            <div class="p tree">Josip Polović, b. 1810<small>The 1846 baptism names “Josephus Polovich of Novaki”.</small></div>
+            <div class="p tree">Barbara Jurčević, b. 1815<small>The 1846 baptism names Barbara “nata Jurcevich” (surname reading partly uncertain).</small></div>
+            <p class="kids">The tree gives their marriage as 26 November 1832. <strong>Not supported:</strong> the 1832 marriage page in the register (image 464) has six entries and the last is 26 September 1832, a widower Thomas Gojak and a widow Barbara; the marriage may be a different year. Children in the tree: Juraj (b. 1836), Jelena (b. 1838), Josip (1841–43), Nikola (1844–51), and Dorotea.</p>
+          </div>
+        </div>
+        <div class="join">children</div>
+        <div class="row">
+          <div class="fam">
+            <span class="lab">Candidate father</span>
+            <div class="p read"><strong>Vid Spudić</strong>, b. mid-November 1846, Leskovac<small>Baptism read: “Vitus, filius legitimus”, register images 80–81. Tree gives 15 November.</small></div>
+          </div>
+          <div class="fam">
+            <span class="lab">Candidate mother</span>
+            <div class="p read"><strong>Dorotea (Dora) Polović</strong>, b. 4 June 1846, Novaki<small>Baptism read: “Dorothea, filia legitima”, register image 78, entry 21.</small></div>
+          </div>
+        </div>
+        <div class="p tree" style="text-align:center">Married 27 November 1867 at Leskovac<small>Tree entry only. The marriage books after 1857 are not online, so this is unverified.</small></div>
+        <div class="join maybe">maybe: Janko’s baptismal entry names his parents as Vid Spudić and Dora Polović, so these two are candidates, nothing more</div>
+        <div class="fam">
+          <span class="lab">Janko and his four brothers and sisters</span>
+          <div class="p read"><strong>Janko Spudić</strong>, b. 6 October 1891, Leskovac, house 10; d. 25 November 1957, Mount Olive, Illinois<small>Baptismal certificate and death record in hand. His father is “Vid” on the baptism and “Stephen” on the death record.</small></div>
+          <div class="sibs" style="margin-top:8px">
+            <div class="p unk">Sibling 1<small>?</small></div>
+            <div class="p unk">Sibling 2<small>?</small></div>
+            <div class="p unk">Sibling 3<small>?</small></div>
+            <div class="p unk">Sibling 4<small>?</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="notclaimed">
+        <span class="lab">What would turn this “maybe” into a finding</span>
+        <p>Three things, in order of strength. (1) Janko’s own baptismal entry in the 1891 register, if it gives the parents’ names in full and ties them to Vid Spudić’s 1846 family; the certificate copy already says Vid and Dora Polović, but does not name the grandparents. (2) The 1867 marriage entry of Vid and Dorotea and the baptisms of their children, 1868 to 1891, which sit in post-1857 books that are not online (the letters below ask for them). (3) A house-number trail: Vid’s parents were at house 16 in 1846 and Janko was born at house 10 in 1891, so a record showing Vid at house 10 would close that gap. The tree is not wrong to suggest the pair; it only has no source behind it yet.</p>
+      </div>
+    </section>
+
     <section class="blk" id="next">
       <h2>What would move this forward</h2>
       <p class="dek">Ranked by how directly each step reaches the four names. The first two cost nothing to start.</p>
@@ -446,7 +525,7 @@ svg.map text{font-family:var(--sans);fill:var(--ink-2)}
         <li><strong>Read:</strong> the baptismal certificate, 1939 certificate and 1957 death record supplied; the Macoupin County ILGenWeb Calvary Cemetery page R–S (all Spudic/Spudick rows, and the photographs of the John Sr./Anna C., Marko/Mary and Spudick stones); the WPA Calvary page (no Spudic or Polovich); the Acta Croatica pages for Spudić and Leskovac Barilovićki; the rodoslovlje.hr surname list; the Record Atlas place file for Leskovac and its HDA holdings.</li>
         <li><strong>FamilySearch (signed in by the requester), index searches only:</strong> Spudic/Spudich in Illinois deaths, in Macoupin County for people born 1880–1900 (all of the 76 results scanned), and for deaths in 1930 (the first page of 1,534 results, which surfaced Marco Spudich’s death certificate). Opened in full: Janko’s 1957 newspaper-obituary index entry, Miss Barbara Spudic’s 1935 obituary index entry, and Janko’s 1930 census record. A catalogue search for Leskovac returned nothing; a Croatia Church Books search for a Spudic born at Leskovac returned nothing, as expected for a collection that stops in 1857 here.</li>
         <li><strong>Ellis Island, FamilySearch index:</strong> Spudic and variants, born 1888–1894 (53 results scanned in part); four records opened in full (Janko 1913, Mijo 1909, Ivan 1904, Iwan 1912, Miko 1912). FamilySearch’s Family Tree has a person for Janko (GBGQ-YRV) with wife Anna and son William only, no parents or siblings. The Genealogies and IGI results for Spudić at Leskovac name no Vid or Dora; the IGI extracts that surfaced are for Kolenovac, Piščetke and Dubovac. One Spudić–Polović marriage appears in a Michigan family tree (Anna Spudic, 1873–1972, wife of Matthew Polovich); she outlived Janko, so she is not one of the four.</li>
-        <li><strong>Family Tree and the 1846 register (17 October):</strong> FamilySearch’s Family Tree entries for Vid Spudić (born 1846) and Dorotea Polović (born 1846), then the parish register itself at images 78 and 81 of the volume, read at zoom. Both baptisms are there with the parents the tree names (see the <a href="#candidate-couple">candidate couple</a>). Only those entries were read; the rest of the volume is unread. MyHeritage showed a security check (a CAPTCHA) partway through, so the Curlovic and Borovac–Duga Resa trees were not opened.</li>
+        <li><strong>Family Tree and the 1846 register (17 October):</strong> FamilySearch’s Family Tree entries for Vid Spudić (born 1846) and Dorotea Polović (born 1846), then the parish register itself at images 78 and 81 of the volume, read at zoom. Both baptisms are there with the parents the tree names (see the <a href="#candidate-couple">candidate couple</a>). Only those entries were read; the rest of the volume is unread. The first marriage page of the same volume (image 464, 1832) was also read, to test the tree’s date for Dorotea’s parents; see the tentative tree. MyHeritage showed a security check (a CAPTCHA) partway through, so the Curlovic and Borovac–Duga Resa trees were not opened.</li>
         <li><strong>Searched with nothing found:</strong> a naturalization-index search for “Yanko Spudic”; a search for any record naming a Vid and a Dora Spudić as parents (the search tool’s wildcard matching returned unrelated noise, so this is a weak negative).</li>
         <li><strong>Later, public trees and indexes (17 October):</strong> Geni (the Spudić, Polović and Polovich surname pages, 67 and 30 profiles), MyHeritage and Findmypast (first page of results), Find a Grave and WikiTree. (An earlier note here said Find a Grave had no Spudic in Macoupin County; that was a false zero from the site’s location filter. Searched without it, there are dozens of Spudic, Spudich and Spudick memorials at Mount Olive, Benld and Staunton, including a John Spudic Sr., 1891–1957.) They name no father for Janko, and no tree entry names a Vid or Stephen as his father. A Vid Spudić born 8 January 1828 at Leskovac Barilovićki appears in unsourced trees but is recorded as dying in 1869, so he is at most an older relative. Ancestry’s Springfield Diocese sacramental index lists five Spudich-type marriages between 1917 and 1925, but opening a record needs a paid subscription. Find a Grave shows a Polović family from Žabljak near Karlovac buried at Mount Olive; no record yet links them to Dora.</li>
         <li><strong>Not done:</strong> the GenealogyBank page of the 1957 obituary (paid, third-party; I declined the redirect); the Ancestry records themselves (paywalled); the other Macoupin cemetery pages; other arrival lists and the manifest image itself; marriage indexes for Janko and Anna; the 1832–1857 Leskovac register images; every Croatian archive and parish office.</li>
