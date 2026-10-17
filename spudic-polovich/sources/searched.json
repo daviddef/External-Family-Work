@@ -188,5 +188,43 @@
       "macoupin"
     ],
     "note": "314 hits for Spudic and similar spellings (Latin forms: Joannis, Stephani, Thomae, Nicholai, Michaelis Spudic; baptisms of children). Results page masks dates and places; opening a record (e.g. 427663 'Joannem Spadich', marriage) or the 'Spudic Family Tree' person page (tree 188790393, person 312451317497) goes to Ancestry's 'Join' paywall, so no detail was read. Marriage filter 1917-1925 returned 5 index hits: Joannem Spadich, Helen, Bertha, George and Dorothy Spudich. These are only names; none is confirmed as Janko or Anna. Needs a paid Ancestry subscription, or a library edition (Ancestry Library at a public library often includes it), to read. The Diocese of Springfield archives (and Mt Olive parish) hold the originals."
+  },
+  {
+    "src": "Macoupin County ILGenWeb — marriage index page and partial groom list (surnames A-Z)",
+    "url": "https://macoupin.illinoisgenweb.org/marriage/groom.html",
+    "walked": true,
+    "outcome": "nothing",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "macoupin",
+      "marriage"
+    ],
+    "note": "Groom list spans c.1829-1898 only, so it cannot hold a c.1920-22 marriage; no Spudic-type surname. Other online indexes on the page (UIS/IRAD, state archives) stop at 1900/1905. A 1920s marriage is NOT in any free online county index found."
+  },
+  {
+    "src": "Macoupin County Clerk, Carlinville — certificate copies (information only; no request sent)",
+    "url": "https://macoupin.illinoisgenweb.org/marriage/index.html",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "macoupin",
+      "marriage"
+    ],
+    "note": "Genealogy copies of marriage certificates 1829-1963 cost $5.00 (certified $15.00). Macoupin County Courthouse, Carlinville IL 62626, 217-854-3214, Mon-Fri 8:30-4:30. Clerk's own online index covers records before 1916 only, so a c.1920-22 marriage needs a direct request."
+  },
+  {
+    "src": "FamilySearch Records search (Spudic marriages Macoupin/Illinois 1916-26; Janko Spudic, all records) with requester's login",
+    "url": "https://www.familysearch.org/search/record/results",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "familysearch"
+    ],
+    "note": "Every results page, even the simplest 'Janko Spudic' search, returned 'Something Went Wrong' (site error, not a nil). Retry later or run by hand."
   }
 ]
