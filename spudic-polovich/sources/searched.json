@@ -164,15 +164,15 @@
     "note": "Only 4 Spudić profiles (Vatroslav Spudić; Timothy L. Spudic managed by Karen Bonifacio). Polović page returned no usable content. Nothing on Janko or Dora."
   },
   {
-    "src": "Ancestry — free record search Janko Spudic b.1891",
-    "url": "https://www.ancestry.com/genealogy/records/results",
+    "src": "Ancestry (ancestry.com.au, requester logged in) — Janko Spudic b.1891 ±5 (13 results) and Polovich b.1860 ±20 (19,459 results, first page only)",
+    "url": "https://www.ancestry.com.au/search/?name=Janko_Spudic&birth=1891&birth_x=5-0-0",
     "walked": false,
-    "outcome": "not-established",
+    "outcome": "found",
     "when": "2026-10-17",
     "tags": [
       "spudic",
       "ancestry"
     ],
-    "note": "Blocked by a Cloudflare 'Just a moment' bot check; not attempted further (cannot complete bot-detection). Find a Grave and Geni pages show Ancestry-sourced census and index entries but nothing was read from Ancestry itself."
+    "note": "Janko: 13 hits - an Ancestry tree 'Spudic Family Tree' listing Janko / John Spudich b.1891 Yugoslavia (parents hidden), Ellis Island/Hamburg passenger lists, 1930/1940 censuses (likely other John Spudics), Find a Grave index; most field values were masked on the results page and no record was opened. Polovich: first page only; includes 'Illinois, U.S., Roman Catholic Diocese of Springfield Sacramental Records, 1853-1981' (hit: Nicholas Polovich). That collection covers Macoupin County parishes (Mt Olive) and is the best lead for Janko's c.1920-22 marriage and Anna's maiden name; not yet searched for Spudic. Earlier bot-check block was cleared by the requester logging in."
   }
 ]
