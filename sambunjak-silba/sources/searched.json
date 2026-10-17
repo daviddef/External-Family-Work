@@ -1,1 +1,37 @@
-[]
+[
+ {
+  "src": "FamilySearch — Hungary, Civil Registration, 1895-1980: surname Sambunjak (exact) and Sambugnak (exact)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6624-5ZDS",
+  "pages": "search results read in full (46 + 36); image 549 of 816 viewed, not read",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "budapest",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — Antal Sambunjak death in Hungary or Croatia: no entry in the exact-surname results",
+  "url": "https://www.familysearch.org/en/search/record/results?q.surname=Sambunjak&q.surname.exact=on",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "Findmypast — surname Sambunjak with variants, first results page only",
+  "url": "https://www.findmypast.com.au/search/results?lastname=sambunjak&lastname_variants=true",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "findmypast"
+  ]
+ }
+]
