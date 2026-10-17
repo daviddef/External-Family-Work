@@ -41,13 +41,14 @@
     "url": "https://www.familysearch.org/ark:/61903/3:1:9R2M-YW1",
     "waypoint": "9R2M-YW1",
     "walked": false,
-    "outcome": "not-opened",
+    "outcome": "nothing",
     "when": "2026-10-17",
     "tags": [
       "spudic",
       "leskovac",
       "familysearch"
-    ]
+    ],
+    "pages": "1, 12, 60, 120, 200, 260, 330 (sampled only)"
   },
   {
     "src": "FamilySearch — New York, Passenger Arrival Lists (Ellis Island), 1892-1925, index search Spudic born 1888-1894; Janko Spudic 22 Apr 1913 record opened, manifest image not legible",
@@ -76,9 +77,9 @@
     "src": "FamilySearch — Croatia, Church Books 1516-1994, Leskovac-Barilovićki births/marriages 1832-1857, deaths 1782-1857: opened, title card only (image 1 of 644)",
     "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
     "waypoint": "9R2M-YW1",
-    "pages": "1",
+    "pages": "1, 12, 60, 120, 200, 260, 330 (sampled only)",
     "walked": false,
-    "outcome": "not-opened",
+    "outcome": "nothing",
     "when": "2026-10-17",
     "tags": [
       "spudic",
