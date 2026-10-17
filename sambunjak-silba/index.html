@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Sambunjak — Silba, Zemun &amp; Rijeka</title>
+<meta name="description" content="Where did Antun Sambunjak, a Danube steamship captain born on Silba in 1849, die? A research page for a descendant, started from a Croatian community post." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+<style>
+:root{
+  --ground:#EDEBE5; --panel:#F7F6F2; --panel-2:#E3E1D9;
+  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#7C8A91;
+  --rule:#D3D0C7; --rule-strong:#B6B2A6;
+  /* Pick a distinct accent per family so pages don't blur together across the index.
+     Vidaković & Vrban used a magenta (#8E2456). Apollonio & Champion used a teal (#2E6E7A).
+     Keep --accent-wash a very light tint of --accent for the confirmed-node fill. */
+  --accent:#5B3F9A; --accent-2:#7A5CB8; --accent-wash:#E9E3F3;
+  --ochre:#9A6B18; --terra:#A8442B;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --maxw:1080px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#B9A2E8; --accent-2:#CDBBF0; --accent-wash:#261D3A;
+  --ochre:#D2A24A; --terra:#D97A5F;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--serif);
+  font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3{text-wrap:balance;margin:0;font-weight:500;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.lab{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3)}
+.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
+.lede{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink-2);
+  max-width:76ch;margin-top:4px}
+header.site{border-bottom:1px solid var(--rule-strong);background:var(--panel)}
+.sitein{padding:16px 0}
+.brand{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--ink);text-decoration:none}
+.brand em{font-style:italic;font-weight:400;color:var(--accent)}
+main{padding:0 0 90px}
+.pagehead{padding:56px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:38px}
+.pagehead h1{font-size:clamp(32px,5.6vw,54px);line-height:1.06;margin-top:14px}
+.lead{margin-top:20px;font-size:17.5px;max-width:72ch}
+section.blk{padding:40px 0;border-bottom:1px solid var(--rule)}
+section.blk:last-child{border-bottom:0}
+section.blk h2{font-size:clamp(23px,3vw,32px)}
+section.blk > .dek{margin-top:10px}
+section.blk > p + p,section.blk > p + .note,section.blk > .note + p,
+section.blk > p + table,section.blk > p + blockquote,section.blk > p + .grid,
+section.blk > .note + .note{margin-top:1.15rem}
+.grid{display:grid;gap:14px}
+.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:700px){.grid.three{grid-template-columns:1fr 1fr;gap:8px}}
+@media (max-width:460px){.grid.three{grid-template-columns:1fr}}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:18px 18px 20px}
+.stat .n{font-family:var(--serif);font-size:34px;line-height:1.1;font-weight:500;color:var(--terra)}
+.stat .l{font-family:var(--sans);font-size:12.5px;line-height:1.45;color:var(--ink-2);margin-top:10px}
+.note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
+  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
+.notclaimed{border-left:3px solid var(--terra);background:var(--panel);padding:14px 18px;margin:18px 0}
+.notclaimed .lab{color:var(--terra);display:block;margin-bottom:6px}
+table.kv{width:100%;border-collapse:collapse;margin-top:6px}
+table.kv th{width:11.5rem;text-align:left;vertical-align:top;font-family:var(--sans);
+  font-size:12.5px;font-weight:600;color:var(--ink-2);padding:10px 16px 10px 0;border-top:1px solid var(--rule)}
+table.kv td{vertical-align:top;padding:10px 0;border-top:1px solid var(--rule);font-size:16.5px;line-height:1.55}
+table.kv tr:first-child th,table.kv tr:first-child td{border-top:none}
+@media (max-width:640px){
+  table.kv th{width:auto;display:block;padding-bottom:0;border-top:none}
+  table.kv td{display:block;padding-top:2px}
+  table.kv tr{display:block;border-top:1px solid var(--rule);padding:8px 0}
+  table.kv tr:first-child{border-top:none}
+}
+blockquote{margin:18px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--ochre);
+  color:var(--ink-2);font-style:italic;font-family:var(--sans);font-size:15px;line-height:1.6}
+blockquote cite{display:block;margin-top:8px;font-style:normal;font-size:12.5px;color:var(--ink-3)}
+figure.doc{margin:1.2rem 0 0}
+figure.doc img{width:100%;max-width:520px;height:auto;display:block;border:1px solid var(--rule);
+  border-radius:3px;background:var(--panel)}
+figure.doc figcaption{font-family:var(--sans);font-size:12px;line-height:1.5;color:var(--ink-3);
+  margin-top:10px;max-width:60ch}
+ul.plain{list-style:none;padding:0;margin:12px 0 0;font-size:16px}
+ul.plain li{padding:8px 0;line-height:1.5;border-bottom:1px solid var(--rule)}
+ul.plain li:last-child{border-bottom:none}
+.btn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;font-weight:600;
+  text-decoration:none;border-radius:3px;padding:11px 16px;background:var(--accent);color:#FBF8F1;
+  border:1px solid var(--accent)}
+.btn:hover{background:var(--accent-2);border-color:var(--accent-2)}
+footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;background:var(--panel)}
+.foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
+.foot.dim{color:var(--ink-3);margin-top:10px}
+.tree{margin-top:1.6rem;overflow-x:auto;padding-bottom:4px}
+.tree .gen{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;position:relative;padding-top:22px}
+.tree .gen:first-child{padding-top:0}
+.tree .gen:not(:first-child)::before{content:"";position:absolute;top:0;left:50%;width:1px;height:22px;
+  background:var(--rule-strong)}
+.tree .genlab{width:100%;text-align:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.tree .node{background:var(--panel);border:1.5px solid var(--rule-strong);border-radius:4px;
+  padding:12px 16px;font-family:var(--sans);text-align:center;min-width:168px;max-width:230px;flex:0 1 auto}
+.tree .node .name{font-family:var(--serif);font-size:16.5px;color:var(--ink);display:block;line-height:1.25}
+.tree .node .meta{color:var(--ink-3);font-size:11px;line-height:1.5;margin-top:4px;display:block}
+.tree .node.confirmed{border-color:var(--accent);background:var(--accent-wash)}
+.tree .node.confirmed .name{color:var(--accent)}
+.tree .node.candidate{border-style:dashed;border-color:var(--rule-strong)}
+.tree .node.candidate .name{color:var(--ink-2)}
+.tree .pair{display:flex;align-items:center;gap:8px}
+.tree .pair .x{font-family:var(--serif);font-style:italic;color:var(--ink-3);font-size:14px}
+.tree .legend{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:24px;
+  font-family:var(--sans);font-size:11.5px;color:var(--ink-3)}
+.tree .legend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;
+  vertical-align:-1.5px;border:1.5px solid var(--accent);background:var(--accent-wash)}
+.tree .legend .sw.cand{border-style:dashed;border-color:var(--rule-strong);background:var(--panel)}
+@media (max-width:640px){.tree .node{min-width:130px;font-size:14px;padding:10px 12px}
+  .tree .node .name{font-size:15px}}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap sitein">
+    <a class="brand" href="#top">The <em>Sambunjak</em> Page</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap">
+    <div class="pagehead">
+      <div class="lab">Silba (Selve), Zadar County · Zemun (Semlin) · Rijeka (Fiume)</div>
+      <h1>Antun Sambunjak, Danube steamship captain</h1>
+      <p class="dek lead">Sanya Pleshakov asked the Croatian community where their great-grandfather died and which cemetery he may lie in. His birth and marriage are on record; his death is not. This page is a living, honest account of what the papers show and what is still missing.</p>
+    </div>
+
+    <section class="blk">
+      <div class="grid three">
+        <div class="stat"><div class="n">1849</div><div class="l">Born on Silba (then <em>Selve</em>), Dalmatia — birth entry shown below</div></div>
+        <div class="stat"><div class="n">1879</div><div class="l">Married in Zemun — marriage entry shown below</div></div>
+        <div class="stat"><div class="n">?</div><div class="l">Death, place and burial: <strong>not found</strong>. Family memory says Rijeka/Fiume, around WWI</div></div>
+      </div>
+    </section>
+
+    <section class="blk" id="request">
+      <h2>The original request</h2>
+      <blockquote>Dear community, I am looking for help to find out more about my great-grandfather—I’m curious where he died and in which cemetery he might be buried. I suspect possibly Rijeka, which I am hoping to visit next year. Lidija Sambunjak helped me find his birth and marriage records, but his death is still a mystery to me.
+        <br><br>His name was Antonio Giovanni Maria Vincenzo Sambunjak born on June 13, 1849, in Silba, Zadar, Croatia. He married Marija Josefina Sonnleitner on May 26, 1879, in Zemun. They had 12 children and he worked as a captain for the Danube Steamship company, Donaudampfschiffahrtsgesellschaft. Before my dad passed away, he told me that my great grandfather and some family members fled to Rijeka/Fiume during WWI and that he probably died around that time. (One of his daughters Marija Ana Sambunjak stayed in Rijeka and married a man from Zadar.)
+        <br><br>Any hints would be greatly appreciated.
+        <cite>Sanya Pleshakov, Facebook community post, October 2026</cite></blockquote>
+      <blockquote>Fled to Rijeka during WW1 ?????!!!
+        <cite>Mato Uta Grujo, reply to the post</cite></blockquote>
+      <table class="kv" style="margin-top:20px">
+        <tr><th>Who</th><td>Antonio Giovanni Maria Vincenzo Sambunjak (written <em>Sambugnak</em>, <em>Sambugnai</em> and <em>Anton Sambugnak</em> in the records)</td></tr>
+        <tr><th>Born</th><td>13 June 1849, Silba, Zadar</td></tr>
+        <tr><th>Married</th><td>26 May 1879, Zemun, to Marija Josefina Sonnleitner</td></tr>
+        <tr><th>Work</th><td>Captain, Danube Steamship Company (DDSG)</td></tr>
+        <tr><th>Children</th><td>12, per the post; one daughter, Marija Ana, stayed in Rijeka and married a man from Zadar</td></tr>
+        <tr><th>The question</th><td>Where did he die, and where is he buried?</td></tr>
+      </table>
+    </section>
+
+    <section class="blk" id="next">
+      <h2>What would move this forward</h2>
+      <ul class="plain">
+        <li><strong>1.</strong> A death entry in Rijeka (Fiume) for roughly 1914–1925. Rijeka was governed from Budapest until 1918, then was Italian/Free State territory, so the register language and the holding archive change with the date. Start with the Rijeka civil registry office (<em>matični ured</em>) and the State Archive in Rijeka.</li>
+        <li><strong>2.</strong> The Rijeka cemetery operator, KD Kozala, which keeps the burial registers. Kozala itself dates from 1838. Ask whether they can search by name.</li>
+        <li><strong>3.</strong> Marija Ana’s own records (her marriage, and her death) — a daughter who stayed in the city is the likeliest door to the father’s burial.</li>
+        <li><strong>4.</strong> The two community voices who know the area: Lidija Sambunjak, who found the first records, and anyone who can read the Rijeka registers.</li>
+      </ul>
+    </section>
+
+    <section class="blk" id="documents">
+      <h2>The five images supplied with the post</h2>
+      <p class="dek">Described as they appear. Readings of handwriting are mine and marked where uncertain.</p>
+
+      <h3 style="margin-top:28px">1 · The portrait (front)</h3>
+      <figure class="doc"><img src="images/portrait-front-zemun.webp" alt="Studio portrait of an older bearded man in a dark uniform with epaulettes and a medal on a ribbon" />
+        <figcaption>Cabinet card, printed “Atelier Gatter, Zemun, glavna ulica broj 13”. Uniform with epaulettes and a decoration on a striped ribbon. The decoration is not identified here.</figcaption></figure>
+
+      <h3 style="margin-top:28px">2 · The card (back)</h3>
+      <figure class="doc"><img src="images/portrait-back-fiume.webp" alt="Back of a cabinet card printed Atelier Fotografico G. Lovrovich, Fiume, Viale Deak 20" />
+        <figcaption>Printed “Atelier Fotografico G. Lovrovich, Fiume, Viale Déak 20, vis-à-vis Slazion[e]”, in Italian, Hungarian and German.</figcaption></figure>
+      <div class="notclaimed"><span class="lab">Not claimed</span>
+        The front names a Zemun studio and the back names a Fiume studio. They may be two different cards, or a Fiume copy of a Zemun original. It is also not shown in what I was given that this man is Antun; that identification comes from whoever supplied the photograph. One question for Sanya is whether these are the same physical card. If the Fiume print is real, it is a small piece of evidence for the family being in Fiume at some point.</div>
+
+      <h3 style="margin-top:28px">3 · Marriage entry, Zemun, 1879</h3>
+      <figure class="doc"><img src="images/marriage-zemun-1879.webp" alt="Handwritten marriage register entry number 39, 1879, Zemun, Anton Sambugnak and Marija Josefina Sonnleitner" />
+        <figcaption>Entry no. 39 in a Croatian-language register. The page is a different hand and layout from the birth register below.</figcaption></figure>
+      <table class="kv">
+        <tr><th>Date</th><td>1879, late May (the post gives 26 May; the day number is hard to read in the image)</td></tr>
+        <tr><th>Groom</th><td>Anton Sambugnak, <em>službenik kod parobrodarskog društva</em> (employee of the steamship company); native of “Selve u Dalmaciji”; resident in Zemun; Roman Catholic; 30; unmarried</td></tr>
+        <tr><th>Bride</th><td>Marija Josefina Sonnleitner; from <strong>Budapest</strong>; resident in Zemun; Roman Catholic; 18; unmarried</td></tr>
+        <tr><th>Witnesses</th><td><strong>Anton Silvestrić, <em>brodarski kapetan</em></strong> (ship’s captain) and Dragutin Helmling, citizen of Zemun</td></tr>
+        <tr><th>Banns</th><td>Read three times</td></tr>
+        <tr><th>Notes</th><td>On this date he is already in the steamship company, but as an employee, not yet a captain. “Selve” is the Italian name of Silba.</td></tr>
+      </table>
+
+      <h3 style="margin-top:28px">4 · Birth entry, Selve, 1849</h3>
+      <figure class="doc"><img src="images/birth-selve-1849.webp" alt="Italian-language birth register of the parish of S. Marco, commune of Selve, district and circle of Zara; red arrow at entry 32" />
+        <figcaption>“Libro degli atti di nascita della Parrocchia di S. Marco, Comune di Selve, Distretto di Zara, Circolo di Zara.” Red arrow at entry 32 (not mine).</figcaption></figure>
+      <table class="kv">
+        <tr><th>Entry 32</th><td>Born 13 June 1849, 5 p.m.; baptised 17 June. Child: <strong>Antonio Giovanni Maria Vincenzo</strong>, legitimate</td></tr>
+        <tr><th>Parents</th><td>Father: Antonio Giovanni Maria Sambugnai (I read “Sambugnai”). Mother: Elena Carolina, surname read as “Cazzanigo” (uncertain)</td></tr>
+        <tr><th>Parents’ marriage</th><td>26 August 1846 (the place is unclear in my reading)</td></tr>
+        <tr><th>Namesake</th><td><strong>Entry 31</strong>, a few lines above, is a different baby, “Antonio Giovanni Maria”, born about 9 June 1849 to other parents. A margin note reads as dying 25 Nov 1849. The post’s man is entry 32 (the full four-part name matches); anyone searching on “Antonio Giovanni Maria” alone could land on the wrong child.</td></tr>
+      </table>
+
+      <h3 style="margin-top:28px">5 · Family register, Selve, house no. 89</h3>
+      <figure class="doc"><img src="images/family-register-selve-no89.webp" alt="Italian-language family register page 15, Selve, red arrow at household number 89 of the Sambugnak family" />
+        <figcaption>“Indicazione degl’individui componenti la famiglia”, page 15, house 89. Red arrow is not mine. The scan is marked “Razlivena tinta / smeared ink” and is hard to read.</figcaption></figure>
+      <table class="kv">
+        <tr><th>Head</th><td>Gian Maria, son of the late Simeone Sambugnak, born 1789; wife Vincenza née Sforini (born 1793)</td></tr>
+        <tr><th>Next line</th><td>Their son Antonio (born 1823); then his children. One line reads “Leopoldo, son of Antonio and Elena Cazzanigo”, born 14 Nov 1847; another “Antonio, son of the first marriage”, born 13 June 1849, our man</td></tr>
+        <tr><th>Siblings</th><td>Vincenzo (1852), Giovanni (1853), Gian Maria (1858), Sofia (1855), and later lines that are crossed out or unreadable. “Son of the first marriage” implies Antonio senior remarried after Elena Carolina.</td></tr>
+        <tr><th>Margin notes (right)</th><td>Several later notes in a different hand, which I can only partly read: <strong>“Altofen”</strong> (the German name of Óbuda in Budapest) with 22/3 1875; <strong>“Zemlin”</strong> (Semlin, Zemun) with 20/2 1884; and a Croatian line that may say a man married in Hungary. I have not been able to tie any note to a particular row. Treat all of this as a lead, not a reading.</td></tr>
+      </table>
+      <p class="note" style="margin-top:14px">The Óbuda note fits the bride’s Budapest origin and the known DDSG yard at Óbuda, but that is my inference. Needs a better scan.</p>
+    </section>
+
+    <section class="blk" id="spine">
+      <h2>The spine</h2>
+      <div class="tree">
+        <div class="gen"><div class="genlab">Silba, born c.1789–1793</div>
+          <div class="pair"><div class="node confirmed"><span class="name">Gian Maria Sambugnak</span><span class="meta">b. 1789, son of Simeone, Selve no. 89</span></div><span class="x">×</span><div class="node confirmed"><span class="name">Vincenza Sforini</span><span class="meta">b. 1793</span></div></div></div>
+        <div class="gen"><div class="genlab">Silba, born 1823</div>
+          <div class="pair"><div class="node confirmed"><span class="name">Antonio Sambugnak</span><span class="meta">b. 1823; married 1846 (first marriage)</span></div><span class="x">×</span><div class="node confirmed"><span class="name">Elena Carolina “Cazzanigo”</span><span class="meta">surname uncertain</span></div></div></div>
+        <div class="gen"><div class="genlab">Silba 1849 → Zemun</div>
+          <div class="pair"><div class="node confirmed"><span class="name">Antonio Giovanni Maria Vincenzo Sambunjak</span><span class="meta">b. 13 Jun 1849 · death unknown</span></div><span class="x">×</span><div class="node confirmed"><span class="name">Marija Josefina Sonnleitner</span><span class="meta">b. c.1861, Budapest · m. 1879</span></div></div></div>
+        <div class="gen"><div class="genlab">Twelve children</div>
+          <div class="node candidate"><span class="name">Marija Ana Sambunjak</span><span class="meta">stayed in Rijeka; married a man from Zadar (per post)</span></div>
+          <div class="node candidate"><span class="name">Eleven others</span><span class="meta">not yet named</span></div></div>
+        <div class="legend"><span><i class="sw"></i>Documented in an image above</span><span><i class="sw cand"></i>From the post only</span></div>
+      </div>
+    </section>
+
+    <section class="blk" id="context">
+      <h2>Where to look next, and why the records are hard</h2>
+      <ul class="plain">
+        <li><strong>Rijeka was governed from Budapest.</strong> From 1779 to 1918 it was a Hungarian <em>corpus separatum</em>. Its administrative records are Hungarian, which is why Hungarian portals find them and Croatian catalogues sometimes do not. <em>(Record Atlas region note, Kvarner.)</em> From 1918 to 1943 it was Italy or the Free State, and Sušak went to Yugoslavia. A death in the war years can therefore be filed under Hungary, Italy or Croatia depending on the day.</li>
+        <li><strong>Modern civil registers.</strong> Under the Croatian rule, post-1860 registers went to the civil registry offices and only those up to 1860 to the state archives (Milić 2017, as cited in Record Atlas). So a post-1914 death is probably <em>not</em> in an archive catalogue at all. The catalogue’s silence says nothing about the book. Ask the Rijeka <em>matični ured</em>.</li>
+        <li><strong>State Archive in Rijeka</strong> (<a href="https://portal.ehri-project.eu/institutions/hr-002215">EHRI entry</a>) holds fonds from the Italian period onward, including prefecture material. The list of refugees from Rijeka and Sušak is catalogued under a Croatian-Slavonian government fonds (<a href="https://www.womenonthemove.eu/catalogue-primary-so/list-of-refugees-from-rijeka-and-susak-emigration-collection-of-the-department-for-the-internal-affairs-of-the-royal-croatian-slavonian-government-department-for-istria">catalogue entry</a>). I have not opened it; it may concern a later emigration, not 1914.</li>
+        <li><strong>Cemeteries.</strong> KD Kozala runs Rijeka’s municipal cemeteries (Kozala, the oldest, opened 1838). No online name lookup turned up in a first search, so the way in is a direct enquiry.</li>
+        <li><strong>Zemun and the war.</strong> Zemun faced Belgrade across the Sava, so it sat on the front line from July 1914. That would explain why a family might leave. I have not sourced a specific evacuation, and a Zemun death is still possible, so Zemun’s Catholic death registers matter as much as Rijeka’s.</li>
+        <li><strong>The steamship company.</strong> DDSG employee records, if they survive, would give his retirement or death. The 1879 witness, <em>Anton Silvestrić</em>, a ship’s captain, is another thread.</li>
+      </ul>
+      <p class="note" style="margin-top:14px">Record Atlas has a place file for Zemun (catalogued under the Military branch of “Croatia, Church Books” on FamilySearch, though the town is in Serbia) but none for Silba or Rijeka, and no catalogued volumes were checked for this page. This is a first desk pass, not a register search.</p>
+    </section>
+
+    <section class="blk" id="names">
+      <h2>A note on names and places</h2>
+      <table class="kv">
+        <tr><th>Surname</th><td>Sambunjak (modern) · Sambugnak · Sambugnai · Sambugnaj (Italian-style clerks); search all of them, plus Cyrillic Самбуњак</td></tr>
+        <tr><th>Given name</th><td>Antonio · Anton · Antun · Ante · Antal (Hungarian) · Anton</td></tr>
+        <tr><th>Silba</th><td>Selve (Italian, on both the 1849 books and the 1879 marriage)</td></tr>
+        <tr><th>Zemun</th><td>Semlin (German) · Zimony (Hungarian) · Zemlin (as in the margin note)</td></tr>
+        <tr><th>Rijeka</th><td>Fiume (Italian) · Reka; 1918–1924 the Free State of Fiume</td></tr>
+        <tr><th>Country</th><td>Dalmatia in 1849 and Zemun in 1879 are <strong>Austria / Austria-Hungary</strong>, not Croatia/Serbia/Yugoslavia. Rijeka before 1918 is filed under <strong>Hungary</strong>.</td></tr>
+        <tr><th>The company</th><td>DDSG: Donau-Dampfschiffahrts-Gesellschaft; Croatian <em>Prvo dunavsko parobrodarsko društvo</em></td></tr>
+      </table>
+    </section>
+
+    <section class="blk" id="scope">
+      <h2>What this page is, and is not</h2>
+      <p>A first pass: the post and its five images, read as carefully as the scans allow, plus a short desk check of where Rijeka’s records sit. No register has yet been searched for a death, and no death has been found. Names of living people are limited to the poster and the community members who took part in the thread. Transcriptions are mine and fallible; corrections from anyone who reads these scripts natively are very welcome.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p class="foot">Put together as a favour — not an archive of record.
+    <strong>Corrections, photographs, and better readings are welcome.</strong></p>
+    <p class="foot dim">Antun Sambunjak (b. Silba 1849, m. Zemun 1879) · death unknown, possibly Rijeka c. WWI.</p>
+  </div>
+</footer>
+</body>
+</html>
