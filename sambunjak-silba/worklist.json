@@ -47,7 +47,7 @@
   "id": "budapest-link-test",
   "task": "Decide whether Antal Sambunjak of Budapest is the Silba-born captain",
   "status": "blocked",
-  "detail": "Mother Mária Sonnleitner matches the 1879 bride; daughter Ilona b. 24 Aug 1886 fits. Unproven. Tree profiles PZB8-SX8 (Antal), PZB8-Z3X (Mária), PZBZ-TXS (Ilona) have no parent dates; added April 2026 by contributor 'Zsuzsanna T.' via FamilySearch. Updated: 1917 page spells the witness Sambugnak and places the bride in Zemun, strengthening the link.",
+  "detail": "Mother Mária Sonnleitner matches the 1879 bride; daughter Ilona b. 24 Aug 1886 fits. Unproven. Tree profiles PZB8-SX8 (Antal), PZB8-Z3X (Mária), PZBZ-TXS (Ilona) have no parent dates; added April 2026 by contributor 'Zsuzsanna T.' via FamilySearch. Updated: 1917 page spells the witness Sambugnak and places the bride in Zemun, strengthening the link. 1964 death entry gives Ilona born in Zimony 1886: very likely the same family; still no document stating Antal = the Silba-born captain.",
   "updated": "2026-10-17"
  },
  {
@@ -81,14 +81,22 @@
  {
   "id": "sandor",
   "task": "Trace Sándor Sambugnak/Sambunjak, Budapest I, Fehérvári út 17 (1917 witness)",
-  "status": "not-started",
-  "updated": "2026-10-17"
+  "status": "blocked",
+  "updated": "2026-10-17",
+  "detail": "Not in FamilySearch index under Sambugnak/Sambunjak (fuzzy search returned only Sárdi noise). Try other spellings (Szambugnak, Sambugnák) or Budapest address books; Budapest I, Fehérvári út 17 in 1917."
  },
  {
   "id": "ilona-1964",
   "task": "Open Ilona's 1964 Budapest death entry (FamilySearch ark 1:1:6P1R-JW2K / 6P1D-747Y)",
+  "status": "done",
+  "detail": "Read 17 Oct 2026: entry 806, image 64/131 Budapest Death Records 1964. Born Zimony 24 Aug 1886 (day uncertain), parents Sambunjak Antal and Sonnleitner Mária, wife of Mészáros Károly. Parents carry no dates.",
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "ilona-1886-birth",
+  "task": "Find Ilona's 1886 birth/baptism entry in Zemun (24 Aug 1886) for the father's occupation",
   "status": "not-started",
-  "detail": "Parents indexed as Sambünjak Antal and Sonnleitner Mária; check for notes on parents' deaths.",
+  "detail": "Zemun civil Catholic books 1886 not on FamilySearch (catalogue shows only Austrian army books). Would name Antal's occupation (captain?) and give godparents.",
   "updated": "2026-10-17"
  }
 ]

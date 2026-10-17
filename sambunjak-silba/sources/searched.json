@@ -68,5 +68,30 @@
    "rijeka",
    "familysearch"
   ]
+ },
+ {
+  "src": "FamilySearch — Hungary, Civil Registration, Budapest Death Records 1964, entry 806 (Ilona Sambünjak, born Zimony 1886)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6P1R-JW2K",
+  "pages": "image 64 of 131, one entry read",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "budapest",
+   "zemun",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — Sándor Sambugnak; parents Sambunjak + Mária Sonnleitner search",
+  "url": "https://www.familysearch.org/en/search/record/results?q.motherSurname=Sonnleitner&q.fatherSurname=Sambunjak",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "familysearch"
+  ]
  }
 ]
