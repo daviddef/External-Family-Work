@@ -341,5 +341,20 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki marriages 1832-1857, book II, second pass: images 473-477, 500-505 read (right pages in full, some left pages only in part); Jure Polović (Gerčak) 1851 re-read; Spudić brides 1856 on 504-505; 478-490 and 506-515 not read",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "473-477, 500-505 (partly); 468-472, 492-497, 499 read earlier; 478-490, 506-515 not read",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]

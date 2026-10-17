@@ -123,3 +123,23 @@ Right page (1855): 17 Listopada 1855 "Mato Zubić ml. iz Barilovića Nº 4 s dje
 ## 503 (28 Studenog 1855, ark as above) — read right page fully, left page partly (names column, 4 entries)
 Right page (all 28 Studenog 1855): "Ivo Bernar(d)ić ml. iz Malinca … + Benov… Nº … Novaka" (witnesses 'Miko Katalamić? i Janko Stiščak'); "Marko Petrović ml. iz Leskovca Nº 42 s …" (age 20/16), **witnesses "Mato Spu(dić) i Marko Špudić(?)"** [the witness column reads 'Mato Spudić' and 'Marko Spudić' — I read this at about 3x and it is probable, not certain]; "Joso Matković ml. iz …" (witness 'Marko Matkovič'/'Marac Miko Matković'); "Janko Mati…" (witnesses 'Tomo Spudić Čavlović?'); further Matković/Beš entries.
 Left page: **witness lines "Tomo Spudić iz Leskovca Nº 17(?) i Janko Čavlović"** (name column partly read) and "Daniel Car, Ha(vlovič)"; other names Matakovic, Slat, Marko Slat, Franko Slat of Novaki. Left-page names/ages mostly legible only in part. **Spudić appears as witnesses (Tomo; Mato; Marko) here, not as party** — but see caveat on legibility.
+
+## 504 (26 Studenog 1856; the 'i=' index of the ark was 503 at that moment — verify ark) — right page read fully; left page: names column partly, witness column read
+Right page, 26 Studenog 1856 (all entries from the same day), reading top to bottom:
+- "Tomo Marijač(?)/Marijanić … iz Križa Nº … s udovom Barom Marijač iz Križa Nº … Barilovićke" (ages 58/43?)
+- **"Tomo Ber[…]lavić ml. iz Dugorese(?) Nº 14 s djevojkom Jelom Spudić iz Leskovca"** (ages 21/17) — **a Spudić bride, Jela (Jelena), of Leskovac (house number not legible)**
+- **"Petar Polović ml. iz Jerčaka?/Gerčaka? Nº 6(?) s djevojkom Barom Kalavamić iz Novakah Nº … Barilovićke"** (ages 25/17) — **a Polović groom, Petar**
+- "Miko Hlašić? ml. iz Banskog sela Nº 8 s djevojkom Barom Stefanac iz Banskog sela Nº 5" (23/20)
+- "Miko Tergović ml. iz Barilovića Nº 8 s djevojkom Katom Tergović Nº 9 iz Barilovića" (25/17)
+- **"Miko Slat iz Novakah Nº 7 s udovom Katom Spudić Nº 5 iz Leskovca"** (ages 30/33) — **a Spudić widow, Kata, of Leskovac Nº 5**
+Left page: witness lines read "**Marko Spu[dić] … Dragšić**" and "**Jure Šeke[ta] i Tomo Spu[dić]**" (Spudić witnesses Marko and Tomo); parties' names not fully read: Vid Car(?), 50, widower + Banjavčić …; Miško … 31 + …; "Jo Kladušić(?) ml. iz Novakah Nº 4 s djev. Barom Matković iz Novakah"; Marko… ml. Barilović + …; others illegible at this zoom.
+
+## 505 (26 Studenog 1856) — right page read to the page foot (names column); left page only partly
+Right page: "Stjepo Belavić ml. iz Male Kravče(?) s djevojkom Bernom Penković iz Barilovića Nº 14" (19/15); "Mato Tergović iz Bela[ja] Nº 4? s udovom Dorom? Anom? iz Pečurkina sela Nº 1" (witness 'Juro Dobr…'); "Juro Salović udovac iz Salovića sela Nº 8 s djevojkom Katom Križanić Nº 1 iz Ivanovca?"; **"Juro Pušić(?) ml. iz Lijace? Nº 7 s djevojkom Janom Spudić Nº 5(?)/15 iz Leskovca"** (22/19) — **a Spudić bride, Jana, of Leskovac (house number read as 15 or 5)**; left-page witness lines: 'Miko Stojanović…', 'Joso Lazic…', 'Mijo Šeke(ta)', 'Juro Kolić i Mato Živčić'; left page also "Sandro (Šandro) Stefanac ml. iz Velimerice Nº 8 s djevojkom Barom Dobrinić iz Podvorica? Nº 9" and "Janko Živčić udovac iz Velimerice Nº 7 s udovom Barom Benković iz Boštá Nº 4". The left page was not read top to bottom.
+
+## Coverage summary for this pass (honest limits)
+- Read both pages in full (names column), with the usual legibility caveats: 468-471 (earlier), 472, 492-497, 499, 500, 501.
+- Read, but left page only partly: 473-477 (witness lines legible only in part), 498, 502, 503.
+- Right page read fully, left page partly: 504, 505.
+- NOT read at all: 478-490, 491 (right page), 506-515. (The read of 500-505 shows the 1853-56 pages; 506-515 would carry 1857 and the end of the marriage book, probably the last marriages are in 1857.)
+- Viewer note: the 'i=' value in the URL lags the visible image by one step right after a jump, so arks quoted above for 502-505 may belong to the previous image. The arks for 473, 474, 475, 476, 491, 492, 500, 501 were checked against the 'i=' value after a pause and are reliable.
