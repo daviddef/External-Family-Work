@@ -2,16 +2,18 @@
  {
   "id": "rijeka-death-1914-1925",
   "task": "Establish where Rijeka/Fiume death registers for c.1914-1925 are held and request a search for Antun Sambunjak",
-  "status": "not-started",
-  "detail": "Fiume was Hungarian-governed to 1918 (Record Atlas region note), Italian/Free State after. Candidates: Rijeka matični ured (civil registry), Državni arhiv u Rijeci (riarhiv.hr), FamilySearch catalogue for Fiume. Not yet checked beyond a general web search. FamilySearch catalogue: Rijeka parish item koha:722509 (26 films, HDA Zagreb) births to 1901, indexes to 1920; no 1917+ death volume seen, list not fully paged (pages 3-5 unread). Garrison book koha:1058780 is military only.",
-  "updated": "2026-10-17"
+  "status": "drafted",
+  "detail": "Fiume was Hungarian-governed to 1918 (Record Atlas region note), Italian/Free State after. Candidates: Rijeka matični ured (civil registry), Državni arhiv u Rijeci (riarhiv.hr), FamilySearch catalogue for Fiume. Not yet checked beyond a general web search. FamilySearch catalogue: Rijeka parish item koha:722509 (26 films, HDA Zagreb) births to 1901, indexes to 1920; no 1917+ death volume seen, list not fully paged (pages 3-5 unread). Garrison book koha:1058780 is military only. Letter drafted on page #errands (Croatian + English). Awaiting address confirmation and sending by Sanya.",
+  "updated": "2026-10-17",
+  "owner": "requester"
  },
  {
   "id": "kozala-cemetery",
   "task": "Ask KD Kozala (Rijeka cemetery operator) whether the grave registers can be searched by name",
-  "status": "not-started",
-  "detail": "No online lookup found in a first search; contact route not yet confirmed.",
-  "updated": "2026-10-17"
+  "status": "drafted",
+  "detail": "Letter drafted on page #errands. Contact address not confirmed.",
+  "updated": "2026-10-17",
+  "owner": "requester"
  },
  {
   "id": "ask-sanya-photo",
@@ -71,9 +73,10 @@
  {
   "id": "zemun-death-1917",
   "task": "Search Zemun Catholic parish death registers 1917-1940 for Antun/Anton Sambunjak (Sambugnak)",
-  "status": "blocked",
-  "detail": "FamilySearch catalogue (place Zemun, 17 Oct 2026) lists only 4 Austrian army church books (garrison 1870-1913, 1910-1914, field hospitals). No civil Catholic parish death book 1917+. Needs a request to Zemun registry office / Historical Archive of Belgrade (holder not yet confirmed). Draft letter possible.",
-  "updated": "2026-10-17"
+  "status": "drafted",
+  "detail": "FamilySearch catalogue (place Zemun, 17 Oct 2026) lists only 4 Austrian army church books (garrison 1870-1913, 1910-1914, field hospitals). No civil Catholic parish death book 1917+. Needs a request to Zemun registry office / Historical Archive of Belgrade (holder not yet confirmed). Draft letter possible. Letter drafted on page #errands (Serbian + English); holder of Zemun Catholic books unconfirmed.",
+  "updated": "2026-10-17",
+  "owner": "requester"
  },
  {
   "id": "sandor",
