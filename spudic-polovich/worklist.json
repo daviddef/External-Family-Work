@@ -106,5 +106,13 @@
     "owner": "requester",
     "detail": "Drafts on the page under #tree-letters. Send through each site's own message feature only. Not sent.",
     "updated": "2026-10-17"
+  },
+  {
+    "id": "group-reply",
+    "task": "Post a short update in the family-history group thread (draft given in the session; plain language, no living people named, links the page)",
+    "status": "drafted",
+    "owner": "requester",
+    "detail": "Say: Janko's 1891 baptism names Vid Spudić and Dora Polović; a Vid (b. 1846, son of Ivan Spudić and Ana Maglić) and a Dorotea Polović (b. 1846, Novaki) are in the 1846 register and the Family Tree has them marrying in 1867; NOT proven that they are Janko's parents (post-1857 books are not online); four siblings still unnamed; ask for any family papers or trees naming Vid, Dora or Janko.",
+    "updated": "2026-10-17"
   }
 ]
