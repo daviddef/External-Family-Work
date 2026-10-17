@@ -326,5 +326,20 @@
       "myheritage"
     ],
     "note": "FamilySearch record search still returns 'Something Went Wrong' for every query. MyHeritage returned a blank page (probably a bot check again). The HDA microfilm index's parish box stayed on 'Loading...' and showed the unfiltered list (typing did not filter it), so no query was run; this widget cannot be used reliably from the browser pane. Nothing was concluded. The only route to the HDA's microfilm holdings is an e-mail to info@arhiv.hr naming the parish, register type and years (the HDA page says to include the place, type, period, roll and topographic number)."
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki marriages 1832-1857, book II, images 468-472, 492-497, 499 read (both pages, names column, handwriting caveats), 473/491/498 partly; Vid Spudić marriage 2 Mar 1851 found on image 492 left page",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "468-472, 492-497, 499 (read); 473, 491, 498 (partly); 474-490 and 500-515 not read",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]
