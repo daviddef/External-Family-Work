@@ -100,5 +100,42 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "Geni — Spudic surname index (67 profiles, all 4 pages) + Polovich (30) / Polovic surname pages; opened Vid Spudic x2, Stephen John, Marko, Nicholas Spudich, George Jurg Spudich, Juraj (George) Polovic, Josip Polovic, Marko Polovic",
+    "url": "https://www.geni.com/surnames/people/spudic",
+    "walked": true,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovich",
+      "geni"
+    ],
+    "note": "No Geni profile links Janko (b.~1889-91) or Dora Polović. Both Geni 'Vid Spudić' profiles are Neretva-area (Metković/Lukovac) and do not fit. Stephen John Spudic is a US-born line (Taylor/VanSandt), no fit. Found a Polović family of Žabljak, Karlovac: Juraj (George) Polovic b.16 Mar 1885 Žabljak, d.6 Nov 1939 White City IL, buried Mt Olive; parents Josip Polovic (1853-1934) & Magdalena Grman; Josip's parents Janko Polovic & Barbara Biscan; siblings Marko (1876-1947), Ivan x2, Jana; wife Kata Valent, 10 children (Nicholas, Joseph, Mary Rita, Michael...). Managed by Curtis Gene Leonhardt. Link to Dora/Barbara Polovich NOT shown."
+  },
+  {
+    "src": "MyHeritage — historical-record and tree search 'Vid Spudic' and 'Janko Spudic b.1891 Croatia' (free results page only, first 20 each; 3.29M hits unfiltered, not walked)",
+    "url": "https://www.myheritage.com/research",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "myheritage"
+    ],
+    "note": "Trees list Vid Spudić b.8 Jan 1828 Leskovac Barilovićki (Curlovic tree: d.'1869?', son Mijo Josip 'Michael'; FamilySearch Family Tree: parents Johannes 'Janko' Spudić c.1801 & Ana Pavletić, wife Jelena Aršulić, daughter Jana, many siblings). All unsourced tree data. Also 1913 Ellis Island line (22 Apr 1913, Janko Spudic b.~1889, Leskovac, father Janko Spudic at home, joined brother Marko Spudic). Other Leskovac Vids (b.1715, c.1763, c.1771, c.1777, c.1829 m. Ana Radinović, 1839-41) are earlier or later generations."
+  },
+  {
+    "src": "Findmypast — Janko Spudic b.1891 ±5, World records",
+    "url": "https://www.findmypast.com.au/search/results?firstname=janko&lastname=spudic",
+    "walked": true,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "findmypast"
+    ],
+    "note": "6 hits, all US passenger and crew lists (1909, 1913 x3, 1942); nothing in BDM or census sets. No new information beyond the Ellis Island arrival already in hand."
   }
 ]
