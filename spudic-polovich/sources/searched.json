@@ -273,13 +273,13 @@
     "src": "MyHeritage — name search Dorotea Polovic b.1846 Croatia (to find a tree linking her to Vid Spudić)",
     "url": "https://www.myheritage.com/research",
     "walked": false,
-    "outcome": "not-established",
+    "outcome": "nothing",
     "when": "2026-10-17",
     "tags": [
       "spudic",
       "polovic",
       "myheritage"
     ],
-    "note": "Blocked by a MyHeritage 'Security check' CAPTCHA mid-session; not attempted further. The Curlovic and Borovac - Duga Resa trees were therefore not opened."
+    "note": "First attempt was blocked by a CAPTCHA; retried after the requester cleared it (17 Oct 2026). Results page: 536,313 hits for Dorotea Polovic b.1846 ±3 Croatia, first page of 20 read, with most values scrambled (free-tier display). The only 1846 hit is the FamilySearch Family Tree entry 'Dorotea Spudić (born Polović)' already read; no MyHeritage family tree is shown for her. The Curlovic and Borovac - Duga Resa trees were not opened. A hit page this size is weak evidence either way."
   }
 ]
