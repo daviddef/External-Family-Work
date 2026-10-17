@@ -2,7 +2,7 @@
  {
   "src": "FamilySearch — Hungary, Civil Registration, 1895-1980: surname Sambunjak (exact) and Sambugnak (exact)",
   "url": "https://www.familysearch.org/ark:/61903/1:1:6624-5ZDS",
-  "pages": "search results read in full (46 + 36); image 549 of 816 viewed, not read",
+  "pages": "search results read in full (46 + 36); image 549 of 816: the Sambunjak entry read",
   "walked": false,
   "outcome": "found",
   "when": "2026-10-17",
@@ -28,6 +28,17 @@
   "url": "https://www.findmypast.com.au/search/results?lastname=sambunjak&lastname_variants=true",
   "walked": false,
   "outcome": "not-established",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "findmypast"
+  ]
+ },
+ {
+  "src": "Findmypast — exact Sambunjak (8), Sambugnak (1), Sambunyak (2), Sonnleitner b.~1861 (93): all US/UK/German",
+  "url": "https://www.findmypast.com.au/search/results?lastname=sambunjak",
+  "walked": false,
+  "outcome": "nothing",
   "when": "2026-10-17",
   "tags": [
    "sambunjak",

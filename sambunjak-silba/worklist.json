@@ -37,15 +37,15 @@
  {
   "id": "read-1917-marriage",
   "task": "Read the 1917 Budapest marriage entry for Ilona Auguszta Sambunjak and Mészáros Károly Lajos",
-  "status": "in-progress",
-  "detail": "FamilySearch ark 1:1:6624-5ZDS; image 549 of 816, volume 'Budapest. Marriage Records 1915', entry 447. Opened but handwriting unreadable at viewer resolution. Needs: is the father Antal living, his occupation and address. A Hungarian reader would be fastest.",
+  "status": "done",
+  "detail": "Read 17 Oct 2026 at viewer zoom. Bride lives in Zimony (Zemun); her parents Antal Sambunjak and Mária Sonnleitner not marked néhai, groom parents marked néhai; witnesses Dávid Károly and Sándor Sambugnak (Budapest I, Fehérvári út 17). Street name in Zemun unread. Re-read the bride residence and the date of birth (22 vs 24 Aug) if wanted.",
   "updated": "2026-10-17"
  },
  {
   "id": "budapest-link-test",
   "task": "Decide whether Antal Sambunjak of Budapest is the Silba-born captain",
   "status": "blocked",
-  "detail": "Mother Mária Sonnleitner matches the 1879 bride; daughter Ilona b. 24 Aug 1886 fits. Unproven. Tree profiles PZB8-SX8 (Antal), PZB8-Z3X (Mária), PZBZ-TXS (Ilona) have no parent dates; added April 2026 by contributor 'Zsuzsanna T.' via FamilySearch.",
+  "detail": "Mother Mária Sonnleitner matches the 1879 bride; daughter Ilona b. 24 Aug 1886 fits. Unproven. Tree profiles PZB8-SX8 (Antal), PZB8-Z3X (Mária), PZBZ-TXS (Ilona) have no parent dates; added April 2026 by contributor 'Zsuzsanna T.' via FamilySearch. Updated: 1917 page spells the witness Sambugnak and places the bride in Zemun, strengthening the link.",
   "updated": "2026-10-17"
  },
  {
@@ -66,6 +66,26 @@
   "task": "Identify the 12 children and Marija Ana's husband (Zadar)",
   "status": "in-progress",
   "detail": "Ilona Auguszta (1886) is a candidate child.",
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "zemun-death-1917",
+  "task": "Search Zemun Catholic parish death registers 1917-1940 for Antun/Anton Sambunjak (Sambugnak)",
+  "status": "not-started",
+  "detail": "If both parents were living in July 1917 the death is after that. Zemun is under Military branch of 'Croatia, Church Books' in Record Atlas. Registers after 1860 may be with the civil registry office (see page).",
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "sandor",
+  "task": "Trace Sándor Sambugnak/Sambunjak, Budapest I, Fehérvári út 17 (1917 witness)",
+  "status": "not-started",
+  "updated": "2026-10-17"
+ },
+ {
+  "id": "ilona-1964",
+  "task": "Open Ilona's 1964 Budapest death entry (FamilySearch ark 1:1:6P1R-JW2K / 6P1D-747Y)",
+  "status": "not-started",
+  "detail": "Parents indexed as Sambünjak Antal and Sonnleitner Mária; check for notes on parents' deaths.",
   "updated": "2026-10-17"
  }
 ]
