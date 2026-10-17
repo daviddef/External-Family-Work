@@ -226,5 +226,31 @@
       "familysearch"
     ],
     "note": "Every results page, even the simplest 'Janko Spudic' search, returned 'Something Went Wrong' (site error, not a nil). Retry later or run by hand."
+  },
+  {
+    "src": "FamilySearch Family Tree (requester signed in) — tree search Vid Spudić b.1826-30 Leskovac; person pages LZJV-W2L (Vid Spudić b.15 Nov 1846) and LZJV-4SD (Dorotea Polović b.4 Jun 1846)",
+    "url": "https://www.familysearch.org/en/tree/person/details/LZJV-W2L",
+    "walked": true,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch-tree"
+    ],
+    "note": "Tree entries, 0 sources attached, 0 children listed. Vid Spudić b.15 Nov 1846 Leskovac Barilovićki, son of Ivan Spudić (b.1801) and Ana Maglić (1806-1852, m. abt 1829), 10 children. He m. 27 Nov 1867 Leskovac Dorotea Polović, b.4 Jun 1846 Novaki, daughter of Josip Polović (b.1810) and Barbara Jurčević (b.1815, m. 26 Nov 1832 Leskovac), siblings Juraj 1836, Jelena 1838, Josip 1841-43, Nikola 1844-51. NAMES AND PLACE MATCH Janko's parents (Vid + Dora Polović, Leskovac) but nothing yet ties this couple to Janko b.1891: a Vid of 44 and a Dora of 45 is possible but late. Separately: Vid b.8 Jan 1828 (LZXW-4QY, parents Johannes Janko Spudić & Ana Pavletić, m. 2 Mar 1851 Jelena Aršulić) is the line in Karen's tree."
+  },
+  {
+    "src": "FamilySearch — 1913 Ellis Island manifest image 643 (President Lincoln, Hamburg, 9 Apr 1913), via record 1:1:JNPZ-7PV",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9TC-CB4D",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "ellis-island"
+    ],
+    "note": "Opened and zoomed. The sheet is right; the line headed 'Spudic' (line 25, age 24) was located, but the relative and destination columns could not be reliably aligned to that line at the viewer's resolution; the legible relative entries nearby belong to other passengers. A destination of 'Mt. Olive' appears on a nearby line only. Needs a reader at full size."
   }
 ]
