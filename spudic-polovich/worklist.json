@@ -19,7 +19,7 @@
     "id": "vid-vs-stephen",
     "task": "Resolve father's name: Vid(o) on 1891 baptism vs Stephen on 1957 death record",
     "status": "in-progress",
-    "detail": "Test (a) informant error, (b) Stephen = grandfather, (c) patronymic Vid Stjepanov. FamilySearch Leskovac volume 9R2M-YW1 (births/marriages 1832-1857, deaths 1782-1857) not yet opened; resume by reading births from 1832 for Spudić at house 10. Karen's tree has a Vid born 8 Jan 1828 at Leskovac (unverified).",
+    "detail": "Test (a) informant error, (b) Stephen = grandfather, (c) patronymic Vid Stjepanov. FamilySearch Leskovac volume 9R2M-YW1 (births/marriages 1832-1857, deaths 1782-1857) not yet opened; resume by reading births from 1832 for Spudić at house 10. Karen's tree has a Vid born 8 Jan 1828 at Leskovac (unverified). Volume confirmed 17 Oct 2026: 644 images, unindexed; image 1 = title card \"Župa Leskovac, Matična knjiga Rođenih 1832-1857, Item 4\", roll 157, filmed at Arhiv Hrvatske Zagreb 5 May 1987. Nothing for Leskovac after 1857 on FamilySearch.",
     "updated": "2026-10-17"
   },
   {
@@ -64,6 +64,14 @@
     "task": "Decide whether the 'brother Marko' on the 1913 manifest is cousin Marco Spudich (1886-1930) or someone else",
     "status": "blocked",
     "detail": "Marco's parents were Nic Spudich and Barbara Polovich per his 1930 death certificate (ark 1:1:N3ZJ-MPV), which would make him a cousin; manifest wording and address may settle it.",
+    "updated": "2026-10-17"
+  },
+  {
+    "id": "hda-1448-leskovac",
+    "task": "Check HDA microfilm index (HR-HDA-1448, arhiv.hr/Pretraga-matičnih-knjiga) for Leskovac Barilovićki after 1857",
+    "status": "blocked",
+    "owner": "requester",
+    "detail": "Six name variants in the parish drop-down: LESKOVAC BARILOVIĆKI (plain); (KRIŽ, NOVAKI, BANSKO SELO, MALINAC, BELAJ); (MJESTA: LESKOVAC, BOŠT, BARILOVIĆ, BRIG, CAREVO SELO, PEĆURKOVO BRDO, PODVOŽIĆ, KRIŽ, NOVAKI, BANSKO SELO, MALINAC, BELAJ, KRNJAK); (MJESTA: LESKOVAC, KRIŽ, NOVAKI, BOŠT, BRIG, MALINAC, BELAJ); (MJESTA: PEČURKINO SELO, BANSKO SELO, PODVOŽIĆ, BARILOVIĆ, CAREVO SELO); (MJESTA: PODVOŽIĆ, BARILOVIĆ, CAREVO SELO). One attempt (second variant, Roman Catholic, type 'K') returned 'Nema zapisa za pregled' but the combo-box inputs were unreliable, so it is NOT recorded as a nil. Run all six by hand with a known-positive control, or email info@arhiv.hr.",
     "updated": "2026-10-17"
   }
 ]

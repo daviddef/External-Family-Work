@@ -60,5 +60,30 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "HDA HR-HDA-1448 microfilm register index — Leskovac Barilovićki, one query via the site's combo boxes; result not trustworthy (known false-negative trap)",
+    "url": "https://www.arhiv.hr/Pretraga-mati%C4%8Dnih-knjiga",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "leskovac"
+    ]
+  },
+  {
+    "src": "FamilySearch — Croatia, Church Books 1516-1994, Leskovac-Barilovićki births/marriages 1832-1857, deaths 1782-1857: opened, title card only (image 1 of 644)",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "1",
+    "walked": false,
+    "outcome": "not-opened",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]
