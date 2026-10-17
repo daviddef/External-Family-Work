@@ -114,5 +114,35 @@
     "owner": "requester",
     "detail": "Say: Janko's 1891 baptism names Vid Spudić and Dora Polović; a Vid (b. 1846, son of Ivan Spudić and Ana Maglić) and a Dorotea Polović (b. 1846, Novaki) are in the 1846 register and the Family Tree has them marrying in 1867; NOT proven that they are Janko's parents (post-1857 books are not online); four siblings still unnamed; ask for any family papers or trees naming Vid, Dora or Janko.",
     "updated": "2026-10-17"
+  },
+  {
+    "id": "status-animarum",
+    "task": "Ask whether a Status animarum (house-by-house parish census) exists for Leskovac c.1860-1900",
+    "status": "drafted",
+    "owner": "requester",
+    "detail": "Added to the Croatian parish/registry letter (and its English gloss). A Status animarum lists every household member by house number, so house 10 would name Janko's siblings directly. The HDA page lists 'S - Status animarum' as a register type in its microfilm collection, but no Leskovac one has been confirmed.",
+    "updated": "2026-10-17"
+  },
+  {
+    "id": "idnc-newspapers",
+    "task": "Search the Illinois Digital Newspaper Collections for Spudic/Spudich/Spudick, 1900-1965 (Mount Olive, Benld, Staunton, Carlinville)",
+    "status": "blocked",
+    "owner": "requester",
+    "detail": "https://idnc.library.illinois.edu is free but sits behind a Cloudflare bot check in the browser pane (also returns 403 to fetch). Run the search by hand; obituaries, wedding notices and 'visitor from Croatia' items could name siblings.",
+    "updated": "2026-10-17"
+  },
+  {
+    "id": "census-households",
+    "task": "Check the 1920, 1930 and 1940 census households of John/Janko Spudic and of Marko Spudic for brothers, sisters or boarders named Spudic",
+    "status": "blocked",
+    "detail": "FamilySearch record search was returning 'Something went wrong' on 17 Oct 2026. Retry later; the 1930 census record for Janko was already opened by an earlier session.",
+    "updated": "2026-10-17"
+  },
+  {
+    "id": "hamburg-passenger-list-1913",
+    "task": "Find Janko's 1913 Hamburg emigration entry (sailed on the President Lincoln, 9 Apr 1913)",
+    "status": "not-started",
+    "detail": "Hamburg lists (Staatsarchiv Hamburg) often give village, age and travelling companions; on Ancestry and MyHeritage (paid). A free route is the Hamburg State Archive's own index; check which years are online.",
+    "updated": "2026-10-17"
   }
 ]
