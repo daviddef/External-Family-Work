@@ -93,5 +93,42 @@
    "sambunjak",
    "familysearch"
   ]
+ },
+ {
+  "src": "ANNO — Austrian newspapers: Neue Freie Presse 29 Jul 1892 p.3 (Anton Sambugnak, DDSG, Semlin, Takovo order)",
+  "url": "https://anno.onb.ac.at/cgi-content/anno?aid=nfp&datum=18920729&seite=17",
+  "pages": "1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "ddsg",
+   "anno"
+  ]
+ },
+ {
+  "src": "ANNO — Agramer Zeitung 6 Apr 1900 p.4 (Capt. Anton Sambugnak, ship Mathyas Kiraly, Pancevo)",
+  "url": "https://anno.onb.ac.at/cgi-content/anno?aid=apz&datum=19000406&seite=4",
+  "pages": "1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "ddsg",
+   "anno"
+  ]
+ },
+ {
+  "src": "ANNO — search results Sambunjak (16) and Sambugnak (9): two other hits read, rest unread",
+  "url": "https://anno.onb.ac.at/anno-suche/simple?query=Sambugnak",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "anno"
+  ]
  }
 ]
