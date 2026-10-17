@@ -268,5 +268,18 @@
       "familysearch"
     ],
     "note": "Births are tabular Latin, one image = a two-page spread of ~6 entries a page; 1846 runs through images 77-81 (image 78 = June 1846, image 80 = Sept-Nov, image 81 = Nov-Dec). FOUND: (1) image 78, right page, entry no. 21: 1846, 4 June, Leskovac, 'Dorothea, filia legitima Catholica'; father Josephus Polovich ex Novaki, mother Barbara nata Jurcevich (spelling read, partly uncertain), priest Ladislaus Jagodich. Matches the Family Tree's Dorotea Polović b.4 Jun 1846, parents Josip Polović and Barbara Jurčević. (2) image 81, left page: 1846, mid-November (day reads 15 or 16), 'Vitus, filius legitimus Catholicus'; father Joannes [middle word unclear] Spudich ex Leskovac N° 16 (house number read as 16), mother Anna nata Maglich; godparents Thomas ... ex Szello. Matches the Family Tree's Vid Spudić b.15 Nov 1846, parents Ivan Spudić and Ana Maglić. Same page has a Michael Spudich of Leskovac N° 16 and wife Catharina (a child 'Helena')."
+  },
+  {
+    "src": "MyHeritage — name search Dorotea Polovic b.1846 Croatia (to find a tree linking her to Vid Spudić)",
+    "url": "https://www.myheritage.com/research",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovic",
+      "myheritage"
+    ],
+    "note": "Blocked by a MyHeritage 'Security check' CAPTCHA mid-session; not attempted further. The Curlovic and Borovac - Duga Resa trees were therefore not opened."
   }
 ]
