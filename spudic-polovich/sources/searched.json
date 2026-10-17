@@ -137,5 +137,42 @@
       "findmypast"
     ],
     "note": "6 hits, all US passenger and crew lists (1909, 1913 x3, 1942); nothing in BDM or census sets. No new information beyond the Ellis Island arrival already in hand."
+  },
+  {
+    "src": "Find a Grave — name searches Spudic (353), Spudich (177), Spudick, Spudić, Polovich, Polović, no location filter; all result pages fetched, Macoupin/Karlovac entries read from list; opened John Spudic Sr. and Marko Spudic memorials",
+    "url": "https://www.findagrave.com/memorial/search?lastname=Spudic",
+    "walked": true,
+    "outcome": "found",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "polovich",
+      "findagrave"
+    ],
+    "note": "TRAP: adding the location filter (Macoupin County / Illinois) returned 'No matches' for Spudic and Spudich though dozens exist; use the unfiltered search. Mt Olive New Calvary: John Spudic Sr. 6 Nov 1891-25 Nov 1957 (memorial 45193164, spouse Anna C. Spudic 1904-1990; no parents listed) = likely Janko; Marko Spudic 1888-1930 (16885967, son William Thomas 1930-1993); Thomas Spudic 1866-1922; Catherine Slott Spudic 1876-1924. Benld Cemetery has ~40 Spudich incl. Stephen Spudich 1868-1937 (45744105), Anna Dobrinic Spudich 1888-1979. Mt Olive Polovich: George Polovich 1886-1939 (16885678), Catherine 'Katie' Polovich 1889-1966, Michael 1913-1988, John Joseph 1926-2002. Croatia: Spudić and Polović burials at Sveti Petar Mrežnički (Duga Resa) and Kamanje parish; none at Leskovac. No Find a Grave memorial lists parents for Janko or Marko."
+  },
+  {
+    "src": "WikiTree — Spudić and Polović surname pages",
+    "url": "https://www.wikitree.com/genealogy/SPUDIC",
+    "walked": true,
+    "outcome": "nothing",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "wikitree"
+    ],
+    "note": "Only 4 Spudić profiles (Vatroslav Spudić; Timothy L. Spudic managed by Karen Bonifacio). Polović page returned no usable content. Nothing on Janko or Dora."
+  },
+  {
+    "src": "Ancestry — free record search Janko Spudic b.1891",
+    "url": "https://www.ancestry.com/genealogy/records/results",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "ancestry"
+    ],
+    "note": "Blocked by a Cloudflare 'Just a moment' bot check; not attempted further (cannot complete bot-detection). Find a Grave and Geni pages show Ancestry-sourced census and index entries but nothing was read from Ancestry itself."
   }
 ]

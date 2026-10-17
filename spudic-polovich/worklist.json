@@ -49,7 +49,7 @@
     "id": "barbara-polovich-sister",
     "task": "Test whether Barbara Polovich (mother of Marco Spudich, 1886-1930) was Dora's sister",
     "status": "blocked",
-    "detail": "Marco's 1930 Illinois death certificate (ark 1:1:N3ZJ-MPV) names parents Nic Spudich and Barbara Polovich. Relationship to Dora needs the Leskovac registers. Geni lead 17 Oct 2026: Polović family of Žabljak (Karlovac) in Macoupin: Juraj (George) Polovic 1885-1939 (White City, bur. Mt Olive), parents Josip Polovic & Magdalena Grman, grandparents Janko Polovic & Barbara Biscan. Test whether Dora/Barbara fit this family via Žabljak register or Mt Olive cemetery.",
+    "detail": "Marco's 1930 Illinois death certificate (ark 1:1:N3ZJ-MPV) names parents Nic Spudich and Barbara Polovich. Relationship to Dora needs the Leskovac registers. Geni lead 17 Oct 2026: Polović family of Žabljak (Karlovac) in Macoupin: Juraj (George) Polovic 1885-1939 (White City, bur. Mt Olive), parents Josip Polovic & Magdalena Grman, grandparents Janko Polovic & Barbara Biscan. Test whether Dora/Barbara fit this family via Žabljak register or Mt Olive cemetery. Find a Grave: Mt Olive New Calvary has George Polovich 1886-1939 and Catherine 'Katie' Polovich 1889-1966; Duga Resa (Sveti Petar Mrežnički) cemetery holds many Polović and Spudić graves. Both are leads on where the Polović and Spudić families lived.",
     "updated": "2026-10-17"
   },
   {
@@ -85,9 +85,9 @@
   {
     "id": "online-trees-remaining",
     "task": "Check remaining tree sites: Find a Grave, WikiTree, Ancestry (free counts only), and contact tree owners (Curlovic MyHeritage, Curtis Gene Leonhardt on Geni)",
-    "status": "not-started",
+    "status": "in-progress",
     "owner": "requester",
-    "detail": "Geni, MyHeritage (first page only) and Findmypast done 17 Oct 2026. Not yet searched: Find a Grave, WikiTree, Ancestry, Borovac - Duga Resa and Zidanic MyHeritage tree sites. Tree owners may hold sourced baptism data.",
+    "detail": "Find a Grave and WikiTree done 17 Oct 2026; Ancestry blocked by bot check (requester can run it by hand). Still open: contact tree owners (Curlovic MyHeritage, Curtis Gene Leonhardt on Geni, Karen Bonifacio on WikiTree if she is 'Karen'); open the Borovac - Duga Resa and Zidanic MyHeritage trees; read the 1891-1957 John Spudic Sr. memorial photos for stone inscription.",
     "updated": "2026-10-17"
   }
 ]
