@@ -56,8 +56,8 @@
   {
     "id": "record-atlas-link",
     "task": "Link this page from Record Atlas /my-research/ and commit Atlas provider row",
-    "status": "in-progress",
-    "detail": "providers.json has a new macoupin-ilgenweb row (check-data passes) but is UNCOMMITTED because the Atlas repo has other sessions' uncommitted edits.",
+    "status": "done",
+    "detail": "17 Oct 2026: my-research.astro entry and the macoupin-ilgenweb provider row committed locally in the Record Atlas checkout (commit 19aaa1b; check-data prints 'data is sound'). NOT pushed: that checkout is shared, behind origin by 6, and has other sessions' uncommitted edits. Pull and push when ready.",
     "updated": "2026-10-17"
   },
   {
