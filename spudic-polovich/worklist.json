@@ -26,7 +26,7 @@
     "id": "marriage-janko-anna",
     "task": "Find Janko's Macoupin County marriage record (c.1920-22) and Anna's maiden name",
     "status": "not-started",
-    "detail": "Tests whether Anna C. (b. Illinois 1904/05) is the Anna, b.1904, daughter of Tom and Catherine Spudic in the 1920 Mount Olive census. Not searched; first marriage-index query returned noise. Lead 17 Oct 2026: Ancestry's Springfield Diocese Sacramental Records 1853-1981 (Mt Olive parishes) may hold the marriage.",
+    "detail": "Tests whether Anna C. (b. Illinois 1904/05) is the Anna, b.1904, daughter of Tom and Catherine Spudic in the 1920 Mount Olive census. Not searched; first marriage-index query returned noise. Lead 17 Oct 2026: Ancestry's Springfield Diocese Sacramental Records 1853-1981 (Mt Olive parishes) may hold the marriage. 17 Oct 2026: Ancestry's Springfield Diocese index shows 5 Spudic/Spadich/Spudich marriage hits 1917-25 (Joannem Spadich is record 427663) but records are paywalled; check via Ancestry Library Edition or the Macoupin County Clerk marriage index.",
     "updated": "2026-10-17"
   },
   {
@@ -87,7 +87,7 @@
     "task": "Check remaining tree sites: Find a Grave, WikiTree, Ancestry (free counts only), and contact tree owners (Curlovic MyHeritage, Curtis Gene Leonhardt on Geni)",
     "status": "in-progress",
     "owner": "requester",
-    "detail": "Find a Grave and WikiTree done 17 Oct 2026; Ancestry blocked by bot check (requester can run it by hand). Still open: contact tree owners (Curlovic MyHeritage, Curtis Gene Leonhardt on Geni, Karen Bonifacio on WikiTree if she is 'Karen'); open the Borovac - Duga Resa and Zidanic MyHeritage trees; read the 1891-1957 John Spudic Sr. memorial photos for stone inscription. Ancestry run 17 Oct 2026 (see searched.json). NEXT: search Ancestry 'Illinois, U.S., Roman Catholic Diocese of Springfield Sacramental Records, 1853-1981' for Spudic/Spudich/Spudick and open the 'Spudic Family Tree' entry for Janko/John Spudich b.1891.",
+    "detail": "Find a Grave and WikiTree done 17 Oct 2026; Ancestry blocked by bot check (requester can run it by hand). Still open: contact tree owners (Curlovic MyHeritage, Curtis Gene Leonhardt on Geni, Karen Bonifacio on WikiTree if she is 'Karen'); open the Borovac - Duga Resa and Zidanic MyHeritage trees; read the 1891-1957 John Spudic Sr. memorial photos for stone inscription. Ancestry run 17 Oct 2026 (see searched.json). NEXT: search Ancestry 'Illinois, U.S., Roman Catholic Diocese of Springfield Sacramental Records, 1853-1981' for Spudic/Spudich/Spudick and open the 'Spudic Family Tree' entry for Janko/John Spudich b.1891. Springfield Diocese search done, paywalled (see searched.json).",
     "updated": "2026-10-17"
   }
 ]

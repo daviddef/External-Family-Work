@@ -174,5 +174,19 @@
       "ancestry"
     ],
     "note": "Janko: 13 hits - an Ancestry tree 'Spudic Family Tree' listing Janko / John Spudich b.1891 Yugoslavia (parents hidden), Ellis Island/Hamburg passenger lists, 1930/1940 censuses (likely other John Spudics), Find a Grave index; most field values were masked on the results page and no record was opened. Polovich: first page only; includes 'Illinois, U.S., Roman Catholic Diocese of Springfield Sacramental Records, 1853-1981' (hit: Nicholas Polovich). That collection covers Macoupin County parishes (Mt Olive) and is the best lead for Janko's c.1920-22 marriage and Anna's maiden name; not yet searched for Spudic. Earlier bot-check block was cleared by the requester logging in."
+  },
+  {
+    "src": "Ancestry — Illinois, U.S., Roman Catholic Diocese of Springfield Sacramental Records, 1853-1981 (collection 61682): name Spudic (similar spellings), then marriages 1921 ±4; opened Janko/John Spudich b.1891 tree entry",
+    "url": "https://www.ancestry.com.au/search/collections/61682/?name=_Spudic",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-17",
+    "tags": [
+      "spudic",
+      "ancestry",
+      "springfield-diocese",
+      "macoupin"
+    ],
+    "note": "314 hits for Spudic and similar spellings (Latin forms: Joannis, Stephani, Thomae, Nicholai, Michaelis Spudic; baptisms of children). Results page masks dates and places; opening a record (e.g. 427663 'Joannem Spadich', marriage) or the 'Spudic Family Tree' person page (tree 188790393, person 312451317497) goes to Ancestry's 'Join' paywall, so no detail was read. Marriage filter 1917-1925 returned 5 index hits: Joannem Spadich, Helen, Bertha, George and Dorothy Spudich. These are only names; none is confirmed as Janko or Anna. Needs a paid Ancestry subscription, or a library edition (Ancestry Library at a public library often includes it), to read. The Diocese of Springfield archives (and Mt Olive parish) hold the originals."
   }
 ]
