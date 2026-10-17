@@ -24,10 +24,11 @@
   },
   {
     "id": "marriage-janko-anna",
-    "task": "Find Janko's Macoupin County marriage record (c.1920-22) and Anna's maiden name",
-    "status": "not-started",
-    "detail": "Tests whether Anna C. (b. Illinois 1904/05) is the Anna, b.1904, daughter of Tom and Catherine Spudic in the 1920 Mount Olive census. Not searched; first marriage-index query returned noise. Lead 17 Oct 2026: Ancestry's Springfield Diocese Sacramental Records 1853-1981 (Mt Olive parishes) may hold the marriage. 17 Oct 2026: Ancestry's Springfield Diocese index shows 5 Spudic/Spadich/Spudich marriage hits 1917-25 (Joannem Spadich is record 427663) but records are paywalled; check via Ancestry Library Edition or the Macoupin County Clerk marriage index. 17 Oct 2026: no free online index covers 1920-22 Macoupin marriages (ILGenWeb and clerk online index stop at 1900/1916). Request the certificate from the Macoupin County Clerk, Carlinville (217-854-3214; $5 genealogy copy, $15 certified). FamilySearch record search was erroring today; retry 'Illinois, County Marriages, 1810-1940'.",
-    "updated": "2026-10-17"
+    "task": "Send the drafted request to the Macoupin County Clerk (Carlinville) for Janko Spudic and Anna C.'s marriage certificate, c.1918-25",
+    "status": "drafted",
+    "detail": "Tests whether Anna C. (b. Illinois 1904/05) is the Anna, b.1904, daughter of Tom and Catherine Spudic in the 1920 Mount Olive census. Not searched; first marriage-index query returned noise. Lead 17 Oct 2026: Ancestry's Springfield Diocese Sacramental Records 1853-1981 (Mt Olive parishes) may hold the marriage. 17 Oct 2026: Ancestry's Springfield Diocese index shows 5 Spudic/Spadich/Spudich marriage hits 1917-25 (Joannem Spadich is record 427663) but records are paywalled; check via Ancestry Library Edition or the Macoupin County Clerk marriage index. 17 Oct 2026: no free online index covers 1920-22 Macoupin marriages (ILGenWeb and clerk online index stop at 1900/1916). Request the certificate from the Macoupin County Clerk, Carlinville (217-854-3214; $5 genealogy copy, $15 certified). FamilySearch record search was erroring today; retry 'Illinois, County Marriages, 1810-1940'. Draft letter added to index.html (#clerk-letter) and listed as the step 3 errand. Not sent; requester to phone 217-854-3214 first to confirm fee ($5 genealogy copy) and payment method.",
+    "updated": "2026-10-17",
+    "owner": "requester"
   },
   {
     "id": "petition-2878",
