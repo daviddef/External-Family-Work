@@ -1,0 +1,18 @@
+[
+  { "src": "Macoupin County ILGenWeb — Calvary Mt. Olive burial listings R-S (all Spudic/Spudick rows, plus stone photographs)",
+    "url": "https://macoupin.illinoisgenweb.org/cemetery/calvaryr.html",
+    "walked": false, "outcome": "found", "when": "2026-10-17",
+    "tags": ["spudic", "polovich", "mount-olive", "leskovac"] },
+  { "src": "Macoupin County ILGenWeb — WPA Calvary Cemetery veterans project page (no Spudic/Polovich)",
+    "url": "https://macoupin.illinoisgenweb.org/cemetery/wpa-calvarymtolive.html",
+    "walked": false, "outcome": "nothing", "when": "2026-10-17",
+    "tags": ["spudic", "mount-olive"] },
+  { "src": "FamilySearch — historical record index searches for Spudic/Spudich, Macoupin County IL (censuses 1900-1950, Illinois Deaths and Stillbirths 1916-1948, obituaries); index only, no register images",
+    "url": "https://www.familysearch.org/search/record/results?q.surname=Spudic",
+    "walked": false, "outcome": "found", "when": "2026-10-17",
+    "tags": ["spudic", "polovich", "mount-olive", "familysearch"] },
+  { "src": "Record Atlas — Leskovac-Barilovićki place file: FamilySearch volume births/marriages 1832-1857, deaths 1782-1857 listed, NOT opened; does not reach 1891",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:9R2M-YW1",
+    "waypoint": "9R2M-YW1", "walked": false, "outcome": "not-opened", "when": "2026-10-17",
+    "tags": ["spudic", "leskovac", "familysearch"] }
+]
