@@ -44,5 +44,29 @@
    "sambunjak",
    "findmypast"
   ]
+ },
+ {
+  "src": "FamilySearch catalogue — place Zemun (5 items, all Austrian army church books/records)",
+  "url": "https://www.familysearch.org/en/search/catalog/results?q.place=Zemun",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "zemun",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch catalogue — Rijeka parish, Matična knjiga 1590-1920 (koha:722509): film list partly paged, no 1917+ death volume seen",
+  "url": "https://www.familysearch.org/en/search/catalog/koha:722509",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-10-17",
+  "tags": [
+   "sambunjak",
+   "rijeka",
+   "familysearch"
+  ]
  }
 ]
