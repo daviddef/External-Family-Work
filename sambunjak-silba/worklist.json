@@ -111,5 +111,12 @@
   "task": "Search other newspaper archives (Arcanum, Hungaricana, Serbian digital library, Slovenian dLib) for Sambugnak / Sambunjak with Semlin, Zimony, Pancsova, DDSG",
   "status": "not-started",
   "updated": "2026-10-17"
+ },
+ {
+  "id": "ddsg-records",
+  "task": "Find DDSG (Danube Steamship Co.) personnel/pension records for Anton Sambugnak and Vince Sambugnak",
+  "status": "not-started",
+  "detail": "Hungaricana: Képviselőházi napló 15 Jun 1927 p.334 names 'özv. Sambugnak Vincéné' as a DDSG pensioner's widow. The company's archive is probably in Vienna (DDSG/ Austrian archives) and Budapest; holder not confirmed. Also try Sonnleitner Mária as widow.",
+  "updated": "2026-10-18"
  }
 ]

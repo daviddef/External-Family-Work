@@ -155,5 +155,28 @@
    "sambunjak",
    "anno"
   ]
+ },
+ {
+  "src": "Hungaricana library — Sambunjak (8 hits: Landwehr lists, Tomo), Sambugnak (1 hit: 1927 parliament, widow of Vince, DDSG pension), Szambunjak (0)",
+  "url": "https://library.hungaricana.hu/en/search/results/?query=Sambugnak",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-10-18",
+  "tags": [
+   "sambunjak",
+   "ddsg",
+   "hungaricana"
+  ]
+ },
+ {
+  "src": "ANNO — multi-word and variant searches (Sambugnjak, Sambugnack, + Schiffskapitän): no results",
+  "url": "https://anno.onb.ac.at/anno-suche/simple?query=Sambugnjak",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-10-18",
+  "tags": [
+   "sambunjak",
+   "anno"
+  ]
  }
 ]
