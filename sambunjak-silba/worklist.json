@@ -125,5 +125,29 @@
   "status": "done",
   "detail": "All read 18 Oct 2026; all other Silba families, no link to Antun. Nothing more to do.",
   "updated": "2026-10-18"
+ },
+ {
+  "id": "contact-zsuzsanna",
+  "task": "Message the FamilySearch contributor behind the Budapest profiles",
+  "status": "drafted",
+  "owner": "requester",
+  "detail": "Drafted on page #errands (4); owner requester.",
+  "updated": "2026-10-18"
+ },
+ {
+  "id": "ask-lidija",
+  "task": "Ask Lidija Sambunjak for the sources of the birth and marriage records",
+  "status": "drafted",
+  "owner": "requester",
+  "detail": "Drafted on page #errands (5); owner requester.",
+  "updated": "2026-10-18"
+ },
+ {
+  "id": "hungarian-reader",
+  "task": "Find a reader of Hungarian handwriting for the 1917 entry",
+  "status": "not-started",
+  "owner": "requester",
+  "detail": "Page #errands (6): street after Zimony, birth day, parents living?",
+  "updated": "2026-10-18"
  }
 ]
