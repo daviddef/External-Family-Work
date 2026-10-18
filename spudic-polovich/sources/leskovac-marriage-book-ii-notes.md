@@ -200,3 +200,9 @@ Right page, 29? Novembris 1843: Nicolaus Halić? widower ex Velikovac Nº 4 + Ma
 - Spudić witnesses: Josephus Spudich Nº 6; Thomas Spudich Nº 1 (Dvorišće); Lucas Zpudich Nº 15; and repeats.
 - House 10: none in these images (houses 3, 4, 6, 15, 16, 1).
 - Caveat: the Latin cursive is difficult at 3x zoom; surnames spelled 'Spudich/Zpudich/Spundah' were judged by shape.
+
+## 481 (Nov 1843 – Nov 1844) — partly read (right page and left-page top legible; left page middle skimmed)
+Left page, 29 Nov 1843: Georgius Adol. filius Michaelis Dobrinich ex Barilovich Nº 13 + Barbara virgo d. of Matthaei Mat(…)ić ex Požar. Nº 2 (20/?), witnesses Matthias Dobrinić Nº 15 and Simon Delavić? Nº 7; Nicolaus Adol. filius defuncti Joannis Mattkovich ex Novaki Nº 1 + Catharina virgo d. of Mathiae Matković ex Sas?…Nº 3 (21/19), witnesses Joannes Ev. Bernhich ex Valjevo? Nº 2, Georgius Matković Nº 2; Josephus Adol. filius defuncti Joannis Evang. Mussić? ex Novaki + … (18). Right page, 27/29 Nov 1844: Mathias Adol. filius denati …Spudich?(no: 'Szegat'?) + Barbara relicta vidua denati Thomae Sajat? ex Požarišće Nº 4 (33); Mathias Dom(inich) viduus ex Breg Nº 1 + Margaritha relicta vidua …; Michael Adol. filius Josephi Sheketta ex Leskovac Nº 14 + Dorothea virgo filia denati Josephi Dobrinich ex Barilovich (witness 'Georgius Skokan'?); Marcus Adol. filius defuncti Nicolai Matt…ić ex Leskovac Nº ? + Catharina virgo filia Josephi Laskach ex Leskovac. **No Spudich/Polovich party read on 481; the left-page middle and the top of the right page were not read line by line.**
+
+## STOP POINT (18 Oct 2026)
+Images 478-481 read (481 partly); **482-490 (Nov 1844 – 1850) NOT read**: each Latin/Croatian spread needs ~25 viewer screenshots and the Latin cursive of 1842-44 gave little certainty. Reasoning for stopping: these are the generation before Vid's marriage (1851); the siblings' marriages (1855-57) are already covered by 500-510. If wanted, 482-490 are the remaining gap.
