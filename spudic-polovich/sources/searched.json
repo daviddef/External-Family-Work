@@ -356,5 +356,20 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki marriages 1832-1857, book II, third pass: images 506-510 read (1856-57 entries; Spudić/Polović hits on 507-508), 511-512 blank, 513 end-of-item card; marriage book II therefore ends at 509/510",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "506-513 (read); with earlier passes 468-472, 492-497, 499-505; 478-490 not read",
+    "walked": false,
+    "outcome": "found",
+    "when": "2026-10-18",
+    "tags": [
+      "spudic",
+      "polovic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]
