@@ -143,3 +143,32 @@ Right page: "Stjepo Belavić ml. iz Male Kravče(?) s djevojkom Bernom Penković
 - Right page read fully, left page partly: 504, 505.
 - NOT read at all: 478-490, 491 (right page), 506-515. (The read of 500-505 shows the 1853-56 pages; 506-515 would carry 1857 and the end of the marriage book, probably the last marriages are in 1857.)
 - Viewer note: the 'i=' value in the URL lags the visible image by one step right after a jump, so arks quoted above for 502-505 may belong to the previous image. The arks for 473, 474, 475, 476, 491, 492, 500, 501 were checked against the 'i=' value after a pause and are reliable.
+
+# THIRD PASS (18 Oct 2026) — images 506-513, end of marriage book II
+Arks (verified with a pause after the jump; the 'i=' index lags by one, so I give the ark that the viewer showed together with the next index): 506 = 3:1:3QSQ-G99F-9X46 ; 507 = 3:1:3QSQ-G99F-9XR4 ; 508 = 3:1:3QS7-L99F-9XXP ; 509 = 3:1:3QS7-899F-9X7N ; 510 = 3:1:3QSQ-G99F-9XF9 ; 511 = 3:1:3QSQ-G99F-9XXM ; 513 = 3:1:3QS7-899F-9X3N (end-of-item card). CAUTION: the lag makes these arks the best guess, verify before linking.
+
+## STRUCTURE: the marriage book ends at 509/510
+- 509 right page is a Latin dispensation note ("…Mathias Belavić(?), parochianus Leskovacensis cum Catharina filia denati Thomae …, parochiana Dubovacensi …, Dubovci 2. Augusti 1857") — not an entry; 510 shows the same spread with the slip lifted and a blank right page. 511 and 512 are blank ruled marriage pages. **513 = "END OF ITEM", Leskovac, Matična knjiga vjenčanih 1832-1857, Item 5, project CRO 00001, roll 157.** So the last marriage entries are on 509 (left page, 25 Studenog 1857) and 510.
+
+## 506 (26 Studenog 1856, 'Veljače'?) — read both pages; no Spudić/Polović as party
+Right page (26 Studenog 1856): "Bro Curilović ml. iz …Nº 8 … Jarom Dobri(nić) iz Podvožica Nº 10"(18); "Petar Bolarić ml. iz Šulca? Nº 8 s djevojkom Marom Laškać iz Leskovca Nº 12" (20); "Tomo Belavić ml. iz Bošta Nº 8 …"; "Mato Mejašić? ml. iz Barilovića Nº 8 s djevojkom Katom Buradović? iz Križa Nº 5" ; "Joso Tergović ml. iz Barilovića Nº 22 s djevojkom Dorom Golda(?) iz Križa Nº 3"; "Mato Curilović ml. iz Podvožice Nº 2 s udovom Dorom? Tergović Nº 7? iz Barilovića"; "Petar Nov(ak?) ml. Nº 12 …Penkovć iz Bošta"; "Juro Du… ml. iz Podvož… s Katom Bernard? iz Podv.". Left page witnesses: Dobrinić, Pero Tergović, Mato Stoković, Juro Blažković, Marko Mateša… No Spudić/Polović legible.
+
+## 507 (26 Studenog 1856 cont.; ark 3:1:3QSQ-G99F-9XR4) — read both pages
+Right page: "Janko Marta?Rović ml. iz Novaka Nº 2 s djevojkom Dorom Car iz Cara sela Nº 3" (25/25); "Juro Stefanac ml. iz Belaja Nº 10 s djevojkom Marom Mihalić iz Mihalića sela Nº …" (18); "Juro Dobrinić ml. iz Barilovića Nº 15 s djevojkom Katom Belašić Nº 8 iz Bošća"; "Vid Tergović ml. iz Barilovića Nº 1? s djevojkom Katom Sacak iz Careva sela" (20); "Miko Tergović ml. iz Barilovića Nº 21 s djevojkom Jelom Mejašić Nº 19 iz Barilovića" (20); "Miko Bajavčić? ml. iz Barilovića Nº 14? s djevojkom Marom Dobrinić iz Barilović (Nº)". Left page witnesses: **"Tomo Spudić" (a Spudić witness), "Janko Spudić", "Jure Spudić", "Marko Spudić"** appear in witness lines of 507 left page (several 'Spudić' in the witness column; the parties on the left page: Miko Bajavčić…, Jure Pavlić…, "Joso Lovrić"). No Spudić/Polović as groom or bride legible.
+
+## 508 (4 Studenog 1857 and other 1857 dates; ark 3:1:3QS7-L99F-9XXP) — read both pages (right page zoomed)
+Right page, 1857:
+- **9 Rujna? 1857** "Mio Simunić, udovac iz Podvožica Nº 8 s udovicom Katom Čarlović Nº 12" (45/30), witnesses Janko Simunić, Juro Čarlović.
+- **4 Studenog 1857 "Marko Spudić ml. Nº 3 iz Leskovca s djevojkom Barom Car iz Careva sela Nº 1", age 23 / bride 19(?)**; witnesses read **"Vid Spudić" and "Miko Spudić"** (granićar = border guard witnesses). House number 3 matches the house of the late Janko Spudić (Vid's father's house on 492).
+- **4 Studenog 1857 "Miko Spu[dić] … udovac iz Leskovca Nº 7 s djevojkom Barom Car iz Careva sela Nº 1"**, age 29 / 19(?) (a Car girl again, Careva selo Nº 1); witnesses **"Marko Spudić, Taro? (Juro/Jure) Spudić"**.
+- **22 Studenog? 1857 "Miko Ar… Spu[li]… udovac iz Novakah Nº 15? s udovom Barom …(Lo…) iz Novakah"**: a Spudić? (name read 'Miko Ar/Spu', unclear) — flag; witnesses "Janko Šeketa, Tomo Spudić".
+- 1857 "Marko Laškac ml. iz Leskovca s djevojkom Barom Čurilović iz Pečurkinaden? Nº 5"; 22 Veljače(?) 1857 "Velja Belavić? udovac iz Leskovca? Nº 22 s udovom Marom Mejašić Nº 19 iz Barilovića/Bošća"; 
+- left page: **29 Siječnja 1857 "Pavao Laškac, udovac iz Leskovca Nº 17? (45), s djevojkom? Marom Spu[dić] iz Leskovca Nº 17 (40)"** — a Spudić woman, Mara, of Leskovac house 17 (age ~40; second marriage of a widower); and "Janko Da(?)…ić ml. iz Požarišća? Nº 3 s djevojkom? Dorom Dobr… Nº 17 iz Barilovića" (23/20). Witnesses on the left page: 'Toma Laskać, Jozo Laskać', 'Joso Slat, Dacu Car', 'Vid Pu…'.
+(Details on the 22 Studenog entry and the age/house columns are only partly legible.)
+
+## 509 (end of the book) — left page read (names column and witnesses)
+Left page: 25 Studenog 1857 "…javčić ml. iz Barilovića Nº 10 s djevojkom Katom Banjavčić Nº 12 iz Barilovića" (18), witnesses 'Miko Banjavčić'; "Joso Vlašić ml. iz Brezovca Nº 8 s djevojkom Rozom? Belavić Nº 8 iz Bošća" (22/18), witnesses 'Joso Stefanac, Marc(o) Šašić(?)'; earlier rows: Tomo Car/ Pavao Car witnesses; "Joso Marijić … (witness Tomo Tergović)". No Spudić/Polović party. Right page: Latin slip (above).
+
+## Coverage after this pass
+- Book II marriage entries 1856-57 (506-510): read (names columns, both pages), with the legibility caveats above; 511-512 blank; 513 end of item.
+- Still NOT read: 478-490 (1842-1849) and the unread halves of 473-477, 491 (right page), 498 (right top), 502-505 left pages.
