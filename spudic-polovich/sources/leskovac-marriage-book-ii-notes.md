@@ -291,3 +291,13 @@ Arks: 503 = 3:1:3QS7-899F-9XQF (i=502); 504 = 3:1:3QS7-L99F-9X9H (i=503); 505 = 
 (b) Jelena (b. 1842) / Katarina (b. 1844): neither named; the 17 Nov 1855 Spudić bride (502 left, age 23) does not fit either.
 (c) Polović marriage of Juraj/Jelena: none found in these pages.
 (d) done earlier: June 1851 groom "Jure Polović", widower of Gerčak Nº 10 (probable).
+
+## SEVENTH PASS (18 Oct 2026) — re-reads of the blurred rows, waited 6-8 s per pan for tiles to load (image number = i+1)
+- **503 LEFT, Mijo Spudić entry re-read at 4x zoom:** "Mijo Spudić ml. iz Leskovca Nº 17" (age 19) + "djevojkom **Katom Gojak** Nº 1?/4? iz **Nalinca**" (age 18); witnesses "**Tomo Spudić** i Janko **Čavlović**" (not Pavlović). Bride's first name = Kata/Katarina (probable), surname Gojak (probable); her house number is ambiguous (1 or 4). Supersedes the sixth-pass reading "…Gojak?".
+- **504 LEFT bottom, now fully loaded:** last entry is a Latin/notarial-type entry dated 22 Studeni 1856: "Blaž, i vdovac … (Dr.) Ivan ml. … Nikolaj? Pavlić? … Primo katolik" with an advokat (Kamill …) among the witnesses. No Spudić/Polović. **504 left is now read in full.**
+- **505 LEFT bottom, now fully loaded:** last entry 1856 "Janko Živičić udovac iz Velemerića Nº 7 + Barbara Benkonić iz Bošta Nº 4" (age 25 / 17?); witnesses "Juro Kolić?, Mato Živičić". The entry above: Sandro Ste… ml. iz Velemerića Nº 8 + … Dobrinić Nº 9?. No Spudić/Polović. **505 left is now read in full.**
+- **481 right page, full (1844):** 27 Studeni: Matthias Dabrović? udovac + Barbara udova (Tomo? Šajak?) … Nº 4; Matthias Dom… udovac Nº 21? + Margaretha udova … Nº …; Michael fil. Josephi Šeketa Nº 14 + Dorothea fil. Dobrinić Nº 3?; Marcus fil. Nicolai Matter? Nº 8 + Catharina fil. Josephi Laskač? iz Leskovca. **No Spudić/Polović.**
+- **481 left page, full (Nov 1843):** Georgius Dobrinić (Nº 13?) + Barbara fil. Mathiae Mil/Mick… Nº 2; Nicolaus Matković (Nº 1?) + Catharina fil. Mathiae …ković Nº 25?; Josephus Mesnić? (Barilović Nº 20?) + Magdalena fil. Francisci Erg…ović Nº 22; witnesses Bennrich, Matković, Bezović, Bukovac?. **No Spudić/Polović.** **481 is now read in full (both pages).**
+
+## STATE AFTER THE SEVENTH PASS
+Read in full: 481, 482-490, 491 right, 498 right top (rest of 498 in earlier pass), 502 left, 503 left, 504 left, 505 left. The only open arks issue is the i=N → image N+1 offset for arks recorded before this session. Nothing is marked `walked`.
