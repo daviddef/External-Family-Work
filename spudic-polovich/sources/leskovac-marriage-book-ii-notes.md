@@ -266,3 +266,13 @@ Left-page witness column (first 1849 Croatian page): 'Juro Spudić iz Leskovca N
 
 ## RELIABILITY CAVEAT for the 482-489 section above (added on re-reading my own notes)
 The non-Spudić names, ages and house numbers given for 482-489 are APPROXIMATE glimpses of 1844-47 Latin cursive at 3x zoom; many are guesses at letter shapes and should not be cited. Only the Spudić/Zpudich items are searched-for and flagged, and they carry their own uncertainty: 482 left (Susanna d. of the late Petrus Zpudich, Novaki, probable), 483 left (a Zpudich witness of Leskovac Nº 14, flagged), 485 left (two Spu-dich witnesses of Svarča Nº 12, probable), 487 right (bottom entry's bride patronymic uncertain), 490 (the 1849 Marko Spudić entry is CLEAR; the 1848 left-page witnesses are partly legible). For 482-489 the honest reading is: "no Spudić or Polović as groom/bride was positively read except 482 left (Susanna), and no Polović at all"; this is not a transcription. From here on I log only Spudić/Polović hits and do not transcribe other names.
+
+## 491 RIGHT page (1850) — read in full (3 screenshots, names mostly legible); ark for image 491 = 3:1:3QS7-L99F-9XNG (URL showed i=490)
+Entries (Croatian, 1850): 18 Siječnja? 1850 "Juro Zubčić udovac iz Sojke? … + Bare Frostović? udova iz Novakah"; 25 Veljače? 1850 "Miko Stefanac udovac iz Banskog sela … + Jelli Šurilović ostavljena udova pokojnog Jose … Nº 6"; 24 Listopada 1850 "Andrija Jurković mladenac iz … + Kata Jurković divojka"; 10 Rujna 1850 "Mate Bonko? udovac iz Bošta Nº 5 + Jane udova …Mrežnjak"; witnesses include Jure Šeketa iz Leskovca Nº 14 and Miko Mattić iz Leskovca Nº 8 (right page). **No Spudić and no Polović on 491 right.** (Peer's finding on 492 left stays 492.)
+
+## 502 LEFT page bottom (17 Listopada 1855) — new hit
+"Joso Dobrinić ml. iz Barilovića Nº 18 s djevojkom … [first name illegible, ends -om] **Spudić iz Leskovca Nº …**" age 23 (zoomed twice: surname reads 'Spudić', house number not legible); witnesses 'Šeketa Juro i Simo Banjavčić'. A Spudić bride, age ~23 (b. ~1832) — not Jelena b.1842 (age 13) nor Katarina b.1844. Plus top of 502 left: witness 'Tomo Spu(dić?) i Lavro Tergović' (the earlier-noted Tomo Spudić witness).
+
+## STATE AFTER THIS PASS
+Read (names, both pages, routine of 6 screenshots): 482, 483, 484, 485, 486, 487, 488, 489, 490 [with the reliability caveat above], 491 right, 502 left (complete now), plus earlier passes.
+NOT finished: 481 (left-page middle, right-page top), 498 (right page top), 503/504/505 LEFT pages (my pans overshot into the margin at this zoom; 503-505 left were partly read in the second pass), and the arks for images before 473 were not re-keyed (see the ARK CORRECTION block: image = i+1).
