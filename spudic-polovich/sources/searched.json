@@ -427,5 +427,19 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki births 1844 pilot (images 62-63 only) and births year map; Full-Text search does not cover this volume; no Spudić N° 16 birth found yet; a Spudić family of Svrča(?) on image 62 right (uncertain)",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "62 (both), 63 (left, partial)",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-18",
+    "tags": [
+      "spudic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]

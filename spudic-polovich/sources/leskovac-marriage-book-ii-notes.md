@@ -338,3 +338,9 @@ Source: the `i=` value read from the viewer URL after a pause, plus 1. Rows mark
 | 510 | 509 | 3:1:3QSQ-G99F-9XF9 |  |
 | 511 | 510 | 3:1:3QSQ-G99F-9XXM |  |
 | 513 | 512 | 3:1:3QS7-899F-9X3N |  |
+
+## BIRTHS SWEEP — PILOT (18 Oct 2026, eighth pass). NOT a sweep result; a map and two partial reads
+**Full-text search is no help:** FamilySearch Full-Text search for "Spudich Leskovac" returns only unrelated US records (1,434 hits, none from this Croatian volume); the collection is not covered.
+**Year map for the births section (tabular Latin, one spread = 12 entries, 6 per page):** image 62 = Feb 1844 (left page, 6 entries, 1-22 Feb) and its right page entries 17-22; image 63 = Apr–May 1844; image 66 = Jul–Aug 1844 (left page 1-14 Jul); image 78 = 4 Jun 1846; image 81 = Nov 1846 (Vid b. 1846 baptism, already read: father Joannes Spudich, Leskovac N° 16). So roughly 6 images a year: 1844 ≈ images 61-69, 1842 ≈ 49-55, 1838 ≈ 25-31, 1836 ≈ 13-19 (estimates; not checked).
+**Read:** image 62 left page (Feb 1844; entries for Thomas, Margaritha, Hellena, Matthias, Anna, Katharina): no Spudić father or godparent. Image 62 right page entries 17-22 (Feb 1844): entry 21's father reads "Georgius Spu…dich(?)" of Svrča(?) Nº 14(?) with a godparent "Mathias Spudich(?) of Svrča Nº 4", i.e. a Spudić family of a different village; uncertain at this zoom. Entry 22 is not Spudić. Image 63 left page (Apr–May 1844): three entries (Nicolaus, Paulus, Michael) — no Spudić. Katarina (b. 1844, Spudić N° 16) was NOT found on these pages.
+**Not done:** the rest of 1844 and all other births, and all deaths. Cost measured: about 4-6 screenshots per page, 10-12 per spread, 60-70 per year of births. The viewer keeps its zoom between image jumps, so each jump needs a Reset View before zooming (otherwise the pan routine overshoots).
