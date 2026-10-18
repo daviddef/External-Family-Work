@@ -483,5 +483,19 @@
       "leskovac",
       "familysearch"
     ]
+  },
+  {
+    "src": "FamilySearch — Leskovac-Barilovićki deaths section: probe only (image 560 tabular Latin 1830s); no Spudić death read; section ~images 515-644 unindexed",
+    "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L99C-59HB-R",
+    "waypoint": "9R2M-YW1",
+    "pages": "560 (probe)",
+    "walked": false,
+    "outcome": "not-established",
+    "when": "2026-10-19",
+    "tags": [
+      "spudic",
+      "leskovac",
+      "familysearch"
+    ]
   }
 ]
