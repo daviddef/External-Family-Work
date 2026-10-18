@@ -118,5 +118,12 @@
   "status": "not-started",
   "detail": "Hungaricana: Képviselőházi napló 15 Jun 1927 p.334 names 'özv. Sambugnak Vincéné' as a DDSG pensioner's widow. The company's archive is probably in Vienna (DDSG/ Austrian archives) and Budapest; holder not confirmed. Also try Sonnleitner Mária as widow.",
   "updated": "2026-10-18"
+ },
+ {
+  "id": "trieste-fulltext",
+  "task": "Read the remaining ~10 Trieste marriage items that match Sambunjak in FamilySearch full text, looking for 'fu Antonio' or Semlin/Zemun/Fiume",
+  "status": "not-started",
+  "detail": "Four read (1936 records, 1926/1928/1936 supplements): all other Silba families. Others: 1928, 1932 x2, 1933, 1936, 1940 x3, 1941 supplements. Unlikely but cheap.",
+  "updated": "2026-10-18"
  }
 ]
