@@ -276,3 +276,18 @@ Entries (Croatian, 1850): 18 Siječnja? 1850 "Juro Zubčić udovac iz Sojke? …
 ## STATE AFTER THIS PASS
 Read (names, both pages, routine of 6 screenshots): 482, 483, 484, 485, 486, 487, 488, 489, 490 [with the reliability caveat above], 491 right, 502 left (complete now), plus earlier passes.
 NOT finished: 481 (left-page middle, right-page top), 498 (right page top), 503/504/505 LEFT pages (my pans overshot into the margin at this zoom; 503-505 left were partly read in the second pass), and the arks for images before 473 were not re-keyed (see the ARK CORRECTION block: image = i+1).
+
+## SIXTH PASS (18 Oct 2026) — left pages of 503-505, 498 right top, 481 — 3x zoom, 3 screenshots each (image number = i+1)
+Arks: 503 = 3:1:3QS7-899F-9XQF (i=502); 504 = 3:1:3QS7-L99F-9X9H (i=503); 505 = 3:1:3QS7-899F-9XW1 (i=504); 498 = 3:1:3QS7-899F-9XSC (i=497); 481 = 3:1:3QS7-L99F-9XZW (i=480).
+
+**503 LEFT (28 Studeni 1855) — NEW SPUDIĆ GROOM:** "Mijo (Mio) Spudić ml. iz Leskovca Nº 17" (groom age 19) + djevojka "…Gojak? iz Nalinca?" (bride age 18, name and house illegible); witnesses "Tomo Spudić i Janko Pavlović". Same day: Ivo Laskač Nº 11 + …Car Nº 5; Ivo Laskač Nº 12 + Matum Car Nº 3; Marko Bemić Nº 4? iz Novakah + …Matak? Nº 3; Marko Po…vić iz Novakah Nº 13 + Katom Car; Miko Slat Nº 7 iz Novakah + …Nº 5. The bottom of the page was in view (rows end ~5 entries). Read in full: yes (names mostly legible; bride of Mijo uncertain).
+**504 LEFT (1856):** Vid Car widower Nº ? + …Banjavčić; Mišo Križ… Nº ?; Ivo Kladušić (age 49) Nº 4 + …Matković Nº 1 iz Novakah, witness "Tomo Spu(dić)?" (surname cut off, possible Spudić witness); Marko P… Nº 4 + …Tergović Nº 8; Artun Klokočić (45) + …; Blaž … + …. **No Spudić groom or bride.** Bottom rows were blurred (tile not loaded): last 1–2 entries partly read.
+**505 LEFT (26 Studeni 1856):** Marko Stefanac Nº 4 Banskog sela; Jose? … Nº 2 Malinca; Janko Kra… Nº 6 (Velemerić?); Sandro Ste… (iz Velemerića); Janko Živičić Nº 7 + …Benkonić Nº 4 Bošta. **No Spudić.** Bottom rows blurred; one entry unread.
+**498 RIGHT top (1853):** 14 Veljače 1853 Miko Šiv…/Šis… widower + Jele … Matić? Nº ?; witnesses Ive Bilićić, Ive Moore, Ive Tomašić (Barilović). **No Spudić/Polović** in the top ~third; the rest of the page was read in the earlier pass.
+**481 (1843-44):** left page, Nov 1843: Nicolaus … + Catharina …; Josephus … Nº 10? (Barilović) + Magdalena Vig…; right page top: 27 Nov 1844 Matthias Dom… widower + Barbara …; "Mihael" … Barilović. **No Spudić/Polović** seen. Lower rows of both pages were blurred, so 481 is still NOT read in full.
+
+## ANSWERS TO PEER'S QUESTIONS (a)-(d) after this pass
+(a) Spudić marriage at/into Nº 10: none found (Spudić houses seen: 1, 3, 4, 6, 7, 15, 16, 17). The Nº 17 groom Mijo Spudić (28 Nov 1855) is a new house-17 marriage.
+(b) Jelena (b. 1842) / Katarina (b. 1844): neither named; the 17 Nov 1855 Spudić bride (502 left, age 23) does not fit either.
+(c) Polović marriage of Juraj/Jelena: none found in these pages.
+(d) done earlier: June 1851 groom "Jure Polović", widower of Gerčak Nº 10 (probable).
