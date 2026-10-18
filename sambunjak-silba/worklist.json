@@ -121,9 +121,9 @@
  },
  {
   "id": "trieste-fulltext",
-  "task": "Read the remaining ~10 Trieste marriage items that match Sambunjak in FamilySearch full text, looking for 'fu Antonio' or Semlin/Zemun/Fiume",
-  "status": "not-started",
-  "detail": "Four read (1936 records, 1926/1928/1936 supplements): all other Silba families. Others: 1928, 1932 x2, 1933, 1936, 1940 x3, 1941 supplements. Unlikely but cheap.",
+  "task": "Trieste marriage items matching Sambunjak in FamilySearch full text",
+  "status": "done",
+  "detail": "All read 18 Oct 2026; all other Silba families, no link to Antun. Nothing more to do.",
   "updated": "2026-10-18"
  }
 ]
