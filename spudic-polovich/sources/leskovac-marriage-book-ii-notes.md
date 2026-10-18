@@ -172,3 +172,31 @@ Left page: 25 Studenog 1857 "…javčić ml. iz Barilovića Nº 10 s djevojkom K
 ## Coverage after this pass
 - Book II marriage entries 1856-57 (506-510): read (names columns, both pages), with the legibility caveats above; 511-512 blank; 513 end of item.
 - Still NOT read: 478-490 (1842-1849) and the unread halves of 473-477, 491 (right page), 498 (right top), 502-505 left pages.
+
+# FOURTH PASS (18 Oct 2026) — images 478-480 (Nov 1842 – Nov 1843, Latin), names columns, both pages
+Ark note: arks shown after the jump lag one image (478 = 3:1:3QS7-899F-9X9R is the ark displayed while on 478? — the URL read 'i=477' on arrival, so 3:1:3QS7-899F-9X9R is image 477's ark; 478 = 3:1:3QS7-L99F-9X8B; 479 = 3:1:3QS7-L99F-9XJR). Verify before linking.
+
+## 478 (23 Nov 1842; priest Ladislaus Jagodich) — read both pages
+Left page, 23 Nov 1842:
+- **"Nicolaus Adol(escens), filius Joannis Bapt. Spudich ex Leskovac Nº 3" (age 21) + "Barbara virgo, filia denati Petri(?) Spudich ex Leskovac Nº 16" (17)** — a Spudić groom (house 3, son of Joannes Bapt.) and a Spudić bride (house 16, daughter of the late Petrus/Pet. Spudich). Both parishioners of Leskovac. Witnesses: Petrus Tern(?)gočnik ex Brillovich(?) Nº 9 and Josephus Spudich ex Leskovac Nº 6 (a Spudić witness, house 6) — "Josephus Spu[dich] ex Leskovač Nº 6".
+- Georgius Bellovich, widower of Breg Nº 6 + Barbara d. of Thomas Carovo(?) Nº 3 (21/20); witnesses Michael Stanfar(?) Nº 7?, Matthias Bellovich.
+- Georgius Adol. filius Georgii Bello(?)… of Požarišće Nº 6 + Barbara d. of Josephi Brakovich Nº 1 (19/18); witnesses Josephus Kristadin? Nº 5, Thomas Spudich ex Dvorišće Nº 1 [Thomas Spudich witness, "Thomas Spu-dich ex Dvorishte Nº 1"].
+- Joannes Evang. Adol. filius defuncti Mich. Mihalich + Barbara d. of Joannis Evang… Nº 5…; Adamus Adol. filius Joannis Bar ex Garezic + Susana d. of Laurentii Dabsevich; Petrus Adol. filius Georgii Bez.. ngyak(?) + Susana d. of Josephi Mar(ic)? Kovich Nº ; Josephus Adol. filius defuncti Antonii Bukovac Nº 5 + Barbara d. of Joannis Evang. Dušan Nº 3; Joannes Bapt. Adol. filius defuncti Josephi **Zpudich Con(ti)nalis?** (read as 'Zpudich') ex Leskovac Nº 4, age 20, + Margarita d. of Joannis Mattovich ex Novaki Nº 3 (17) [right page top, 23 Nov 1842] — a Spudić groom, Joannes Bapt., son of the late Josephus Spudich of Leskovac Nº 4; witnesses Lucas Zpudich ex Novaki Nº 15 and Georgius Mesić(?) Nº 14 — Lucas **Spudich**, house 15, appears as witness.
+(Right page continues with further Nov 1842 entries: Petrus Adol., filius Georgii Bez(inić?) + Susana d. of Josephi Karović; Adamus filius Joannis Bar(?) + Susana d. of Laurentii Dabsevich. No further Spudić.)
+
+## 479 (24 Nov 1842 / Jan-Aug 1843) — read both pages
+Left page, 23 Nov 1842 (several entries):
+- **"Nicolaus Adolescens, filius defuncti Josephi Zpudich ex Leskovac Nº 4" (age 19) + "Dorothea virgo, filia defuncti Michaelis(?) Sbeketta ex Leskovac Nº 5" (17)**, witnesses Georgius Mesić Nº 14… and **Lucas Zpudich ex Leskovac Nº 15** (witness; read at high zoom: 'Lucas Zpudich ex Leskovac Nº 15, amb. conf. Barillov.'). — Nicolaus, son of the late Josephus Spudich, house 4 (the same house/father as the groom Joannes Bapt. above).
+- Michael Adol. filius defuncti … ex Leskovac Nº 4(?) + Catharina d. of Joannis Evang. Dominic…; Mathias Bellovich widower of Požarišće + Catharina, widow of the late Ivan? Beterić(?); Nicolaus Adol. filius defuncti Josephi Zpudich … (second entry cited above); Nicolaus Adol. filius Joannis Evang. Bukowae? ex Vukovac? Nº 4/5 + Catharina d. of Simonis Šeketa ex Leskovac Nº 5.
+Right page, 1843: 18? Februarii 1843 Petrus Siv… widower ex Velikovac? + Anna virgo d. of Joseph Dobrinić; Georgius Adol. filius Matthiae Bernardich ex Šuba? Nº 3 + Anna virgo d. of Georgii Banjavich; 18 Junii 1843 Joannes Evang. Adol. filius ... Bellavich ex Stella Nº 5 + Anna virgo d. of Petri Čačić? ex Stella Nº 3; 3 Augusti 1843 Josephus Ivan(ić?) widower ex Tomac? ... Witnesses Franko?, Laurentius Dabšević. No further Spudić parties; Lucas Spudich (Nº 15) a repeat witness.
+
+## 480 (Nov 1843) — read both pages
+Left page: Michael Aviel?/Havlić? ex Stella Nº 5 … + Marina d. of the late Petri?; Thomas Br(ančić?) ex Bra… Nº 6 …; Joannes Georg? Mattesha + Catharina d. of Joannis Thomae Stan... (a Spudić? 'Spundah?') ex Leskovac; second hit: **"Catharina virgo, filia defuncti Illuc…(?) Spundah/Zpudich…" age 19 (right page below Thomas Mattesha, 24 Nov 1843)** — flagged: the bride's patronymic reads 'Spundah/Spudich' with 'defuncti' — a possible Spudić bride; surname illegible at this zoom. 
+Right page, 29? Novembris 1843: Nicolaus Halić? widower ex Velikovac Nº 4 + Margaritha virgo d. of Joannis Bernardić ex Malinach Nº 4; Michael Adol. filius Jagodinović? + Dorothea virgo d. of Josephi Tomac?…; Thomas Adol. filius Georgii Tergovich(?) ex Barillovich + Margaritha virgo d. of Nicolai Mezić ex Barillovich; Lucas Adol. filius … Mesić? + Catharina virgo d. of Thomae Bar… Stella; further entries with Mattesha/Vužić/Dobrinić. A priest's stamp 'Archiv Hrvatske Zagreb' at the foot of the right page.
+
+## Summary of hits 478-480 (all Latin 1842-43)
+- Spudić grooms: **Nicolaus s. of Joannes Bapt. Spudich, house 3 (age 21)** [478]; **Joannes Bapt. s. of the late Josephus Spudich, house 4 (20)** [478/479]; **Nicolaus s. of the late Josephus Spudich, house 4 (19)** [479].
+- Spudić brides: **Barbara d. of the late Petrus Spudich, house 16** [478]; **Catharina d. of the late …(Spudich?)** [480, flagged].
+- Spudić witnesses: Josephus Spudich Nº 6; Thomas Spudich Nº 1 (Dvorišće); Lucas Zpudich Nº 15; and repeats.
+- House 10: none in these images (houses 3, 4, 6, 15, 16, 1).
+- Caveat: the Latin cursive is difficult at 3x zoom; surnames spelled 'Spudich/Zpudich/Spundah' were judged by shape.
