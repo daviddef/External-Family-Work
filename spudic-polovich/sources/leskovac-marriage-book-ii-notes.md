@@ -301,3 +301,40 @@ Arks: 503 = 3:1:3QS7-899F-9XQF (i=502); 504 = 3:1:3QS7-L99F-9X9H (i=503); 505 = 
 
 ## STATE AFTER THE SEVENTH PASS
 Read in full: 481, 482-490, 491 right, 498 right top (rest of 498 in earlier pass), 502 left, 503 left, 504 left, 505 left. The only open arks issue is the i=N → image N+1 offset for arks recorded before this session. Nothing is marked `walked`.
+
+
+## CANONICAL ARK TABLE (supersedes every ark label above; image = i+1)
+Source: the `i=` value read from the viewer URL after a pause, plus 1. Rows marked ✔ were also confirmed on screen this session (the 'Image N of 644' box matched i+1). Others come from the earlier re-keying and are not re-verified; confirm before linking. Not listed: 481-490 (see the ARK CORRECTION block: 483 = …L99F-9XNF, 484 = …899F-9X49, 485 = …899F-9XS5, 486 = …L99F-9XLW, 488 = …L99F-9XZN) and 491 right-page note 'ark …L99F-9XNG' = i=490 = image 491.
+
+| Image | i= | Ark | Checked |
+|---|---|---|---|
+| 473 | 472 | 3:1:3QS7-899F-9XXQ |  |
+| 474 | 473 | 3:1:3QS7-899F-9XFB |  |
+| 475 | 474 | 3:1:3QS7-L99F-9XSP |  |
+| 476 | 475 | 3:1:3QS7-899F-9XJ6 |  |
+| 477 | 476 | 3:1:3QS7-899F-9XS6 |  |
+| 478 | 477 | 3:1:3QS7-899F-9X9R |  |
+| 479 | 478 | 3:1:3QS7-L99F-9X8B |  |
+| 480 | 479 | 3:1:3QS7-L99F-9XJR |  |
+| 481 | 480 | 3:1:3QS7-L99F-9XZW | ✔ |
+| 492 | 491 | 3:1:3QS7-L99F-9XJL |  |
+| 493 | 492 | 3:1:3QSQ-G99F-9XRV |  |
+| 494 | 493 | 3:1:3QSQ-G99F-9XN5 |  |
+| 495 | 494 | 3:1:3QSQ-G99F-9XVR |  |
+| 496 | 495 | 3:1:3QSQ-G99F-9XJD |  |
+| 497 | 496 | 3:1:3QS7-L99F-9X61 |  |
+| 498 | 497 | 3:1:3QS7-899F-9XSC | ✔ |
+| 499 | 498 | 3:1:3QSQ-G99F-9XVL |  |
+| 500 | 499 | 3:1:3QSQ-G99F-9X6K |  |
+| 501 | 500 | 3:1:3QS7-L99F-9XMM |  |
+| 502 | 501 | 3:1:3QS7-899F-9XDG |  |
+| 503 | 502 | 3:1:3QS7-899F-9XQF | ✔ |
+| 504 | 503 | 3:1:3QS7-L99F-9X9H | ✔ |
+| 505 | 504 | 3:1:3QS7-899F-9XW1 | ✔ |
+| 506 | 505 | 3:1:3QSQ-G99F-9X46 |  |
+| 507 | 506 | 3:1:3QSQ-G99F-9XR4 |  |
+| 508 | 507 | 3:1:3QS7-L99F-9XXP |  |
+| 509 | 508 | 3:1:3QS7-899F-9X7N |  |
+| 510 | 509 | 3:1:3QSQ-G99F-9XF9 |  |
+| 511 | 510 | 3:1:3QSQ-G99F-9XXM |  |
+| 513 | 512 | 3:1:3QS7-899F-9X3N |  |
