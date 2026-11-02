@@ -48,8 +48,10 @@
  {
   "id": "findmypast",
   "task": "Findmypast (David signed in): Somerset/Wiltshire registers; Gloucester criminal register Lent 1819",
-  "status": "not-started",
-  "updated": "2026-11-02"
+  "status": "blocked",
+  "updated": "2026-11-02",
+  "owner": "requester",
+  "detail": "2 Nov 2026: Findmypast search redirected to its login page (signed out in the browser pane). David to sign in; then search Wiltshire/Somerset marriage licences and bonds 1789 for James Farley and Ann Baley, and the Gloucester criminal register Lent 1819."
  },
  {
   "id": "side-lines",
