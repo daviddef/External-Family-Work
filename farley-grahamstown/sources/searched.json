@@ -529,5 +529,30 @@
    "heytesbury",
    "tna"
   ]
+ },
+ {
+  "src": "WikiTree Farley-868 — James Farley bapt. 10 Jun 1770 Heytesbury, son of Daniel Farley and Anne Dyer (secondary tree; not adopted)",
+  "url": "https://www.wikitree.com/wiki/Farley-868",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "wikitree"
+  ]
+ },
+ {
+  "src": "FamilySearch Wiltshire index — James Farley bapt. 1769–71 Heytesbury (WikiTree's 10 Jun 1770 entry not found)",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=James&q.surname=Farley",
+  "pages": "",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
  }
 ]
