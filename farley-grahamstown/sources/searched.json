@@ -478,5 +478,56 @@
    "farley",
    "heytesbury"
   ]
+ },
+ {
+  "src": "FreeREG — Farley, Wiltshire, 1745–1800 (29 results: marriages and burials only, no baptisms)",
+  "url": "https://www.freereg.org.uk/search_queries/new",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "wiltshire",
+   "freereg"
+  ]
+ },
+ {
+  "src": "FreeREG — Wiltshire baptisms 1745–1800: none transcribed for this surname, so the nil does not count",
+  "url": "https://www.freereg.org.uk/search_queries/new",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "wiltshire",
+   "freereg"
+  ]
+ },
+ {
+  "src": "FamilySearch — Daniel Farly and Ann Dyer, marriage 1759 Heytesbury",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6D3V-NZ47",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "TNA Discovery — Farley Heytesbury 1700–1830 (4 results, none naming James)",
+  "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=Farley%20Heytesbury&_sd=1700&_ed=1830",
+  "pages": "",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "tna"
+  ]
  }
 ]
