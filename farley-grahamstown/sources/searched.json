@@ -234,5 +234,29 @@
    "heytesbury",
    "familysearch"
   ]
+ },
+ {
+  "src": "Findmypast — Somerset Marriages: Daniel Farley & Elizabeth Wooly 13 Dec 1811 Shepton Mallet (and banns 24 Nov)",
+  "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F295055464%2F1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "woolly",
+   "shepton-mallet",
+   "findmypast"
+  ]
+ },
+ {
+  "src": "Findmypast — Daniel Farley, Gloucestershire 1819 (criminal register): 0 results, no control run",
+  "url": "https://www.findmypast.co.uk/search/results?firstname=daniel&lastname=farley&eventyear=1819&eventyearoffset=1&keywordsplace=gloucester",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "findmypast"
+  ]
  }
 ]
