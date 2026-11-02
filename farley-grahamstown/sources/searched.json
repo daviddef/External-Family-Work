@@ -677,5 +677,67 @@
    "dyer",
    "calne"
   ]
+ },
+ {
+  "src": "Findmypast Wiltshire Baptisms Index 1530-1917, Farley at Heytesbury 1759-83 (year windows)",
+  "url": "https://www.findmypast.co.uk/search/results?lastname=farley&keywordsplace=heytesbury&sourcecategory=births%20%26%20baptisms",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "baptism"
+  ]
+ },
+ {
+  "src": "Findmypast Wiltshire Burials Index — Daniel 1805, William 1803, Richard 1827 (ages 64, 64, 81)",
+  "url": "https://www.findmypast.co.uk/search/results?lastname=farley&keywordsplace=heytesbury",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "burial"
+  ]
+ },
+ {
+  "src": "TNA Discovery — Farley wills, Heytesbury/Wiltshire 1803-27 (PROB 11)",
+  "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=Farley%20Wiltshire%20will&_sd=1803&_ed=1827&_ser=PROB%2011",
+  "pages": "",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "will"
+  ]
+ },
+ {
+  "src": "WSHC CalmView — Farley wills Heytesbury (site unreachable, ECONNREFUSED)",
+  "url": "https://calmview.wiltshire.gov.uk/",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "will"
+  ]
+ },
+ {
+  "src": "Wiltshire OPC Heytesbury probate index / parish documents (members-only, not read)",
+  "url": "https://www.wiltshire-opc.org.uk/parishes/heytesbury/",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "will"
+  ]
  }
 ]
