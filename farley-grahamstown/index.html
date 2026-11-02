@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Farley — Shepton Mallet &amp; Grahamstown</title>
+<meta name="description" content="Brett Farley's Farley line, traced back from Grahamstown to a 1790 Wiltshire baptism and an 1811 Somerset marriage; what the registers confirm and what the family tree got wrong." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+<style>
+:root{
+  --ground:#EDEBE5; --panel:#F7F6F2; --panel-2:#E3E1D9;
+  --ink:#16222A; --ink-2:#4C5D66; --ink-3:#7C8A91;
+  --rule:#D3D0C7; --rule-strong:#B6B2A6;
+  /* Pick a distinct accent per family so pages don't blur together across the index.
+     Vidaković & Vrban used a magenta (#8E2456). Apollonio & Champion used a teal (#2E6E7A).
+     Keep --accent-wash a very light tint of --accent for the confirmed-node fill. */
+  --accent:#7A5C0E; --accent-2:#9A7418; --accent-wash:#F1ECCB;
+  --ochre:#9A6B18; --terra:#A8442B;
+  --serif:"EB Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --maxw:1080px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#101820; --panel:#17212A; --panel-2:#1E2A34;
+  --ink:#E8E6DF; --ink-2:#A6B4BC; --ink-3:#74858E;
+  --rule:#2A3841; --rule-strong:#3F515C;
+  --accent:#DDBE55; --accent-2:#EAD282; --accent-wash:#2E2A12;
+  --ochre:#D2A24A; --terra:#D97A5F;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--serif);
+  font-size:19px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3{text-wrap:balance;margin:0;font-weight:500;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:.06em}
+img{max-width:100%}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.lab{font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3)}
+.dek{font-family:var(--sans);font-size:15px;line-height:1.62;color:var(--ink-2);max-width:76ch}
+.lede{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink-2);
+  max-width:76ch;margin-top:4px}
+header.site{border-bottom:1px solid var(--rule-strong);background:var(--panel)}
+.sitein{padding:16px 0}
+.brand{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--ink);text-decoration:none}
+.brand em{font-style:italic;font-weight:400;color:var(--accent)}
+main{padding:0 0 90px}
+.pagehead{padding:56px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:38px}
+.pagehead h1{font-size:clamp(32px,5.6vw,54px);line-height:1.06;margin-top:14px}
+.lead{margin-top:20px;font-size:17.5px;max-width:72ch}
+section.blk{padding:40px 0;border-bottom:1px solid var(--rule)}
+section.blk:last-child{border-bottom:0}
+section.blk h2{font-size:clamp(23px,3vw,32px)}
+section.blk > .dek{margin-top:10px}
+section.blk > p + p,section.blk > p + .note,section.blk > .note + p,
+section.blk > p + table,section.blk > p + blockquote,section.blk > p + .grid,
+section.blk > .note + .note{margin-top:1.15rem}
+.grid{display:grid;gap:14px}
+.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:700px){.grid.three{grid-template-columns:1fr 1fr;gap:8px}}
+@media (max-width:460px){.grid.three{grid-template-columns:1fr}}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:18px 18px 20px}
+.stat .n{font-family:var(--serif);font-size:34px;line-height:1.1;font-weight:500;color:var(--terra)}
+.stat .l{font-family:var(--sans);font-size:12.5px;line-height:1.45;color:var(--ink-2);margin-top:10px}
+.note{border-left:2px solid var(--ochre);padding:2px 0 2px 18px;font-family:var(--sans);
+  font-size:14.5px;line-height:1.62;color:var(--ink-2);max-width:82ch}
+.notclaimed{border-left:3px solid var(--terra);background:var(--panel);padding:14px 18px;margin:18px 0}
+.notclaimed .lab{color:var(--terra);display:block;margin-bottom:6px}
+table.kv{width:100%;border-collapse:collapse;margin-top:6px}
+table.kv th{width:11.5rem;text-align:left;vertical-align:top;font-family:var(--sans);
+  font-size:12.5px;font-weight:600;color:var(--ink-2);padding:10px 16px 10px 0;border-top:1px solid var(--rule)}
+table.kv td{vertical-align:top;padding:10px 0;border-top:1px solid var(--rule);font-size:16.5px;line-height:1.55}
+table.kv tr:first-child th,table.kv tr:first-child td{border-top:none}
+@media (max-width:640px){
+  table.kv th{width:auto;display:block;padding-bottom:0;border-top:none}
+  table.kv td{display:block;padding-top:2px}
+  table.kv tr{display:block;border-top:1px solid var(--rule);padding:8px 0}
+  table.kv tr:first-child{border-top:none}
+}
+blockquote{margin:18px 0 0;padding:4px 0 4px 18px;border-left:3px solid var(--ochre);
+  color:var(--ink-2);font-style:italic;font-family:var(--sans);font-size:15px;line-height:1.6}
+blockquote cite{display:block;margin-top:8px;font-style:normal;font-size:12.5px;color:var(--ink-3)}
+figure.doc{margin:1.2rem 0 0}
+figure.doc img{width:100%;max-width:520px;height:auto;display:block;border:1px solid var(--rule);
+  border-radius:3px;background:var(--panel)}
+figure.doc figcaption{font-family:var(--sans);font-size:12px;line-height:1.5;color:var(--ink-3);
+  margin-top:10px;max-width:60ch}
+ul.plain{list-style:none;padding:0;margin:12px 0 0;font-size:16px}
+ul.plain li{padding:8px 0;line-height:1.5;border-bottom:1px solid var(--rule)}
+ul.plain li:last-child{border-bottom:none}
+.btn{display:inline-block;font-family:var(--sans);font-size:12.5px;line-height:1;font-weight:600;
+  text-decoration:none;border-radius:3px;padding:11px 16px;background:var(--accent);color:#FBF8F1;
+  border:1px solid var(--accent)}
+.btn:hover{background:var(--accent-2);border-color:var(--accent-2)}
+footer.site{border-top:1px solid var(--rule-strong);padding:30px 0 50px;background:var(--panel)}
+.foot{font-family:var(--sans);font-size:12.5px;line-height:1.65;color:var(--ink-2);max-width:92ch}
+.foot.dim{color:var(--ink-3);margin-top:10px}
+.tree{margin-top:1.6rem;overflow-x:auto;padding-bottom:4px}
+.tree .gen{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;position:relative;padding-top:22px}
+.tree .gen:first-child{padding-top:0}
+.tree .gen:not(:first-child)::before{content:"";position:absolute;top:0;left:50%;width:1px;height:22px;
+  background:var(--rule-strong)}
+.tree .genlab{width:100%;text-align:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.tree .node{background:var(--panel);border:1.5px solid var(--rule-strong);border-radius:4px;
+  padding:12px 16px;font-family:var(--sans);text-align:center;min-width:168px;max-width:230px;flex:0 1 auto}
+.tree .node .name{font-family:var(--serif);font-size:16.5px;color:var(--ink);display:block;line-height:1.25}
+.tree .node .meta{color:var(--ink-3);font-size:11px;line-height:1.5;margin-top:4px;display:block}
+.tree .node.confirmed{border-color:var(--accent);background:var(--accent-wash)}
+.tree .node.confirmed .name{color:var(--accent)}
+.tree .node.candidate{border-style:dashed;border-color:var(--rule-strong)}
+.tree .node.candidate .name{color:var(--ink-2)}
+.tree .pair{display:flex;align-items:center;gap:8px}
+.tree .pair .x{font-family:var(--serif);font-style:italic;color:var(--ink-3);font-size:14px}
+.tree .legend{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:24px;
+  font-family:var(--sans);font-size:11.5px;color:var(--ink-3)}
+.tree .legend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;
+  vertical-align:-1.5px;border:1.5px solid var(--accent);background:var(--accent-wash)}
+.tree .legend .sw.cand{border-style:dashed;border-color:var(--rule-strong);background:var(--panel)}
+@media (max-width:640px){.tree .node{min-width:130px;font-size:14px;padding:10px 12px}
+  .tree .node .name{font-size:15px}}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap sitein"><a class="brand" href="#top">The Farley <em>&amp; Grahamstown</em> Page</a></div></header>
+<main id="top"><div class="wrap">
+<div class="pagehead">
+<div class="lab">Shepton Mallet, Somerset &rarr; Bathurst &amp; Grahamstown, Eastern Cape</div>
+<h1>Daniel Farley, Royal Marine and 1820 Settler</h1>
+<p class="dek lead">Started from Brett Farley&rsquo;s family tree (a MyHeritage GEDCOM). The tree&rsquo;s farthest Farley, Daniel, had no parents and a vague birthplace (&ldquo;Devon or Somerset&rdquo;). A first session of register searching on 2 November 2026 put him in Heytesbury, Wiltshire, and corrected two of the tree&rsquo;s facts. This page is a running account: what is read, what is probable, what is still open.</p></div>
+
+<section class="blk"><div class="grid three">
+<div class="stat"><div class="n">14 Apr 1790</div><div class="l">Daniel Farley baptised, Heytesbury, Wiltshire (probable; see below)</div></div>
+<div class="stat"><div class="n">1811</div><div class="l">Banns and marriage to Elizabeth Woolly, Shepton Mallet, Somerset (read in the index)</div></div>
+<div class="stat"><div class="n">1820</div><div class="l">Sails in HMS Weymouth with Hyman&rsquo;s Party to Algoa Bay; dies at Bathurst about 1825</div></div></div>
+<p style="margin-top:1.2rem">The descent from the requester is, through people long dead: Daniel Farley (c.1790&ndash;c.1825) &rarr; William Farley (1815&ndash;1906) &rarr; Henry George Farley (1844&ndash;1931) &rarr; Francis William Henry Farley (1872&ndash;1949) &rarr; Lionel Llewellyn Farley (1903&ndash;1966) &rarr; the living generations. Nobody living is described on this page.</p></section>
+
+<section class="blk" id="request"><h2>The request</h2>
+<table class="kv"><tr><th>Asked by</th><td>David Defranceski, for Brett Farley (born Durban, 1978)</td></tr>
+<tr><th>Start point</th><td>A GEDCOM export of 1,743 KB, 2,009 people, from MyHeritage (source trees: Ancestry Family Trees and MyHeritage Smart Matches). The Farley line is its best-documented branch back to 1820.</td></tr>
+<tr><th>Wanted</th><td>Research the Farley family, beginning with Brett, and build a one-page site. The oldest unresolved question in the tree is Daniel Farley&rsquo;s origin, so that is where the work went.</td></tr></table></section>
+
+<section class="blk" id="corrections"><h2>What the registers say that the tree does not</h2>
+<p class="dek">Each row names the tree&rsquo;s version, the register&rsquo;s version and how sure we are.</p>
+<table class="kv">
+<tr><th>William&rsquo;s birthplace</th><td>Tree: &ldquo;Devonshire&rdquo;, born 17 Jan 1815. Register: <strong>baptised 16 January 1815 at Shepton Mallet, Somerset</strong>, parents Daniel and Betty Farley, residence Kilver Street (<a href="https://www.familysearch.org/ark:/61903/1:1:6D96-TJ6C" rel="noopener">Somerset church records, Bishop&rsquo;s Transcript, D/D/ RR 368A, p. 28</a>). A baptism on the 16th cannot follow a birth on the 17th, so the tree&rsquo;s day is also wrong or mis-copied. <em>Read in the index; the page image is not yet seen.</em></td></tr>
+<tr><th>Daniel&rsquo;s origin</th><td>Tree: born about 1792, &ldquo;Devon or Somerset&rdquo;. The settlers&rsquo; index says Devon. A Daniel Farley was <strong>baptised 14 April 1790 at Heytesbury, Wiltshire</strong>, son of James and Ann (<a href="https://www.familysearch.org/ark:/61903/1:1:6DST-74Z1" rel="noopener">Wiltshire church records</a>). The eGGSA 1820 Settlers page on Daniel names that baptism and says a letter of 30 August 1819 (T. Bunn) describes him as from Heytesbury. <strong>Probable, not proven</strong>: it rests on a secondary page and on the name; I have not seen Bunn&rsquo;s letter.</td></tr>
+<tr><th>Elizabeth&rsquo;s origin</th><td>Tree: Elizabeth Woolley, born 1791 at North Bradley, Wiltshire (or &ldquo;Huntley, Gloucester&rdquo;). Register: an <strong>Elizabeth Woolly was baptised 8 August 1788 at Shepton Mallet</strong>, born 16 July 1788, daughter of Joseph and Ann (<a href="https://www.familysearch.org/ark:/61903/1:1:6D9V-G6MK" rel="noopener">record 1</a>, <a href="https://www.familysearch.org/ark:/61903/1:1:6D9K-5ZPL" rel="noopener">record 2</a>). She is the only Elizabeth Woolly of marrying age I found where the banns were read. <strong>Probable</strong>: nothing in the entry ties her to Daniel, but the banns, the children&rsquo;s baptisms and the place all sit at Shepton Mallet. The tree&rsquo;s North Bradley baptism (14 Aug 1791) has not been looked at and may be a different woman.</td></tr>
+<tr><th>Marriage</th><td>Tree: 13 Dec 1811, Shepton Mallet. Banns: <strong>24 November 1811</strong>, Daniel Farley, single, of Shepton Mallet, and Elizabeth Woolly (<a href="https://www.familysearch.org/ark:/61903/1:1:6DM8-23V6" rel="noopener">Somerset Archives D/P/SHE 2/1/11</a>). The marriage itself on 13 December is reported by eGGSA, not seen here. The two dates agree.</td></tr>
+<tr><th>Daniel&rsquo;s service</th><td>Tree: &ldquo;Naval pensioner from Wiltshire&rdquo;. eGGSA, citing Admiralty records at Kew (ADM 27/12, ADM 22/305), says he was a private Royal Marine in HMS Foxhound (allotted 1 Aug 1810, discharged 6 Mar 1812 at Plymouth) and that a Greenwich Hospital pension was paid to him as a colonist at the Cape to 30 Sept 1822. <em>Reported, not seen.</em></td></tr></table>
+<div class="notclaimed"><span class="lab">Not claimed</span>
+<p>Neither Heytesbury nor Elizabeth&rsquo;s parents is yet a <em>finding</em>. A man of the same name was baptised in 1784 at Berry Pomeroy, Devon, to a different Daniel and Agnes; that is the likeliest source of the &ldquo;Devon&rdquo; in the settlers&rsquo; index and is set aside here because the 1819 letter, as reported, points to Heytesbury. The 1790 reading also leaves him about 29 at the 1820 sailing; the party return is said to give his age as 28, which is close enough for a clerk.</p></div></section>
+
+<section class="blk" id="spine"><h2>The spine</h2>
+<div class="tree">
+<div class="gen"><div class="genlab">Parents of Daniel (probable)</div><div class="pair"><div class="node candidate"><span class="name">James Farley</span><span class="meta">of Heytesbury</span></div><span class="x">m. 1789?</span><div class="node candidate"><span class="name">Ann Baley</span><span class="meta">marriage by licence 20 Aug 1789, per eGGSA; not seen</span></div></div></div>
+<div class="gen"><div class="genlab">c.1790&ndash;c.1825</div><div class="pair"><div class="node candidate"><span class="name">Daniel Farley</span><span class="meta">bapt. 14 Apr 1790 Heytesbury (probable) &middot; Royal Marine &middot; d. about Sept 1825 Bathurst</span></div><span class="x">m. 1811</span><div class="node candidate"><span class="name">Elizabeth Woolly</span><span class="meta">bapt. 8 Aug 1788 Shepton Mallet (probable)</span></div></div></div>
+<div class="gen"><div class="genlab">Children baptised at Shepton Mallet</div><div class="node confirmed"><span class="name">William Farley</span><span class="meta">bapt. 16 Jan 1815 &middot; d. 31 Jul 1906 Grahamstown</span></div><div class="node candidate"><span class="name">Elizabeth, Sarah, Joseph</span><span class="meta">bapt. 1813, 1816; Joseph not found (eGGSA)</span></div></div>
+<div class="gen"><div class="genlab">Grahamstown</div><div class="node candidate"><span class="name">Henry George Farley</span><span class="meta">1844&ndash;1931 (tree)</span></div></div>
+<div class="gen"><div class="node candidate"><span class="name">Francis William Henry</span><span class="meta">1872&ndash;1949 (tree)</span></div><div class="node candidate"><span class="name">Lionel Llewellyn</span><span class="meta">1903&ndash;1966 (tree)</span></div></div>
+<div class="legend"><span><span class="sw"></span>Read in a register entry (index page)</span><span><span class="sw cand"></span>Probable, or taken from the tree or a secondary page</span></div></div>
+<p class="note" style="margin-top:1.2rem">William is shown as read because both his baptism and his father&rsquo;s name are in the entry, and the eGGSA children list agrees. The generations below him come only from the GEDCOM; none of them has been checked against a South African record yet.</p></section>
+
+<section class="blk" id="timeline"><h2>Timeline</h2>
+<table class="kv">
+<tr><th>14 Apr 1790</th><td>Daniel Farley baptised, Heytesbury. <a href="https://www.familysearch.org/ark:/61903/1:1:6DST-74Z1" rel="noopener">Register index</a>. <em>Probable.</em></td></tr>
+<tr><th>1810&ndash;1812</th><td>Private Royal Marine, HMS Foxhound. <em>eGGSA citing ADM 27/12; not seen.</em></td></tr>
+<tr><th>24 Nov 1811</th><td>Banns, Shepton Mallet. <a href="https://www.familysearch.org/ark:/61903/1:1:6DM8-23V6" rel="noopener">Register index</a>. <em>Documented.</em></td></tr>
+<tr><th>27 Dec 1813</th><td>Elizabeth baptised, Shepton Mallet. <em>eGGSA; not seen.</em></td></tr>
+<tr><th>16 Jan 1815</th><td>William baptised, Shepton Mallet, Kilver Street. <a href="https://www.familysearch.org/ark:/61903/1:1:6D96-TJ6C" rel="noopener">Register index</a>. <em>Documented.</em></td></tr>
+<tr><th>12 Oct 1816</th><td>Sarah baptised, Shepton Mallet. <em>eGGSA; not seen.</em></td></tr>
+<tr><th>Lent 1819</th><td>Fortnight&rsquo;s imprisonment for larceny, Gloucester; residence given as Cox&rsquo;s Hill, Frome. <em>Tree, citing a criminal register; not seen.</em></td></tr>
+<tr><th>7 Jan&ndash;15 May 1820</th><td>HMS Weymouth, Portsmouth to Algoa Bay, Hyman&rsquo;s Party (leader Charles Hyman of Westbury, Wiltshire; a child named James Farley, probably Joseph, died on board 20 Feb). <em>eGGSA and tree.</em></td></tr>
+<tr><th>c.Sept 1825</th><td>Daniel presumed lost in the schooner <em>Bridekirk</em>, Bathurst. <em>Tree only; the eGGSA page on Daniel does not mention it.</em></td></tr>
+<tr><th>8 Dec 1827</th><td>Elizabeth marries James Regan, Grahamstown. <em>Tree only.</em></td></tr>
+<tr><th>31 Jul 1906</th><td>William Farley dies at Grahamstown, aged 91. <em>Tree; the Grahamstown Journal obituary is not yet read.</em></td></tr></table></section>
+
+<section class="blk" id="coverage"><h2>What was searched, and the standard each answer rests on</h2>
+<p class="dek">All of this was read from <strong>FamilySearch record-search results and record pages</strong> (signed in by David), not from register images. Every result below is therefore an <em>index</em> answer, not a page-walk. A free sign-in is needed to open the links.</p>
+<table class="kv">
+<tr><th>Daniel + Elizabeth, marriage 1811</th><td>Found: banns 24 Nov 1811 (two index records of one entry, principal and spouse).</td></tr>
+<tr><th>William, born 1812&ndash;1818, father Daniel</th><td>Found: Shepton Mallet 16 Jan 1815. An undated &ldquo;Devon, 1815&rdquo; baptism for a William Farley also appears in the index with no parents, and has not been opened; it is the source of the tree&rsquo;s Devonshire and is not shown to be him.</td></tr>
+<tr><th>Daniel Farley born 1784&ndash;1796</th><td>Candidates seen: Heytesbury 1790 (father James), Berry Pomeroy 1784 (father Daniel). Not counted: Horsham, Sussex 1799 (Daniel and Esther); Witham, Essex burial 1875 (born 1789).</td></tr>
+<tr><th>Elizabeth Woolly born 1786&ndash;1793, father Joseph</th><td>Shepton Mallet 1788 (two index records). Near-names seen and not counted: Wholey (Wingfield, Derbyshire 1790), Woolley (Birmingham 1791, Elton 1792).</td></tr>
+<tr><th>Secondary page</th><td>eGGSA 1820 Settlers, &ldquo;FARLEY, Daniel &mdash; Extra Data&rdquo;. Read through a summarising tool, not word for word, so quote it only after opening it.</td></tr></table>
+<div class="note" style="margin-top:1rem"><strong>Controls:</strong> the William baptism matches the tree&rsquo;s father, mother-name and year, which shows the search reaches the right parish and decade. No search here returned a false zero.</div></section>
+
+<section class="blk" id="next"><h2>What would move this forward</h2>
+<ul class="plain">
+<li><strong>Open the three register images</strong> (Daniel&rsquo;s Heytesbury baptism, Elizabeth&rsquo;s Shepton Mallet baptism, the 1811 banns/marriage) and save them to this page. Needs the viewer, one image each.</li>
+<li><strong>Heytesbury 1789 marriage</strong> of James Farley and Ann Baley, and the siblings of Daniel; this tests the Heytesbury link from the other side.</li>
+<li><strong>Daniel&rsquo;s death.</strong> Search the Bathurst/Cape records (eGGSA, NAAIRS estate files) for 1825; test the <em>Bridekirk</em> story against shipping notices.</li>
+<li><strong>Elizabeth&rsquo;s mother&rsquo;s name</strong> (&ldquo;Betty&rdquo; in William&rsquo;s entry; Elizabeth in the banns) and the tree&rsquo;s North Bradley baptism.</li>
+<li><strong>William&rsquo;s Grahamstown obituary, 1906</strong> and his 9 Aug 1836 marriage to Elizabeth Ann Moore at St George&rsquo;s. The tree gives her birth in &ldquo;France&rdquo; (about 1816) and two conflicting death places; nothing has been checked.</li>
+<li><strong>Naval and Marines record</strong> at Kew (ADM 27/12, ADM 22/305) to confirm service and an age.</li></ul></section>
+
+<section class="blk" id="names"><h2>A note on names and places</h2>
+<table class="kv">
+<tr><th>Surname</th><td>Farley; also Farly (indexed on the banns). Wife: Woolly (banns, baptism), Wooly, Woolley (tree).</td></tr>
+<tr><th>Given names</th><td>Elizabeth appears as <em>Betty</em> in William&rsquo;s baptism.</td></tr>
+<tr><th>Places</th><td>Shepton Mallet (Somerset); Heytesbury (Wiltshire); Bathurst (Eastern Cape); Grahamstown (now Makhanda). Country on the record: England, then the Cape Colony (British), not South Africa.</td></tr></table></section>
+
+<section class="blk" id="scope"><h2>What this page is, and is not</h2>
+<p>A working account of one line, built from a family-tree file and a first round of index searches. Where the tree and a register disagree, the register is preferred and the tree&rsquo;s version is said so. Index entries are transcriptions, and a page is only as good as the image behind it. No living person is named other than the requester.</p></section>
+</div></main>
+<footer class="site"><div class="wrap">
+<p class="foot">Put together as a favour &mdash; not an archive of record. <strong>Corrections, photographs, and better readings are welcome.</strong></p>
+<p class="foot dim">Daniel Farley (bapt. 1790 Heytesbury) &amp; Elizabeth Woolly (bapt. 1788 Shepton Mallet); William Farley (1815&ndash;1906), Grahamstown.</p></div></footer>
+</body>
+</html>

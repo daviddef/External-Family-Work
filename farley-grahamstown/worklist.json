@@ -1,0 +1,46 @@
+[
+ {
+  "id": "images",
+  "task": "Open the register images (Daniel Heytesbury 1790, Elizabeth Woolly 1788, 1811 banns, William 1815) and save evidence images to images/",
+  "status": "not-started",
+  "updated": "2026-11-02",
+  "detail": "Arks 1:1:6DST-74Z1, 1:1:6D9V-G6MK, 1:1:6DM8-23V6, 1:1:6D96-TJ6C. Everything so far is index-level."
+ },
+ {
+  "id": "heytesbury-1789",
+  "task": "Find marriage of James Farley and Ann Baley, Heytesbury 1789, and Daniel's siblings",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "daniel-death",
+  "task": "Daniel Farley death c.1825 Bathurst; test the Bridekirk story",
+  "status": "not-started",
+  "updated": "2026-11-02",
+  "detail": "eGGSA Daniel page does not mention Bridekirk. Try NAAIRS/MOOC, eGGSA, Cape newspapers."
+ },
+ {
+  "id": "north-bradley",
+  "task": "Check the tree's Elizabeth Woolley bapt 14 Aug 1791 North Bradley against the 1788 Shepton Mallet baptism",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "moore",
+  "task": "Elizabeth Ann Moore (b. c.1816 'France', m. 1836 Grahamstown): verify",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "admiralty",
+  "task": "Confirm Marines service ADM 27/12 and ADM 22/305 at Kew (reported by eGGSA)",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "findmypast",
+  "task": "Findmypast (David signed in): Somerset/Wiltshire registers; Gloucester criminal register Lent 1819",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ }
+]
