@@ -453,5 +453,30 @@
    "farley",
    "findmypast"
   ]
+ },
+ {
+  "src": "Findmypast — Farley, Heytesbury, baptisms 1754–1772 (only Phillimore marriage browse sets returned)",
+  "url": "https://www.findmypast.co.uk/search/results?lastname=farley&keywordsplace=heytesbury",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "findmypast",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "FamilySearch — Daniel Farley burial 8 Apr 1790 Heytesbury: no age, no image",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6D91-46NZ",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
  }
 ]
