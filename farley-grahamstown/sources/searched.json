@@ -198,5 +198,41 @@
    "grahamstown",
    "familysearch"
   ]
+ },
+ {
+  "src": "Findmypast — Sarum Marriage Licence Bond 20 Aug 1789 Heytesbury: James Farley lab, Ann Bayley 21, bondsman Daniel Farley lab",
+  "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F98068337%2F1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "findmypast"
+  ]
+ },
+ {
+  "src": "Findmypast — Wiltshire Marriages Index and Phillimore, James Farley & Ann Baley 20 Aug 1789 Heytesbury",
+  "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FWILT%2FMARS%2FBH%2F0141653%2F1",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "findmypast"
+  ]
+ },
+ {
+  "src": "FamilySearch — Farley baptisms 1755-1775 father Daniel, Wiltshire: no James",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DST-DNVT",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "familysearch"
+  ]
  }
 ]

@@ -1,9 +1,9 @@
 [
  {
   "id": "james-farley",
-  "task": "Find James Farley's baptism and the 1789 Heytesbury marriage licence to Ann Baley",
-  "status": "blocked",
-  "detail": "Heytesbury baptisms 1740-1775 in the index show no James. Try Salisbury diocese marriage licences, Heytesbury bishop's transcripts, neighbouring parishes (Knook, Codford, Sutton Veny, Warminster, Fittleton). Candidate not counted: James Farley of Haxton, bur. Fittleton 10 Dec 1840 (b. c.1765). Leads: James Farley bur. Heytesbury Apr 1804 (FaG index 6RJ7-JNDF); Ann Farley bur. Horningsham 3 Mar 1832 aged 72 (6D91-BGK5). Check the burial registers for age and widow/husband.",
+  "task": "Find James Farley's baptism (b. c.1760-70) and test whether bondsman Daniel Farley (bur. Heytesbury 8 Apr 1790) was his father",
+  "status": "in-progress",
+  "detail": "1789 marriage read in Sarum bond (Findmypast): James lab, Ann Bayley 21, bondsman Daniel Farley lab Heytesbury. Not found: James baptism at Heytesbury 1740-1775 (index). Try neighbouring parishes (Knook, Codford, Sutton Veny, Tytherington, Bradford), Daniel+Mary baptisms 1735-1770, Daniel+Susanna Whatley marriage.",
   "updated": "2026-11-02"
  },
  {
@@ -46,14 +46,6 @@
   "updated": "2026-11-02"
  },
  {
-  "id": "findmypast",
-  "task": "Findmypast (David signed in): Somerset/Wiltshire registers; Gloucester criminal register Lent 1819",
-  "status": "blocked",
-  "updated": "2026-11-02",
-  "owner": "requester",
-  "detail": "2 Nov 2026: Findmypast search redirected to its login page (signed out in the browser pane). David to sign in; then search Wiltshire/Somerset marriage licences and bonds 1789 for James Farley and Ann Baley, and the Gloucester criminal register Lent 1819."
- },
- {
   "id": "side-lines",
   "task": "Whittal (Lucton), Webb (Newbury), Zimmerman (Wiesbaden), Cockcroft, Jennings, Berry, Bowles, Carr: verify against registers",
   "status": "in-progress",
@@ -63,6 +55,12 @@
  {
   "id": "heytesbury-burial",
   "task": "Look at Daniel Farley burial 8 Apr 1790 Heytesbury (ark 6D91-46NZ) and Betty Hinton marriage (6D3V-4TYP)",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "findmypast-more",
+  "task": "Findmypast: Gloucester criminal register Lent 1819; Shepton Mallet marriage 13 Dec 1811; Regan marriage Grahamstown 1827",
   "status": "not-started",
   "updated": "2026-11-02"
  }
