@@ -622,5 +622,34 @@
    "heytesbury",
    "farley"
   ]
+ },
+ {
+  "src": "Digitalarkivet (Riksarkivet) — 1900 census Sandefjord, Johan Olsen b.1868 household (read)",
+  "url": "https://www.digitalarkivet.no/en/census/person/pf01037133000189",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "moller",
+   "olsen",
+   "sandefjord",
+   "norway",
+   "digitalarkivet"
+  ]
+ },
+ {
+  "src": "Digitalarkivet — 1865 census Johan Christian Olsen b.1816 and 1875 census b.1817 (1865: 0 hits, 1875: one hit at Fredrikshald; no control, wrong person)",
+  "url": "https://www.digitalarkivet.no/en/census/search/1865",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "olsen",
+   "sandefjord",
+   "norway",
+   "digitalarkivet"
+  ]
  }
 ]
