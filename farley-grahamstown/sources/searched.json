@@ -417,5 +417,41 @@
    "zimmerman",
    "carr"
   ]
+ },
+ {
+  "src": "FamilySearch — James Farly/Farlie/Fairley bapt. 1750–72 Wiltshire (spelling variants)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DST-D7HL",
+  "pages": "",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "wiltshire"
+  ]
+ },
+ {
+  "src": "FamilySearch — Farley family of Heytesbury: Nathaniel (bur. 1734), Daniel bapt. 1716",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DST-D7HL",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "Findmypast — James Farley, Wiltshire, 1755–1771 (search results: register browse sets only)",
+  "url": "https://www.findmypast.co.uk/search/results?firstname=james&lastname=farley&eventyear=1763&eventyearoffset=8&keywordsplace=wiltshire",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "findmypast"
+  ]
  }
 ]
