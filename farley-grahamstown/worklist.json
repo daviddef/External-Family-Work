@@ -3,7 +3,7 @@
   "id": "james-farley",
   "task": "Find James Farley's baptism (b. c.1760-70) and test whether bondsman Daniel Farley (bur. Heytesbury 8 Apr 1790) was his father",
   "status": "in-progress",
-  "detail": "1789 marriage read in Sarum bond (Findmypast): James lab, Ann Bayley 21, bondsman Daniel Farley lab Heytesbury. Not found: James baptism at Heytesbury 1740-1775 (index). Try neighbouring parishes (Knook, Codford, Sutton Veny, Tytherington, Bradford), Daniel+Mary baptisms 1735-1770, Daniel+Susanna Whatley marriage.",
+  "detail": "1789 marriage read in Sarum bond (Findmypast): James lab, Ann Bayley 21, bondsman Daniel Farley lab Heytesbury. Not found: James baptism at Heytesbury 1740-1775 (index). Try neighbouring parishes (Knook, Codford, Sutton Veny, Tytherington, Bradford), Daniel+Mary baptisms 1735-1770, Daniel+Susanna Whatley marriage. Third pass: brother William bapt. 8 Apr 1792; no James baptism in 28 parish index search. Next: Wiltshire wills, Sarum bonds, Ann Baley of Bradford, Ferris/Maynard witnesses.",
   "updated": "2026-11-02"
  },
  {
@@ -69,7 +69,14 @@
   "id": "moller-line",
   "task": "Møller/Olsen of Sandefjord",
   "status": "in-progress",
-  "detail": "John Møller baptism read (1905). Next: Johan Olsen b.1868 and Marie Carloth b.1855 baptisms; why the Møller surname; 1900 census page; Larsen line at Kristiansand not established.",
+  "detail": "Done: John Møller 1905; Johan Olsen 1868 baptism; 1894 and 1854 marriages (Møller name from Olava Annette Møller, dau. of Hans Møller). Next: Hans Møller parents; Ole Hansen; Marie Charlotte b.1864 Bohuslän (Swedish records); Larsen line Kristiansand.",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "carr-zimmerman",
+  "task": "Carr and Zimmerman origins",
+  "status": "in-progress",
+  "detail": "Marriage 2 Oct 1877 found (ZBCK-DZ3Z). Next: Elizabeth Ann Carr parents; Christian Zimmerman origin (Rennerod 1855 not counted).",
   "updated": "2026-11-02"
  }
 ]

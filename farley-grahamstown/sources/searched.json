@@ -315,5 +315,107 @@
    "kristiansand",
    "norway"
   ]
+ },
+ {
+  "src": "eGGSA — FARLEY, Daniel, Extra Data (Sue Mackay)",
+  "url": "https://settlers.eggsa.org/index.php/additional-information-2/f-surnames/2038-farley-daniel-extra-data",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "eggsa"
+  ]
+ },
+ {
+  "src": "FamilySearch Wiltshire index — James Farley bapt. 1745–1775, 28 parishes near Heytesbury (control: James bapt. 1797, 1802, 1827 found)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DSR-L164",
+  "pages": "",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "wiltshire"
+  ]
+ },
+ {
+  "src": "FamilySearch — William Farley bapt. 8 Apr 1792 Heytesbury, son of James and Ann",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DSR-L164",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "FamilySearch Norway Church Books — Johan Olsen bapt. 1868 Sandar",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:683L-9JPS",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "moller",
+   "olsen",
+   "sandefjord",
+   "norway"
+  ]
+ },
+ {
+  "src": "FamilySearch Norway Church Books — Olsen/Møller marriage 1854 Sandar",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:683P-FDZB",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "moller",
+   "olsen",
+   "sandefjord",
+   "norway"
+  ]
+ },
+ {
+  "src": "FamilySearch Norway Church Books — Olsen/Charlotte marriage 1894 Sandefjord",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:683P-KH6Y",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "moller",
+   "olsen",
+   "sandefjord",
+   "norway"
+  ]
+ },
+ {
+  "src": "FamilySearch Swedish baptisms — Marie Charlotte b. 1864 Bohuslän",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=Marie%20Charlotte",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "olsen",
+   "sweden"
+  ]
+ },
+ {
+  "src": "FamilySearch South Africa civil marriages — Zimmerman/Carr 1877",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:ZBCK-DZ3Z",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "zimmerman",
+   "carr"
+  ]
  }
 ]
