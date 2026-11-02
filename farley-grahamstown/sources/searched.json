@@ -567,5 +567,35 @@
    "heytesbury",
    "wshc"
   ]
+ },
+ {
+  "src": "NARSSA National Archival Information Search System, KAB — Farley (102 index records: Eliza née Moore death notice, estates of Whittal, Webb, Jennings Farley wives; no 1820s Daniel)",
+  "url": "https://www.nationalarchives.gov.za/search/",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "moore",
+   "whittal",
+   "webb",
+   "jennings",
+   "naairs",
+   "cape"
+  ]
+ },
+ {
+  "src": "NARSSA National Archival Information Search System, ECKAR — Farley (0 records, no control)",
+  "url": "https://www.nationalarchives.gov.za/search/",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "naairs",
+   "cape"
+  ]
  }
 ]

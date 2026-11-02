@@ -24,7 +24,7 @@
   "task": "Daniel Farley death c.1825 Bathurst; test the Bridekirk story",
   "status": "not-started",
   "updated": "2026-11-02",
-  "detail": "eGGSA Daniel page does not mention Bridekirk. Try NAAIRS/MOOC, eGGSA, Cape newspapers."
+  "detail": "eGGSA Daniel page does not mention Bridekirk. Try NAAIRS/MOOC, eGGSA, Cape newspapers. NAAIRS KAB: no estate for a Daniel c.1825; ECKAR 0 results without control."
  },
  {
   "id": "north-bradley",
@@ -35,9 +35,9 @@
  {
   "id": "moore",
   "task": "Elizabeth Ann Moore (b. c.1816 'France', m. 1836 Grahamstown): verify",
-  "status": "blocked",
+  "status": "in-progress",
   "updated": "2026-11-02",
-  "detail": "Index search found no Elizabeth Ann Moore b. c.1816 and no 1899 death under Farley. Check the 1836 marriage entry in full (age, father) and probate for William Farley 1906."
+  "detail": "Index search found no Elizabeth Ann Moore b. c.1816 and no 1899 death under Farley. Check the 1836 marriage entry in full (age, father) and probate for William Farley 1906. NAAIRS KAB: Eliza Farley née Moore death notice MOOC 6/9/553_2322 — order it for age/birthplace/parents."
  },
  {
   "id": "admiralty",
