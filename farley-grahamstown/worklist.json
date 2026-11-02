@@ -3,15 +3,15 @@
   "id": "james-farley",
   "task": "Find James Farley's baptism and the 1789 Heytesbury marriage licence to Ann Baley",
   "status": "blocked",
-  "detail": "Heytesbury baptisms 1740-1775 in the index show no James. Try Salisbury diocese marriage licences, Heytesbury bishop's transcripts, neighbouring parishes (Knook, Codford, Sutton Veny, Warminster, Fittleton). Candidate not counted: James Farley of Haxton, bur. Fittleton 10 Dec 1840 (b. c.1765).",
+  "detail": "Heytesbury baptisms 1740-1775 in the index show no James. Try Salisbury diocese marriage licences, Heytesbury bishop's transcripts, neighbouring parishes (Knook, Codford, Sutton Veny, Warminster, Fittleton). Candidate not counted: James Farley of Haxton, bur. Fittleton 10 Dec 1840 (b. c.1765). Leads: James Farley bur. Heytesbury Apr 1804 (FaG index 6RJ7-JNDF); Ann Farley bur. Horningsham 3 Mar 1832 aged 72 (6D91-BGK5). Check the burial registers for age and widow/husband.",
   "updated": "2026-11-02"
  },
  {
   "id": "images",
   "task": "Open the register images (Daniel Heytesbury 1790, Elizabeth Woolly 1788, 1811 banns, William 1815) and save evidence images to images/",
-  "status": "not-started",
+  "status": "blocked",
   "updated": "2026-11-02",
-  "detail": "Arks 1:1:6DST-74Z1, 1:1:6D9V-G6MK, 1:1:6DM8-23V6, 1:1:6D96-TJ6C. Everything so far is index-level."
+  "detail": "Somerset/Wiltshire register images are hosted on Findmypast (FamilySearch sends the viewer there) and are not reproduced on the page; linked instead. Open them on Findmypast to read the originals."
  },
  {
   "id": "heytesbury-1789",
