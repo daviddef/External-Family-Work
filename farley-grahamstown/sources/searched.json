@@ -82,5 +82,109 @@
    "heytesbury",
    "familysearch"
   ]
+ },
+ {
+  "src": "FamilySearch record search — Farley baptisms/burials at Heytesbury 1740-1830 (index); James & Ann: Daniel 1790, William 1792; 1789 marriage not found",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6DSR-L164",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch Family Tree 9VCF-SL7 (Daniel Farley) and PNHZ-W5S (James, placeholder, no sources)",
+  "url": "https://www.familysearch.org/en/tree/person/details/9VCF-SL7",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — William Farley & Moore marriage 9 Aug 1836 Grahamstown",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6F2B-5FBJ",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — Henry George Farley baptism 9 Feb 1844, Grahamstown Methodist",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:CDFZ-J9ZM",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — Francis Henry William Farley marriage 14 Nov 1900 (cert 1164)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6ZHR-6XY9",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — William Farley death 31 Jul 1906, Cape civil records",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:4GCK-LHZM",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "FamilySearch — Francis Whittall baptism 25 Jan 1798 Lucton; Charles Webb probate/marriage; Zimmerman Wiesbaden (not found)",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:WMY6-913Z",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
+ },
+ {
+  "src": "Web search — schooner Bridekirk 1825 loss: nothing found in the results",
+  "url": "https://en.wikipedia.org/wiki/List_of_shipwrecks_in_1825",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "grahamstown",
+   "bathurst",
+   "familysearch"
+  ]
  }
 ]

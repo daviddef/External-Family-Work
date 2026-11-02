@@ -1,5 +1,12 @@
 [
  {
+  "id": "james-farley",
+  "task": "Find James Farley's baptism and the 1789 Heytesbury marriage licence to Ann Baley",
+  "status": "blocked",
+  "detail": "Heytesbury baptisms 1740-1775 in the index show no James. Try Salisbury diocese marriage licences, Heytesbury bishop's transcripts, neighbouring parishes (Knook, Codford, Sutton Veny, Warminster, Fittleton). Candidate not counted: James Farley of Haxton, bur. Fittleton 10 Dec 1840 (b. c.1765).",
+  "updated": "2026-11-02"
+ },
+ {
   "id": "images",
   "task": "Open the register images (Daniel Heytesbury 1790, Elizabeth Woolly 1788, 1811 banns, William 1815) and save evidence images to images/",
   "status": "not-started",
@@ -40,6 +47,19 @@
  {
   "id": "findmypast",
   "task": "Findmypast (David signed in): Somerset/Wiltshire registers; Gloucester criminal register Lent 1819",
+  "status": "not-started",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "side-lines",
+  "task": "Whittal (Lucton), Webb (Newbury), Zimmerman (Wiesbaden), Cockcroft, Jennings, Berry, Bowles, Carr: verify against registers",
+  "status": "in-progress",
+  "detail": "Done: Whittall bapt 25 Jan 1798 Lucton (index), Webb probate and marriage (index). Not done: the rest.",
+  "updated": "2026-11-02"
+ },
+ {
+  "id": "heytesbury-burial",
+  "task": "Look at Daniel Farley burial 8 Apr 1790 Heytesbury (ark 6D91-46NZ) and Betty Hinton marriage (6D3V-4TYP)",
   "status": "not-started",
   "updated": "2026-11-02"
  }
