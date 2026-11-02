@@ -597,5 +597,30 @@
    "naairs",
    "cape"
   ]
+ },
+ {
+  "src": "FamilySearch Wiltshire index — Heytesbury baptisms 1760–1783: none for control surnames Hinton, Young, Smith (resume Dec 1784); gap in the collection",
+  "url": "https://www.familysearch.org/search/collection/4380174",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "heytesbury",
+   "farley",
+   "control"
+  ]
+ },
+ {
+  "src": "FamilySearch / FreeREG — all Farley baptisms, marriages and burials at Heytesbury 1690–1810 (appendix tree)",
+  "url": "https://www.freereg.org.uk/search_queries/new",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "heytesbury",
+   "farley"
+  ]
  }
 ]
