@@ -11,7 +11,7 @@
   "task": "Open the register images (Daniel Heytesbury 1790, Elizabeth Woolly 1788, 1811 banns, William 1815) and save evidence images to images/",
   "status": "blocked",
   "updated": "2026-11-02",
-  "detail": "Somerset/Wiltshire register images are hosted on Findmypast (FamilySearch sends the viewer there) and are not reproduced on the page; linked instead. Open them on Findmypast to read the originals."
+  "detail": "Snapshots of ten index record pages added to the page. Register images themselves stay on Findmypast."
  },
  {
   "id": "heytesbury-1789",
@@ -64,5 +64,12 @@
   "status": "not-started",
   "updated": "2026-11-02",
   "detail": "Done: Shepton Mallet marriage 13 Dec 1811 (read). Gloucester 1819: 0 results, no control; try the criminal registers collection directly. Not done: Regan marriage Grahamstown 1827."
+ },
+ {
+  "id": "moller-line",
+  "task": "Møller/Olsen of Sandefjord",
+  "status": "in-progress",
+  "detail": "John Møller baptism read (1905). Next: Johan Olsen b.1868 and Marie Carloth b.1855 baptisms; why the Møller surname; 1900 census page; Larsen line at Kristiansand not established.",
+  "updated": "2026-11-02"
  }
 ]

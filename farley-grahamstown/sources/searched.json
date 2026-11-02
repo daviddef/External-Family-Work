@@ -258,5 +258,62 @@
    "farley",
    "findmypast"
   ]
+ },
+ {
+  "src": "FamilySearch index — Farley baptisms Wiltshire 1755–1772, James, father Daniel",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=James&q.surname=Farley",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "FamilySearch — Daniel Farley bapt. 1740 and burial 1805 Heytesbury",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:6D91-PQPN",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "FamilySearch — Ann Bayley baptism 1764–72 Wiltshire",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=Ann&q.surname=Bayley",
+  "walked": false,
+  "outcome": "nothing",
+  "when": "2026-11-02",
+  "tags": [
+   "bayley",
+   "heytesbury"
+  ]
+ },
+ {
+  "src": "FamilySearch Norway Church Books — John Møller bapt. 1905 Sandefjord",
+  "url": "https://www.familysearch.org/ark:/61903/1:1:683L-PP3P",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "moller",
+   "sandefjord",
+   "norway"
+  ]
+ },
+ {
+  "src": "FamilySearch — Esther Larsen b. 1924–26 Kristiansand",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=Esther&q.surname=Larsen",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "larsen",
+   "kristiansand",
+   "norway"
+  ]
  }
 ]
