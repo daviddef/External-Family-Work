@@ -35,8 +35,9 @@
  {
   "id": "moore",
   "task": "Elizabeth Ann Moore (b. c.1816 'France', m. 1836 Grahamstown): verify",
-  "status": "not-started",
-  "updated": "2026-11-02"
+  "status": "blocked",
+  "updated": "2026-11-02",
+  "detail": "Index search found no Elizabeth Ann Moore b. c.1816 and no 1899 death under Farley. Check the 1836 marriage entry in full (age, father) and probate for William Farley 1906."
  },
  {
   "id": "admiralty",
@@ -54,7 +55,7 @@
   "id": "side-lines",
   "task": "Whittal (Lucton), Webb (Newbury), Zimmerman (Wiesbaden), Cockcroft, Jennings, Berry, Bowles, Carr: verify against registers",
   "status": "in-progress",
-  "detail": "Done: Whittall bapt 25 Jan 1798 Lucton (index), Webb probate and marriage (index). Not done: the rest.",
+  "detail": "Done in the index: Whittall (Lucton), Webb, Cockcroft/Venables, Berry/Bowles, Jennings, Zimmerman (Herbert Andrew). Not done: Carr; English origins of Jennings (Exning), Berry (Somerset), Bowles (Cardiff); Christian Zimmerman Wiesbaden.",
   "updated": "2026-11-02"
  },
  {
