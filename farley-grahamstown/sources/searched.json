@@ -651,5 +651,31 @@
    "norway",
    "digitalarkivet"
   ]
+ },
+ {
+  "src": "Brett's own tree (screenshot): Daniel 1716 & Mary Smith → Daniel 1740 & Ann Dyer → James 1770 & Ann Baley → Daniel c.1792–c.1825 (same chain as WikiTree; not adopted)",
+  "url": "https://www.wikitree.com/wiki/Farley-868",
+  "pages": "",
+  "walked": false,
+  "outcome": "found",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "heytesbury",
+   "tree"
+  ]
+ },
+ {
+  "src": "FamilySearch — Ann Dyer bapt. 1739–41 Calne (not found; no control run for Calne)",
+  "url": "https://www.familysearch.org/search/record/results?q.givenName=Ann&q.surname=Dyer",
+  "pages": "",
+  "walked": false,
+  "outcome": "not-established",
+  "when": "2026-11-02",
+  "tags": [
+   "farley",
+   "dyer",
+   "calne"
+  ]
  }
 ]
